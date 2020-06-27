@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "player_head"
+      },
+      "title": "Lights, camera, action!",
+      "description": "Become a spectating camera account",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "exi:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

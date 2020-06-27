@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "cake"
+      },
+      "title": "The Lie",
+      "description": "Bake cake using wheat, sugar, milk, and eggs!",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "exi:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "cake"
+            }
+          ]
+        }
+      }
+    }
+  }
