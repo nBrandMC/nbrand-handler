@@ -11,13 +11,22 @@ team join Patron WaffleStick
 team join Patron torbray
 team join Patron ItsPurpleJay
 team join Patron Chrismon_YTF
-team join Patron Dashleb
 team join Patron KSores
+team join Patron Atm2222
+team join Patron LordOfTheUndead
+team join Patron DuoGetsRekt
+team join Patron Ha2222
+team join Patron Salvatore09
+team join Patron Dr_Little
+team join Patron Diamondback88
 
 team join Spectator Tommy39
 team join Spectator HannahDearie
 team join Spectator Midnite_Cam
 team join Spectator DTest
 team join Spectator Sandcam
-team join Spectator _iGalaxyPlus
+team join Spectator GraphQL
 team join Spectator ItsCameraJay
+team join Spectator AminieateyBoi
+team join Spectator TrioGetsRekt
+team join Spectator unquality
