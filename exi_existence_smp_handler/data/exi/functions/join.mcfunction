@@ -5,6 +5,8 @@ scoreboard players remove @s[team=] exi_playtime_h 1
 team join Default @s[team=]
 
 gamemode spectator @s[team=Spectator]
+clear @s[team=Spectator]
+give @s[team=Spectator] minecraft:compass
 scoreboard players reset @s[team=Spectator] exi_playtime_h
 
 tag @a[team=Patron] add Patron

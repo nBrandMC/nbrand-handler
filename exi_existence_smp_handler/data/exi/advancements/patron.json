@@ -1,14 +1,14 @@
 {
     "display": {
       "icon": {
-        "item": "golden_boots"
+        "item": "diamond"
       },
       "title": "Arch Support",
       "description": "Support Existence SMP by becoming a Patron",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": true
+      "hidden": false
     },
     "parent": "exi:root",
     "criteria": {
