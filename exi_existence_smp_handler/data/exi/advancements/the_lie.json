@@ -13,14 +13,7 @@
     "parent": "exi:root",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "item": "cake"
-            }
-          ]
-        }
+        "trigger": "minecraft:impossible"
       }
     }
   }

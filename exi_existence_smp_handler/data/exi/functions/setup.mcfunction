@@ -32,6 +32,8 @@ scoreboard objectives add exi_deaths deathCount {"text":"Total Deaths","color":"
 scoreboard objectives add exi_health health
 scoreboard objectives add exi_game_leave minecraft.custom:minecraft.leave_game
 
+scoreboard objectives add exi_the_lie minecraft.crafted:minecraft.cake
+
 scoreboard objectives setdisplay list exi_health
 
 tellraw @a ["",{"text":"[EXI]: Existence SMP Handler Installed","color":"gold"}]
