@@ -13,17 +13,17 @@ team modify mcp_afk prefix ["",{"text":"[AFK] ","color":"gray"}]
 #team modify afk_Admin color aqua
 
 team add afk_Admin
-team add afk_PatronAdmin
+team add afk_AdminPatron
 team add afk_Patron
-team add afk_Default
+team add afk_Trusted
 
-team modify afk_Admin prefix ["",{"text":"[AFK]","color":"gray"},{"text":"[","color":"white"},{"text":"A","color":"aqua"},{"text":"] ","color":"white"}]
-team modify afk_PatronAdmin prefix ["",{"text":"[AFK]","color":"gray"},{"text":"[","color":"white"},{"text":"A","color":"aqua"},{"text":"] ","color":"white"}]
-team modify afk_Patron prefix ["",{"text":"[AFK]","color":"gray"},{"text":"[","color":"white"},{"text":"P","color":"red"},{"text":"] ","color":"white"}]
-team modify afk_Default prefix ["",{"text":"[AFK] ","color":"gray"}]
+team modify afk_Admin prefix ["",{"text":"[AFK]","color":"gray"},{"text":"[A] ","color":"aqua"}]
+team modify afk_AdminPatron prefix ["",{"text":"[AFK]","color":"gray"},{"text":"[A] ","color":"aqua"}]
+team modify afk_Patron prefix ["",{"text":"[AFK]","color":"gray"},{"text":"[P] ","color":"red"}]
+team modify afk_Trusted prefix ["",{"text":"[AFK] ","color":"gray"}]
 
 #Modify color to match original team if required
 team modify afk_Admin color gray
-team modify afk_PatronAdmin color gray
+team modify afk_AdminPatron color gray
 team modify afk_Patron color gray
-team modify afk_Default color gray
+team modify afk_Trusted color gray

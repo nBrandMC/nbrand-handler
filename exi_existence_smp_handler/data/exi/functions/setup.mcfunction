@@ -1,26 +1,27 @@
 team add Admin
 
-team add PatronAdmin
+team add AdminPatron
 team add Patron
 
 team add Spectator
 
-team add Default
+team add Trusted
 team add Yellow
 
 team modify Admin color aqua
+team modify AdminPatron color red
 
-team modify PatronAdmin color red
 team modify Patron color red
 
 team modify Spectator color dark_aqua
-team modify Default color gold
+team modify Trusted color gold
 team modify Yellow color yellow
 
-team modify Admin prefix ["",{"text":"[","color":"white"},{"text":"A","color":"aqua"},{"text":"] ","color":"white"}]
+#team modify Admin prefix ["",{"text":"[","color":"white"},{"text":"A","color":"aqua"},{"text":"] ","color":"white"}]
+team modify Admin prefix ["",{"text":"[A] ","color":"aqua"}]
 
-team modify PatronAdmin prefix ["",{"text":"[","color":"white"},{"text":"A","color":"aqua"},{"text":"] ","color":"white"}]
-team modify Patron prefix ["",{"text":"[","color":"white"},{"text":"P","color":"red"},{"text":"] ","color":"white"}]
+team modify AdminPatron prefix ["",{"text":"[A] ","color":"aqua"}]
+team modify Patron prefix ["",{"text":"[P] ","color":"red"}]
 
 scoreboard objectives add exi_playtime_c dummy
 scoreboard objectives add exi_playtime_h dummy {"text":"Play time (Hours)","color":"gold"}

@@ -8,9 +8,9 @@ team leave @s[team=mcp_afk]
 #team join Admin @s[team=afk_Admin]
 
 team join Admin @s[team=afk_Admin]
-team join PatronAdmin @s[team=afk_PatronAdmin]
+team join AdminPatron @s[team=afk_AdminPatron]
 team join Patron @s[team=afk_Patron]
-team join Default @s[team=afk_Default]
+team join Trusted @s[team=afk_Trusted]
 
 tag @s remove mcp_afk
 scoreboard players set @s mcp_afk_count 0

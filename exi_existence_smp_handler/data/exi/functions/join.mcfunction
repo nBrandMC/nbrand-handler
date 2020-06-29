@@ -2,7 +2,8 @@ tellraw @s ["",{"text":"Welcome to the Existence SMP Community Server!\n","color
 
 scoreboard players add @s[team=] exi_playtime_h 1
 scoreboard players remove @s[team=] exi_playtime_h 1
-team join Default @s[team=]
+team join Trusted @s[team=]
+team join Trusted @s[team=Default]
 
 gamemode spectator @s[team=Spectator]
 clear @s[team=Spectator]
@@ -16,8 +17,8 @@ advancement grant @s[team=Patron] only exi:patron
 
 team join Admin @s[name=mcpeachpies]
 team join Admin @s[name=Yoglington]
-team join PatronAdmin @s[name=SugarCaney]
-team join PatronAdmin @s[name=DelltaDragon]
-team join PatronAdmin @s[name=ItsPurpleJay]
+team join AdminPatron @s[name=SugarCaney]
+team join AdminPatron @s[name=DelltaDragon]
+team join AdminPatron @s[name=ItsPurpleJay]
 
 scoreboard players set @s exi_game_leave 0

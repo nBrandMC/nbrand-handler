@@ -7,9 +7,9 @@ team join mcp_afk @s[team=]
 #
 #team join afk_Admin @s[team=Admin]
 team join afk_Admin @s[team=Admin]
-team join afk_PatronAdmin @s[team=PatronAdmin]
+team join afk_AdminPatron @s[team=AdminPatron]
 team join afk_Patron @s[team=Patron]
-team join afk_Default @s[team=Default]
+team join afk_Trusted @s[team=Trusted]
 
 tag @s add mcp_afk
 
