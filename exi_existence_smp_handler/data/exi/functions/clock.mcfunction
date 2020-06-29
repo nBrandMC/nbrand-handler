@@ -1,4 +1,4 @@
-scoreboard players add @a[gamemode=survival] exi_playtime_c 1
+scoreboard players add @a[gamemode=survival,tag=!mcp_afk] exi_playtime_c 1
 scoreboard players add @a[gamemode=survival,scores={exi_playtime_c=3600..}] exi_playtime_h 1
 scoreboard players set @a[gamemode=survival,scores={exi_playtime_c=3600..}] exi_playtime_c 0
 
