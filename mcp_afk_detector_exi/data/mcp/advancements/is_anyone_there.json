@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "clock"
+    },
+    "title": "Is anyone there?",
+    "description": "You've been gone for a long time",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mcp:are_you_still_there",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

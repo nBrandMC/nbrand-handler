@@ -4,7 +4,7 @@
       "item": "spectral_arrow"
     },
     "title": "Enemy Spotted",
-    "description": "Highlight an entity with a spectral arrow"
+    "description": "Highlight an entity with a crossbow & spectral arrow"
   },
   "parent": "exi:root",
   "criteria": {
