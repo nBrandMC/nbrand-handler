@@ -1,16 +1,16 @@
 {
     "display": {
       "icon": {
-        "item": "compass"
+        "item": "fern"
       },
       "title": "Hi, Drax",
-      "description": "Master the ability of standing so incredibly still, that you become invisible to the eye",
+      "description": "Stand so incredibly still, that you become invisible",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "mcp:root",
+    "parent": "mcp:are_you_still_there",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"
