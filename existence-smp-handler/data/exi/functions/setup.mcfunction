@@ -9,7 +9,7 @@ team add Trusted
 team add Yellow
 
 team modify Admin color aqua
-team modify AdminPatron color red
+team modify AdminPatron color aqua
 
 team modify Patron color red
 
@@ -17,10 +17,9 @@ team modify Spectator color dark_aqua
 team modify Trusted color gold
 team modify Yellow color yellow
 
-#team modify Admin prefix ["",{"text":"[","color":"white"},{"text":"A","color":"aqua"},{"text":"] ","color":"white"}]
 team modify Admin prefix ["",{"text":"[A] ","color":"aqua"}]
 
-team modify AdminPatron prefix ["",{"text":"[A] ","color":"aqua"}]
+team modify AdminPatron prefix ["",{"text":"[P] ","color":"red"}]
 team modify Patron prefix ["",{"text":"[P] ","color":"red"}]
 
 scoreboard objectives add exi_playtime_c dummy
@@ -37,6 +36,6 @@ scoreboard objectives add exi_the_lie minecraft.crafted:minecraft.cake
 
 scoreboard objectives setdisplay list exi_health
 
-tellraw @a ["",{"text":"[EXI]: Existence SMP Handler Installed","color":"gold"}]
+tellraw @a[tag=Admin] ["",{"text":"[EXI]: Existence SMP Handler Installed","color":"gold"}]
 
 function exi:clock

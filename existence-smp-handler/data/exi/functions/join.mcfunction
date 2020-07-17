@@ -21,4 +21,7 @@ team join AdminPatron @s[name=SugarCaney]
 team join AdminPatron @s[name=DelltaDragon]
 team join AdminPatron @s[name=ItsPurpleJay]
 
+tag @a[team=Admin] add Admin
+tag @a[team=AdminPatron] add Admin
+
 scoreboard players set @s exi_game_leave 0
