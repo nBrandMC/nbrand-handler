@@ -1,12 +1,10 @@
 team join Patron SugarCaney
-team join Patron TCMidnite
 team join Patron TheMundane
 team join Patron DelltaDragon
 team join Patron Pineapple_123
 team join Patron cSandmanTS1
 team join Patron acg1000
 team join Patron _iGalaxy
-team join Patron MC_ZombieSlayer 
 team join Patron WaffleStick
 team join Patron torbray
 team join Patron ItsPurpleJay
@@ -21,11 +19,9 @@ team join Patron Dr_Little
 team join Patron Diamondback88
 team join Patron KittyKatTheKitty
 team join Patron wolfguy2005
-team join Patron matrixgolden
 
 team join Spectator Tommy39
 team join Spectator HannahDearie
-team join Spectator Midnite_Cam
 team join Spectator bllu
 team join Spectator Pineapplecam
 team join Spectator Sandcam
