@@ -26,9 +26,11 @@ scoreboard objectives add exi_game_leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add exi_the_lie minecraft.crafted:minecraft.cake
 
 scoreboard objectives add map trigger {"text":"Online Map","color":"gold"}
-scoreboard objectives add playtime trigger {"text":"Total Playtime","color":"gold"}
+scoreboard objectives add playtime trigger {"text":"Total Play time","color":"gold"}
 scoreboard objectives add elytra trigger {"text":"Elytra Distance","color":"gold"}
 scoreboard objectives add deaths trigger {"text":"Total Deaths","color":"gold"}
+scoreboard objectives add afk_total trigger {"text":"Total AFK time","color":"gold"}
+scoreboard objectives add sleep_total trigger {"text":"Total Days Slept","color":"gold"}
 
 scoreboard objectives setdisplay list exi_health
 

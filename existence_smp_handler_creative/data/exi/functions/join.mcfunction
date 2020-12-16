@@ -8,7 +8,6 @@ team join Trusted @s[team=Default]
 gamemode spectator @s[team=Spectator]
 scoreboard players reset @s[team=Spectator] exi_playtime_h
 
-tag @a[team=Patron] add Patron
 advancement grant @s[team=Spectator] only exi:spectate
 advancement grant @s[team=Patron] only exi:patron
 
@@ -19,8 +18,11 @@ team join AdminPatron @s[name=DelltaDragon]
 team join AdminPatron @s[name=ItsPurpleJay]
 
 tag @a[team=Admin] add Admin
+tag @a[team=Patron] add Patron
 tag @a[team=AdminPatron] add Admin
+tag @a[team=AdminPatron] add Patron
+
 tag @a[tag=Patron,team=!Patron,team=!AdminPatron] remove Patron
-tag @a[tag=Admin,team=!Admin,team=!AdminPatron] remove Patron
+tag @a[tag=Admin,team=!Admin,team=!AdminPatron] remove Admin
 
 scoreboard players set @s exi_game_leave 0
