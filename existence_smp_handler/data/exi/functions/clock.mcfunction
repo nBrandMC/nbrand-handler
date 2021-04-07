@@ -10,4 +10,7 @@ advancement grant @a[scores={exi_the_lie=1}] only exi:the_lie
 execute as @e[name="silent",tag=!silenced] at @s run function exi:silent
 execute as @e[name=!"silent",tag=silenced] at @s run function exi:silent_remove
 
+#effect give @a minecraft:slow_falling 5 1 true
+#effect give @a minecraft:jump_boost 5 2 true
+
 schedule function exi:clock 20t
