@@ -34,6 +34,6 @@ scoreboard objectives add sleep_total trigger {"text":"Total Days Slept","color"
 
 scoreboard objectives setdisplay list exi_health
 
-tellraw @a[tag=Admin] ["",{"text":"Ran Setup for ","color":"gray"},{"text":"Existence SMP Handler (Creative)","italic":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://existencesmp.com"},"hoverEvent":{"action":"show_text","contents":["",{"text":"existencesmp.com","color":"gray"}]}}]
+tellraw @a[tag=Admin] ["",{"text":"Ran Setup for ","color":"gray"},{"text":"Existence SMP Handler","italic":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://existencesmp.com"},"hoverEvent":{"action":"show_text","contents":["",{"text":"existencesmp.com","color":"gray"}]}}]
 
 function exi:clock

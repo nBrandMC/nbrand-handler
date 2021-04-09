@@ -13,3 +13,5 @@ execute as @a[scores={afk_total=1..}] run function exi:triggers/afk_total
 execute as @a[scores={sleep_total=1..}] run function exi:triggers/sleep_total
 
 execute as @a[scores={exi_game_leave=1..}] run function exi:join
+
+#execute as @e[type=item,limit=1,tag=!exi_no_grav] run data merge entity @s {NoGravity:1b,Tags:["exi_no_grav"]}
