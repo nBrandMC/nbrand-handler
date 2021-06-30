@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "yellow_candle"
+      },
+      "title": "Happy Birthday!",
+      "description": "Celebrate the 1st Birthday of the Community Server",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "exi:the_lie",
+    "rewards": {
+      "function": 
+        "exi:birthday_cake"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
