@@ -6,3 +6,5 @@ scoreboard players set @s afk_total 0
 
 scoreboard objectives setdisplay sidebar mpp_afk_adv
 schedule function exi:triggers/scoreboard_clear 600t
+
+advancement grant @s only exi:stats/mathematical

@@ -7,3 +7,5 @@ scoreboard players set @s sleep_total 0
 
 scoreboard objectives setdisplay sidebar mpp_sleep_adv
 schedule function exi:triggers/scoreboard_clear 600t
+
+advancement grant @s only exi:stats/mathematical

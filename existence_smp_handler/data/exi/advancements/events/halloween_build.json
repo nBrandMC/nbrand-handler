@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "cake"
+        "item": "cobweb"
       },
-      "title": "The Lie",
-      "description": "Bake cake using wheat, sugar, milk, and eggs!",
+      "title": "Halloween Build Event 2020",
+      "description": "Participate in the Halloween build event 2020",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

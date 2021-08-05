@@ -10,7 +10,19 @@ scoreboard players reset @s[team=Spectator] exi_playtime_h
 
 advancement grant @s[team=Spectator] only exi:spectate
 advancement grant @s[team=Patron] only exi:patron
-advancement grant @s only exi:birthday_cake
+
+advancement grant @s[name=Yoglington] only exi:events/halloween_build
+advancement grant @s[name=Dr_Little] only exi:events/halloween_build
+advancement grant @s[name=Bananabubble] only exi:events/halloween_build
+advancement grant @s[name=KittyKat__MC] only exi:events/halloween_build
+advancement grant @s[name=wolfguy2005] only exi:events/halloween_build
+
+advancement grant @s[name=Yoglington] only exi:events/winter_wonderland
+advancement grant @s[name=Dr_Little] only exi:events/winter_wonderland
+advancement grant @s[name=mcpeachpies] only exi:events/winter_wonderland
+advancement grant @s[name=Dashleb] only exi:events/winter_wonderland
+advancement grant @s[name=telx_] only exi:events/winter_wonderland
+#advancement grant @s only exi:birthday_cake
 
 team join Admin @s[name=mcpeachpies]
 team join Admin @s[name=Yoglington]

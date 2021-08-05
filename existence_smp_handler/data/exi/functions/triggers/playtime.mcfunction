@@ -6,3 +6,5 @@ scoreboard players set @s playtime 0
 
 scoreboard objectives setdisplay sidebar exi_playtime_h
 schedule function exi:triggers/scoreboard_clear 600t
+
+advancement grant @s only exi:stats/mathematical

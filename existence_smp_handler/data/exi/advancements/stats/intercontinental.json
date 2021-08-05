@@ -1,16 +1,16 @@
 {
     "display": {
       "icon": {
-        "item": "cake"
+        "item": "elytra"
       },
-      "title": "The Lie",
-      "description": "Bake cake using wheat, sugar, milk, and eggs!",
-      "frame": "task",
+      "title": "Intercontinental",
+      "description": "Fly over 1000km with an Elytra",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "exi:root",
+    "parent": "exi:stats/domestic_flyer",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

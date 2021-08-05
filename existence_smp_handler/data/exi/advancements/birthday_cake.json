@@ -5,12 +5,12 @@
       },
       "title": "Happy Birthday!",
       "description": "Celebrate the 1st Birthday of the Community Server",
-      "frame": "task",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "exi:the_lie",
+    "parent": "exi:locations/anniversary_park",
     "rewards": {
       "function": 
         "exi:birthday_cake"
