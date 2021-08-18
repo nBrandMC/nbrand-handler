@@ -1,16 +1,16 @@
 {
     "display": {
       "icon": {
-        "item": "firework_rocket"
+        "item": "nether_star"
       },
-      "title": "Domestic Flyer",
-      "description": "Fly over 500km with an Elytra",
-      "frame": "task",
+      "title": "Time Very Well Spent",
+      "description": "Devote 200 hours of your time to playing on Existence SMP",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "exi:stats/mathematical",
+    "parent": "exi:stats/time_well_spent",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

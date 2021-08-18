@@ -11,6 +11,8 @@ advancement grant @a[scores={exi_deaths=100..}] only exi:stats/meet_ones_maker
 advancement grant @a[scores={exi_elytra_km=500..}] only exi:stats/domestic_flyer
 advancement grant @a[scores={exi_elytra_km=1000..}] only exi:stats/intercontinental
 advancement grant @a[scores={exi_playtime_h=100..}] only exi:stats/time_well_spent
+advancement grant @a[scores={exi_playtime_h=200..}] only exi:stats/time_very_well_spent
+advancement grant @a[scores={exi_playtime_h=100..,exi_deaths=..50}] only exi:stats/survivalist
 
 
 execute as @e[name="silent",tag=!silenced] at @s run function exi:silent

@@ -5,7 +5,7 @@
       },
       "title": "Intercontinental",
       "description": "Fly over 1000km with an Elytra",
-      "frame": "challenge",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

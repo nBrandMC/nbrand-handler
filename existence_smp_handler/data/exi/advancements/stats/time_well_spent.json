@@ -5,7 +5,7 @@
       },
       "title": "Time Well Spent",
       "description": "Devote 100 hours of your time to playing on Existence SMP",
-      "frame": "challenge",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
