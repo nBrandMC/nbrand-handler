@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "cake"
+        "item": "book"
       },
-      "title": "The Lie",
-      "description": "Bake cake using wheat, sugar, milk, and eggs!",
+      "title": "Mathematical!",
+      "description": "Discover the world of tracked statistics with /trigger ",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

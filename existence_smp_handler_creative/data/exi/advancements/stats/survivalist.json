@@ -1,16 +1,16 @@
 {
     "display": {
       "icon": {
-        "item": "cake"
+        "item": "campfire"
       },
-      "title": "The Lie",
-      "description": "Bake cake using wheat, sugar, milk, and eggs!",
-      "frame": "task",
+      "title": "Survivalist",
+      "description": "Surpass 100 hours played with less than 50 deaths",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "exi:root",
+    "parent": "exi:stats/time_well_spent",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"
