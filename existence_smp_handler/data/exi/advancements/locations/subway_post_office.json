@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:rail"
     },
-    "title": "A Spot of Shopping",
-    "description": "Visit the Market areas in town for a spot of shopping",
+    "title": "Subway & Post Office",
+    "description": "Visit the Subway and Post Office beneath town",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "exi:locations/subway_post_office",
+  "parent": "exi:locations/town_hall",
   "criteria": {
-    "market_cavern": {
+    "subway": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -21,16 +21,16 @@
               "location": {
                 "position": {
                   "x": {
-                    "min": 390,
-                    "max": 450
+                    "min": 292,
+                    "max": 302
                   },
                   "y": {
-                    "min": 64,
-                    "max": 70
+                    "min": 53,
+                    "max": 56
                   },
                   "z": {
-                    "min": 162,
-                    "max": 250
+                    "min": 170,
+                    "max": 220
                   }
                 },
                 "dimension": "minecraft:overworld"
@@ -40,7 +40,7 @@
         ]
       }
     },
-    "market_docks": {
+    "post_office": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -51,16 +51,16 @@
               "location": {
                 "position": {
                   "x": {
-                    "min": 347,
-                    "max": 390
+                    "min": 321,
+                    "max": 345
                   },
                   "y": {
-                    "min": 64,
-                    "max": 70
+                    "min": 53,
+                    "max": 57
                   },
                   "z": {
-                    "min": 227,
-                    "max": 270
+                    "min": 197,
+                    "max": 221
                   }
                 },
                 "dimension": "minecraft:overworld"
