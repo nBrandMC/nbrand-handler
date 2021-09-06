@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "exi:stats/time_well_spent",
+    "parent": "exi:stats/playtime/time_well_spent",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

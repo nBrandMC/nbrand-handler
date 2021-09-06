@@ -20,6 +20,7 @@ scoreboard objectives add exi_playtime_h dummy {"text":"Play time (Hours)","colo
 scoreboard objectives add exi_elytra_c minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add exi_elytra_km dummy {"text":"Elytra Distance (Kilometers)","color":"gold"}
 
+scoreboard objectives add exi_deaths_c deathCount
 scoreboard objectives add exi_deaths deathCount {"text":"Total Deaths","color":"gold"}
 scoreboard objectives add exi_health health
 scoreboard objectives add exi_game_leave minecraft.custom:minecraft.leave_game
@@ -34,6 +35,6 @@ scoreboard objectives add sleep_total trigger {"text":"Total Days Slept","color"
 
 scoreboard objectives setdisplay list exi_health
 
-tellraw @a[tag=Admin] ["",{"text":"Ran Setup for ","color":"gray"},{"text":"Existence SMP Handler","italic":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://existencesmp.com"},"hoverEvent":{"action":"show_text","contents":["",{"text":"existencesmp.com","color":"gray"}]}}]
+tellraw @a[tag=Admin] ["",{"text":"Ran Setup for ","color":"gray"},{"text":"Existence SMP Handler (Creative)","italic":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://existencesmp.com"},"hoverEvent":{"action":"show_text","contents":["",{"text":"existencesmp.com","color":"gray"}]}}]
 
 function exi:clock

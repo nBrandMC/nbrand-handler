@@ -37,4 +37,10 @@ tag @a[team=AdminPatron] add Patron
 tag @a[tag=Patron,team=!Patron,team=!AdminPatron] remove Patron
 tag @a[tag=Admin,team=!Admin,team=!AdminPatron] remove Admin
 
+#Advancement Upgrade
+execute as @s[tag=!exi_advu] run function exi:advancement_check/playtime/100
+execute as @s[tag=!exi_advu] run function exi:advancement_check/elytra/500
+execute as @s[tag=!exi_advu] run function exi:advancement_check/deaths/50
+tag @s add exi_advu
+
 scoreboard players set @s exi_game_leave 0
