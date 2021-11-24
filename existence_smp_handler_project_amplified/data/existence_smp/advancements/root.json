@@ -12,7 +12,7 @@
       "hidden": false
     },
     "rewards": {
-      "function": "existence_smp:join",
+      "function": "existence_smp:join_first",
       "loot": [
         "minecraft:chests/spawn_bonus_chest"
       ]
