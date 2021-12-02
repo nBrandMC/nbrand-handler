@@ -36,6 +36,9 @@ scoreboard objectives add sleep_total trigger {"text":"Total Days Slept","color"
 
 scoreboard objectives setdisplay list exi_health
 
+scoreboard objectives remove gm4_intro_walked
+scoreboard objectives add gm4_intro_walked dummy
+
 setworldspawn 0 0 0
 
 gamerule disableElytraMovementCheck true
