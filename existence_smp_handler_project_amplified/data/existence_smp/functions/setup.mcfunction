@@ -38,6 +38,11 @@ scoreboard objectives setdisplay list exi_health
 
 setworldspawn 0 0 0
 
+gamerule disableElytraMovementCheck true
+gamerule playersSleepingPercentage 25
+gamerule spawnRadius 500
+gamerule spectatorsGenerateChunks true
+
 tellraw @a[tag=Admin] ["",{"text":"Ran Setup for ","color":"gray"},{"text":"Existence SMP: Project Amplified 1.18 Handler","italic":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://existencesmp.com"},"hoverEvent":{"action":"show_text","contents":["",{"text":"existencesmp.com","color":"gray"}]}}]
 
 function existence_smp:clock
