@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "pointed_dripstone"
+      },
+      "title": "From The Mountains",
+      "description": "Find your way on the Community Server from Project Amplified",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "existence_smp:roles/board_of_trustees",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

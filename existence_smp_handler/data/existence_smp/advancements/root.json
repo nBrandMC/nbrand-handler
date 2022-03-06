@@ -6,7 +6,7 @@
       "title": "Existence SMP",
       "description": "Welcome to the Existence SMP Community Server",
       "frame": "task",
-      "background": "minecraft:textures/block/green_terracotta.png",
+      "background": "minecraft:textures/block/green_concrete.png",
       "show_toast": false,
       "announce_to_chat": true,
       "hidden": false

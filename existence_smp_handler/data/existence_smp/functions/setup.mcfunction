@@ -7,6 +7,9 @@ team add Patron
 team add Spectator
 team add Trusted
 
+team add Server
+team add ServerBackground
+
 #Colours
 team modify Staff color aqua
 team modify StaffPatron color red
@@ -14,6 +17,9 @@ team modify StaffPatron color red
 team modify Patron color red
 team modify Spectator color dark_aqua
 team modify Trusted color dark_green
+
+team modify Server color gray
+team modify ServerBackground color dark_gray
 
 #Prefix
 team modify Staff prefix ["",{"text":"🗡 ","color":"aqua"}]
@@ -50,6 +56,22 @@ scoreboard objectives setdisplay list exi_health
 
 scoreboard objectives remove gm4_intro_walked
 scoreboard objectives add gm4_intro_walked dummy
+
+#Unix
+scoreboard objectives add exi_unix dummy  {"text":"Server Uptime (Unix)","color":"dark_green"}
+team join Server unix_time
+team join Server unix_time_m
+team join Server unix_time_h
+team join Server unix_time_d
+team join Server unix_time_mo
+team join Server unix_time_y
+
+team join ServerBackground unix_time_c
+team join ServerBackground unix_time_mc
+team join ServerBackground unix_time_hc
+team join ServerBackground unix_time_dc
+team join ServerBackground unix_time_moc
+
 
 #SPAWN & GAMERULES
 setworldspawn 0 0 0
