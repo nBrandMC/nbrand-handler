@@ -1,7 +1,7 @@
 advancement grant @s[team=Spectator] only existence_smp:roles/spectate
-advancement grant @s[team=Patron] only existence_smp:roles/patron
+advancement grant @s[tag=Patron] only existence_smp:roles/patron
 
-execute if score unix_time_d unix matches ..7 run advancement grant @s only existence_smp:roles/founder
+execute if score unix_time_d exi_unix matches ..7 run advancement grant @s only existence_smp:roles/founder
 
 #From The Mountains
 advancement grant @s[name=1stHowlerGamer] only existence_smp:roles/from_the_mountains

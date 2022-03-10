@@ -72,6 +72,12 @@ team join ServerBackground unix_time_hc
 team join ServerBackground unix_time_dc
 team join ServerBackground unix_time_moc
 
+execute unless score unix_time_m exi_unix matches 0.. run scoreboard players set unix_time_m exi_unix 0
+execute unless score unix_time_h exi_unix matches 0.. run scoreboard players set unix_time_h exi_unix 0
+execute unless score unix_time_d exi_unix matches 0.. run scoreboard players set unix_time_d exi_unix 0
+execute unless score unix_time_mo exi_unix matches 0.. run scoreboard players set unix_time_mo exi_unix 0
+execute unless score unix_time_y exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
+
 
 #SPAWN & GAMERULES
 setworldspawn 0 0 0
@@ -81,7 +87,36 @@ gamerule playersSleepingPercentage 25
 gamerule spawnRadius 500
 gamerule spectatorsGenerateChunks true
 
+#PLAYERS
+team join Patron SugarCaney
+team join Patron TheMundane
+team join Patron _iGalaxy
+team join Patron WaffleStick
+team join Patron torbray
+team join Patron ItsPurpleJay
+team join Patron Ha2222
+team join Patron Bannboo
+team join Patron telx_
+team join Patron TheEpyonProject
+
+team join Spectator Tommy39
+team join Spectator HannahDearie
+team join Spectator GraphQL
+team join Spectator ItsCameraJay
+team join Spectator unquality
+
+team join Staff mcpeachpies
+team join Staff Yoglington
+team join Staff Jippertje
+team join StaffPatron SugarCaney
+team join StaffPatron _iGalaxy
+
+#SETUP
+team join Server exi_setup
+team join ServerBackground value_1
+scoreboard players set exi_setup exi_handler 1
+
 #CONFRIMATION
-tellraw @a[tag=Admin] ["",{"text":"Ran Setup for ","color":"gray"},{"text":"Existence SMP Community Server 2 Handler","italic":true,"color":"dark_green","clickEvent":{"action":"open_url","value":"https://existencesmp.com"},"hoverEvent":{"action":"show_text","contents":["",{"text":"existencesmp.com","color":"gray"}]}}]
+tellraw @a[tag=Staff] ["",{"text":"Ran Setup for ","color":"gray"},{"text":"Existence SMP Community Server 2 Handler","italic":true,"color":"dark_green","clickEvent":{"action":"open_url","value":"https://existencesmp.com"},"hoverEvent":{"action":"show_text","contents":["",{"text":"existencesmp.com","color":"gray"}]}}]
 
 function existence_smp:clock

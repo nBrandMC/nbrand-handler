@@ -11,16 +11,10 @@ scoreboard players remove @s[team=] exi_playtime_h 1
 #Teams
 team join Trusted @s[team=]
 
-team join Staff @s[name=mcpeachpies]
-team join Staff @s[name=Yoglington]
-team join Staff @s[name=Jippertje]
-team join StaffPatron @s[name=SugarCaney]
-team join StaffPatron @s[name=_iGalaxy]
-
 tag @a[team=Staff] add Staff
+tag @a[team=StaffPatron] add Staff
 
 tag @a[team=Patron] add Patron
-tag @a[team=StaffPatron] add Staff
 tag @a[team=StaffPatron] add Patron
 
 
