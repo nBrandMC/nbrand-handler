@@ -3,9 +3,10 @@ team leave @s[team=mpp_afk]
 #team join TEAM @s[team=afk_TEAM]
 #
 #Example:
-#team join Admin @s[team=afk_Admin]
-team join Admin @s[team=afk_Admin]
-team join AdminPatron @s[team=afk_AdminPatron]
+#team join Staff @s[team=afk_Staff]
+
+team join Staff @s[team=afk_Staff]
+team join StaffPatron @s[team=afk_StaffPatron]
 team join Patron @s[team=afk_Patron]
 team join Trusted @s[team=afk_Trusted]
 

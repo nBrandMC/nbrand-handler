@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mcpeachpies:how_long_have_you_been_there",
+  "parent": "mcpeachpies:afk_detector/how_long_have_you_been_there",
   "criteria": {  
   "1": {
       "trigger": "minecraft:impossible"
