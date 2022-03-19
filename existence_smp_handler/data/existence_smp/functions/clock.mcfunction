@@ -45,7 +45,7 @@ execute as @a if score @s exi_deaths_c matches 1.. run function existence_smp:ad
 #ADVANCEMENTS
 advancement grant @a[scores={exi_craft_cake=1}] only existence_smp:crafting/the_lie
 advancement grant @a[scores={exi_craft_bundle=1}] only existence_smp:crafting/bundle_of_joy
-advancement grant @a[scores={exi_playtime_h=100..,exi_deaths=..9}] only existence_smp:stats/survivalist
+advancement grant @a[scores={exi_playtime_h=100..,exi_deaths=..14}] only existence_smp:stats/survivalist
 advancement grant @a[scores={exi_playtime_h=100..,exi_deaths=..0}] only existence_smp:stats/hardcore_survivalist
 
 #RESET
