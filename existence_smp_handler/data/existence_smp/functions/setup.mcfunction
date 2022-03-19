@@ -82,7 +82,7 @@ execute unless score unix_time_y exi_unix matches 0.. run scoreboard players set
 #SPAWN & GAMERULES
 gamerule disableElytraMovementCheck true
 gamerule playersSleepingPercentage 25
-gamerule spawnRadius 150
+gamerule spawnRadius 175
 gamerule spectatorsGenerateChunks true
 
 #PLAYERS
@@ -91,17 +91,14 @@ team join Patron TheMundane
 team join Patron _iGalaxy
 team join Patron WaffleStick
 team join Patron torbray
-team join Patron ItsPurpleJay
 team join Patron Ha2222
 team join Patron Bannboo
-team join Patron telx_
 team join Patron TheEpyonProject
+team join Patron 1stHowlerGamer
 
 team join Spectator Tommy39
 team join Spectator HannahDearie
-team join Spectator GraphQL
-team join Spectator ItsCameraJay
-team join Spectator unquality
+team join Spectator Satellyte
 
 team join Staff mcpeachpies
 team join Staff Yoglington
