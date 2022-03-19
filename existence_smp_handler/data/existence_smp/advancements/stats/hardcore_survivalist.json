@@ -1,16 +1,16 @@
 {
     "display": {
       "icon": {
-        "item": "campfire"
+        "item": "soul_campfire"
       },
-      "title": "Survivalist",
-      "description": "Surpass 100 hours played with less than 10 deaths",
-      "frame": "goal",
+      "title": "Hardcore Survivalist",
+      "description": "Surpass 100 hours played with 0 deaths",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "existence_smp:stats/playtime/time_well_spent",
+    "parent": "existence_smp:stats/survivalist",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

@@ -41,8 +41,8 @@ scoreboard objectives add exi_deaths_c deathCount
 scoreboard objectives add exi_deaths deathCount {"text":"Total Deaths","color":"dark_green"}
 scoreboard objectives add exi_health health
 scoreboard objectives add exi_game_leave minecraft.custom:minecraft.leave_game
-scoreboard objectives add exi_the_lie minecraft.crafted:minecraft.cake
-scoreboard objectives add exi_elytra_craft minecraft.crafted:minecraft.elytra
+scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.cake
+scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.bundle
 
 #Triggers
 scoreboard objectives add map trigger {"text":"Online Map","color":"dark_green"}
@@ -80,11 +80,9 @@ execute unless score unix_time_y exi_unix matches 0.. run scoreboard players set
 
 
 #SPAWN & GAMERULES
-setworldspawn 0 0 0
-
 gamerule disableElytraMovementCheck true
 gamerule playersSleepingPercentage 25
-gamerule spawnRadius 500
+gamerule spawnRadius 150
 gamerule spectatorsGenerateChunks true
 
 #PLAYERS
@@ -113,7 +111,6 @@ team join StaffPatron _iGalaxy
 
 #SETUP
 team join Server exi_setup
-team join ServerBackground value_1
 scoreboard players set exi_setup exi_handler 1
 
 #CONFRIMATION
