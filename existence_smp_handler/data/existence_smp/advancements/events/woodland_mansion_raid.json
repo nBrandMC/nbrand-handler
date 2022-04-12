@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "totem_of_undying"
+      },
+      "title": "Woodland Mansion Raid",
+      "description": "Take part in Raiding the Woodland Mansion and Defeating the Illagers\nApril 2nd 2022",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "existence_smp:events/events",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

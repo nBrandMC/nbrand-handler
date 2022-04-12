@@ -41,9 +41,10 @@ scoreboard objectives add exi_deaths_c deathCount
 scoreboard objectives add exi_deaths deathCount {"text":"Total Deaths","color":"dark_green"}
 scoreboard objectives add exi_health health
 scoreboard objectives add exi_game_leave minecraft.custom:minecraft.leave_game
-
 scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.cake
-scoreboard objectives add exi_craft_bundle minecraft.crafted:minecraft.bundle
+scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.bundle
+scoreboard objectives add exi_deaths_since_c minecraft.custom:minecraft.time_since_death
+scoreboard objectives add exi_deaths_since dummy {"text":"Time (Hours) Since Last Death","color":"dark_green"}
 
 #Triggers
 scoreboard objectives add map trigger {"text":"Online Map","color":"dark_green"}
@@ -89,15 +90,19 @@ gamerule spectatorsGenerateChunks true
 #PLAYERS
 team join Patron SugarCaney
 team join Patron TheMundane
-team join Patron _iGalaxy
+team join Patron iGalaxy
 team join Patron WaffleStick
 team join Patron torbray
 team join Patron Ha2222
 team join Patron Bannboo
 team join Patron TheEpyonProject
 team join Patron 1stHowlerGamer
+team join Patron ItsPurpleJay
+team join Patron telx_
+team join Patron Seishirou_
+team join Patron G41axyX
 
-team join Spectator Tommy39
+team join Spectator existencesmp
 team join Spectator HannahDearie
 team join Spectator Satellyte
 
@@ -105,7 +110,7 @@ team join Staff mcpeachpies
 team join Staff Yoglington
 team join Staff Jippertje
 team join StaffPatron SugarCaney
-team join StaffPatron _iGalaxy
+team join StaffPatron iGalaxy
 
 #SETUP
 team join Server exi_setup

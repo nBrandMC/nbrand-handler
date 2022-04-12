@@ -1,3 +1,6 @@
+#ADVANCEMENT CHECK
+execute as @a run function existence_smp:advancement_check/advancement_check
+
 #CONFRIMATION
 execute if score exi_setup exi_handler matches 1.. run tellraw @a[tag=Staff] ["",{"text":"Loaded ","color":"gray"},{"text":"Existence SMP Community Server 2 Handler","italic":true,"color":"dark_green","clickEvent":{"action":"open_url","value":"https://existencesmp.com"},"hoverEvent":{"action":"show_text","contents":["",{"text":"existencesmp.com","color":"gray"}]}}]
 

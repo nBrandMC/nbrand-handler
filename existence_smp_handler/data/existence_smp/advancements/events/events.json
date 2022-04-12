@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "globe_banner_pattern"
+      },
+      "title": "Fear Of Missing Out",
+      "description": "Total number of Community events attended",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "existence_smp:root",
+    "criteria": {
+      "woodland_mansion_raid": {
+        "trigger": "minecraft:impossible"
+      },
+      "ender_dragon_fight": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

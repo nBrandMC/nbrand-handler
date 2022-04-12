@@ -3,8 +3,8 @@
       "icon": {
         "item": "soul_campfire"
       },
-      "title": "Hardcore Survivalist",
-      "description": "Surpass 100 hours playtime with 0 deaths",
+      "title": "Hardcore Redemption",
+      "description": "Redeem yourself by living for 100 hours without dying, after dying",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
