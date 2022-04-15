@@ -100,7 +100,6 @@ team join Patron 1stHowlerGamer
 team join Patron ItsPurpleJay
 team join Patron telx_
 team join Patron Seishirou_
-team join Patron G41axyX
 
 team join Spectator existencesmp
 team join Spectator HannahDearie
