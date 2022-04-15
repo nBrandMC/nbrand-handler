@@ -105,6 +105,7 @@ team join Patron G41axyX
 team join Spectator existencesmp
 team join Spectator HannahDearie
 team join Spectator Satellyte
+team join Spectator ItsCameraJay
 
 team join Staff mcpeachpies
 team join Staff Yoglington
