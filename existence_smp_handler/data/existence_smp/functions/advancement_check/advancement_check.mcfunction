@@ -2,11 +2,15 @@ advancement grant @s[team=Spectator] only existence_smp:roles/spectate
 advancement grant @s[tag=Patron] only existence_smp:roles/patron
 
 execute if score unix_time_d exi_unix matches ..7 run advancement grant @s only existence_smp:roles/founder
+
+execute unless score @s exi_playtime_h matches 0.. run scoreboard players set @s exi_playtime_h 0
+execute unless score @s exi_elytra_km matches 0.. run scoreboard players set @s exi_elytra_km 0
 execute unless score @s exi_deaths matches 0.. run scoreboard players set @s exi_deaths 0
 
-execute as @s run function existence_smp:advancement_check/playtime/100
-execute as @s run function existence_smp:advancement_check/elytra/500
-execute as @s run function existence_smp:advancement_check/deaths/50
+function existence_smp:advancement_check/playtime/100
+function existence_smp:advancement_check/elytra/500
+function existence_smp:advancement_check/deaths/50
+function existence_smp:advancement_check/survivalist/50
 
 #From The Mountains
 advancement grant @s[name=1stHowlerGamer] only existence_smp:roles/from_the_mountains
@@ -98,8 +102,8 @@ advancement grant @s[name=ItsPurpleJay] only existence_smp:events/woodland_mansi
 advancement grant @s[name=ItsPurpleJay] only existence_smp:events/events woodland_mansion_raid
 advancement grant @s[name=Seishirou_] only existence_smp:events/woodland_mansion_raid
 advancement grant @s[name=Seishirou_] only existence_smp:events/events woodland_mansion_raid
-advancement grant @s[name=TheMundane_] only existence_smp:events/woodland_mansion_raid
-advancement grant @s[name=TheMundane_] only existence_smp:events/events woodland_mansion_raid
+advancement grant @s[name=TheMundane] only existence_smp:events/woodland_mansion_raid
+advancement grant @s[name=TheMundane] only existence_smp:events/events woodland_mansion_raid
 advancement grant @s[name=mcpeachpies] only existence_smp:events/woodland_mansion_raid
 advancement grant @s[name=mcpeachpies] only existence_smp:events/events woodland_mansion_raid
 advancement grant @s[name=iGalaxy] only existence_smp:events/woodland_mansion_raid
@@ -120,6 +124,46 @@ advancement grant @s[name=Savannah1533] only existence_smp:events/woodland_mansi
 advancement grant @s[name=Savannah1533] only existence_smp:events/events woodland_mansion_raid
 advancement grant @s[name=TCMidnite] only existence_smp:events/woodland_mansion_raid
 advancement grant @s[name=TCMidnite] only existence_smp:events/events woodland_mansion_raid
+
+#Ender Dragon Fight
+advancement grant @s[name=1stHowlerGamer] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=1stHowlerGamer] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=ItsPurpleJay] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=ItsPurpleJay] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=Seishirou_] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=Seishirou_] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=TheMundane] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=TheMundane] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=mcpeachpies] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=mcpeachpies] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=iGalaxy] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=iGalaxy] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=BananaBubble] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=BananaBubble] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=Dr_Little] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=Dr_Little] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=DuoGetsRekt] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=DuoGetsRekt] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=INeedHelp__] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=INeedHelp__] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=G41axyX] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=G41axyX] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=marcoiscool] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=marcoiscool] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=Neko_Cub] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=Neko_Cub] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=Noellee_] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=Noellee_] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=Pure6198] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=Pure6198] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=Savannah1533] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=Savannah1533] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=shabarshiumi] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=shabarshiumi] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=TCMidnite] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=TCMidnite] only existence_smp:events/events ender_dragon_fight
+advancement grant @s[name=theowlguardian] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=theowlguardian] only existence_smp:events/events ender_dragon_fight
 
 
 

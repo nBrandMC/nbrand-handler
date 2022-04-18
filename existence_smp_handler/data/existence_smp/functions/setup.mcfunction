@@ -43,7 +43,7 @@ scoreboard objectives add exi_health health
 scoreboard objectives add exi_game_leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.cake
 scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.bundle
-scoreboard objectives add exi_deaths_since_c minecraft.custom:minecraft.time_since_death
+scoreboard objectives add exi_deaths_since_c dummy {"text":"Time (Seconds) Since Last Death","color":"dark_green"}
 scoreboard objectives add exi_deaths_since dummy {"text":"Time (Hours) Since Last Death","color":"dark_green"}
 
 #Triggers
@@ -100,6 +100,7 @@ team join Patron 1stHowlerGamer
 team join Patron ItsPurpleJay
 team join Patron telx_
 team join Patron Seishirou_
+team join Patron DelltaDragon
 
 team join Spectator existencesmp
 team join Spectator HannahDearie

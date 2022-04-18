@@ -3,7 +3,8 @@ scoreboard players add @a[gamemode=!spectator,tag=!mpp_afk] exi_playtime_c 1
 scoreboard players add @a[gamemode=!spectator,scores={exi_playtime_c=3600..}] exi_playtime_h 1
 
 #TIME SINCE LAST DEATH
-scoreboard players add @a[gamemode=!spectator,scores={exi_deaths_since_c=72000..}] exi_deaths_since 1
+scoreboard players add @a[gamemode=!spectator,scores={exi_deaths=1..}] exi_deaths_since_c 1
+scoreboard players add @a[gamemode=!spectator,scores={exi_deaths_since_c=3600..}] exi_deaths_since 1
 
 #UNIX
 scoreboard players add unix_time exi_unix 1
@@ -41,10 +42,10 @@ execute if score unix_time_c exi_unix matches 60 run scoreboard players set unix
 scoreboard players add @a[gamemode=!spectator,scores={exi_elytra_c=100000..}] exi_elytra_km 1
 
 #STATISTICS
-execute as @a if score @s exi_playtime_c matches 3600.. run function existence_smp:advancement_check/playtime/100
-execute as @a if score @s exi_elytra_c matches 100000.. run function existence_smp:advancement_check/elytra/500
-execute as @a if score @s exi_deaths_c matches 1.. run function existence_smp:advancement_check/deaths/50
-execute as @a if score @s exi_deaths_since_c matches 72000.. run function existence_smp:advancement_check/deaths/50
+execute as @a if score @s exi_playtime_c matches 3600.. run function existence_smp:advancement_check/advancement_check
+execute as @a if score @s exi_elytra_c matches 100000.. run function existence_smp:advancement_check/advancement_check
+execute as @a if score @s exi_deaths_c matches 1.. run function existence_smp:advancement_check/advancement_check
+execute as @a if score @s exi_deaths_since_c matches 3600.. run function existence_smp:advancement_check/advancement_check
 
 #ADVANCEMENTS
 advancement grant @a[scores={exi_craft_cake=1}] only existence_smp:crafting/the_lie
@@ -53,7 +54,7 @@ advancement grant @a[scores={exi_craft_bundle=1}] only existence_smp:crafting/bu
 #RESET
 scoreboard players remove @a[gamemode=!spectator,scores={exi_playtime_c=3600..}] exi_playtime_c 3600
 scoreboard players remove @a[gamemode=!spectator,scores={exi_elytra_c=100000..}] exi_elytra_c 100000
-scoreboard players remove @a[gamemode=!spectator,scores={exi_deaths_since_c=72000..}] exi_deaths_since_c 72000
+scoreboard players remove @a[gamemode=!spectator,scores={exi_deaths_since_c=3600..}] exi_deaths_since_c 3600
 
 #Space Camp
 #effect give @a minecraft:slow_falling 5 1 true
