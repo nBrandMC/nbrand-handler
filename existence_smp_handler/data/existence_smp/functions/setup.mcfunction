@@ -106,6 +106,7 @@ team join Spectator existencesmp
 team join Spectator HannahDearie
 team join Spectator Satellyte
 team join Spectator ItsCameraJay
+team join Spectator Dashalt
 
 team join Staff mcpeachpies
 team join Staff Yoglington
