@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "existence_smp:spyglass/ahoy",
+  "parent": "existence_smp:spyglass/with_my_little_eye",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:using_item",
@@ -20,7 +20,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:glow_squid"
                 }
@@ -29,7 +30,9 @@
           }
         ],
         "item": {
-          "items": ["minecraft:spyglass"]
+          "items": [
+            "minecraft:spyglass"
+          ]
         }
       }
     }

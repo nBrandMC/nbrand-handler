@@ -3,8 +3,8 @@
     "icon": {
       "item": "minecraft:spyglass"
     },
-    "title": "With My Little Eye",
-    "description": "Tall, Slender, and Ender.",
+    "title": "Ahoy-Hoy!",
+    "description": "Who Watches the Watchers?",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -23,7 +23,19 @@
               "type_specific": {
                 "type": "player",
                 "looking_at": {
-                  "type": "minecraft:enderman"
+                  "type": "minecraft:player",
+                  "type_specific": {
+                    "type": "player",
+                    "looking_at": {
+                      "type": "minecraft:player",
+                      "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                          "type": "minecraft:player"
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }

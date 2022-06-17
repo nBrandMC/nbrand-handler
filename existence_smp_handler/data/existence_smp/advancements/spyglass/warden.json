@@ -3,14 +3,14 @@
     "icon": {
       "item": "minecraft:spyglass"
     },
-    "title": "With My Little Eye",
-    "description": "Tall, Slender, and Ender.",
-    "frame": "task",
+    "title": "Death is Blind",
+    "description": "Look into the heart of death",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "existence_smp:spyglass/ahoy",
+  "parent": "existence_smp:spyglass/mesmerizing",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:using_item",
@@ -23,7 +23,7 @@
               "type_specific": {
                 "type": "player",
                 "looking_at": {
-                  "type": "minecraft:enderman"
+                  "type": "minecraft:warden"
                 }
               }
             }

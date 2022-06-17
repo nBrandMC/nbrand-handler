@@ -3,14 +3,14 @@
     "icon": {
       "item": "minecraft:spyglass"
     },
-    "title": "With My Little Eye",
-    "description": "Tall, Slender, and Ender.",
+    "title": "Fine Art",
+    "description": "You can almost see the individual brush strokes",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "existence_smp:spyglass/ahoy",
+  "parent": "existence_smp:spyglass/ahoy_hoy",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:using_item",
@@ -23,7 +23,7 @@
               "type_specific": {
                 "type": "player",
                 "looking_at": {
-                  "type": "minecraft:enderman"
+                  "type": "minecraft:painting"
                 }
               }
             }
