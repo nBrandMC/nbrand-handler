@@ -5,7 +5,6 @@ team remove StaffPatron
 
 team remove Patron
 team remove Spectator
-team remove Trusted
 
 team remove Server
 team remove ServerBackground
