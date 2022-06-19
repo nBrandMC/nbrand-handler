@@ -69,8 +69,8 @@ advancement grant @s[name=Isogravity] only existence_smp:roles/legacy
 advancement grant @s[name=Gruva] only existence_smp:roles/legacy
 advancement grant @s[name=SamGoldfish] only existence_smp:roles/legacy
 advancement grant @s[name=Dordir8] only existence_smp:roles/legacy
-advancement grant @s[name=_iGalaxy] only existence_smp:roles/legacy
-advancement grant @s[name=Noelle_] only existence_smp:roles/legacy
+advancement grant @s[name=iGalaxy] only existence_smp:roles/legacy
+advancement grant @s[name=Noellee_] only existence_smp:roles/legacy
 advancement grant @s[name=Underdog091] only existence_smp:roles/legacy
 advancement grant @s[name=MilesPernicious] only existence_smp:roles/legacy
 advancement grant @s[name=KyruPlays] only existence_smp:roles/legacy
@@ -109,7 +109,7 @@ advancement grant @s[name=Neko_Cub] only existence_smp:events/events
 advancement grant @s[name=Pure6198] only existence_smp:events/events
 advancement grant @s[name=Savannah1533] only existence_smp:events/events
 advancement grant @s[name=TCMidnite] only existence_smp:events/events
-advancement grant @s[name=BananaBubble] only existence_smp:events/events
+advancement grant @s[name=Bananabubble] only existence_smp:events/events
 advancement grant @s[name=G41axyX] only existence_smp:events/events
 advancement grant @s[name=Noellee_] only existence_smp:events/events
 advancement grant @s[name=shabarshiumi] only existence_smp:events/events
@@ -139,7 +139,7 @@ advancement grant @s[name=Seishirou_] only existence_smp:events/ender_dragon_fig
 advancement grant @s[name=TheMundane] only existence_smp:events/ender_dragon_fight
 advancement grant @s[name=mcpeachpies] only existence_smp:events/ender_dragon_fight
 advancement grant @s[name=iGalaxy] only existence_smp:events/ender_dragon_fight
-advancement grant @s[name=BananaBubble] only existence_smp:events/ender_dragon_fight
+advancement grant @s[name=Bananabubble] only existence_smp:events/ender_dragon_fight
 advancement grant @s[name=Dr_Little] only existence_smp:events/ender_dragon_fight
 advancement grant @s[name=DuoGetsRekt] only existence_smp:events/ender_dragon_fight
 advancement grant @s[name=INeedHelp__] only existence_smp:events/ender_dragon_fight
@@ -153,18 +153,28 @@ advancement grant @s[name=shabarshiumi] only existence_smp:events/ender_dragon_f
 advancement grant @s[name=TCMidnite] only existence_smp:events/ender_dragon_fight
 advancement grant @s[name=theowlguardian] only existence_smp:events/ender_dragon_fight
 
+#Ancient Cities
+advancement grant @s[name=ItsPurpleJay] only existence_smp:events/ancient_city
+advancement grant @s[name=TheMundane] only existence_smp:events/ancient_city
+advancement grant @s[name=mcpeachpies] only existence_smp:events/ancient_city
+advancement grant @s[name=Yoglington] only existence_smp:events/ancient_city
+advancement grant @s[name=iGalaxy] only existence_smp:events/ancient_city
+advancement grant @s[name=Bananabubble] only existence_smp:events/ancient_city
+advancement grant @s[name=DuoGetsRekt] only existence_smp:events/ancient_cit
+advancement grant @s[name=KSores] only existence_smp:events/ancient_city
+advancement grant @s[name=LordOfTheUndead] only existence_smp:events/ancient_city
+advancement grant @s[name=marcoiscool] only existence_smp:events/ancient_city
+advancement grant @s[name=Noellee_] only existence_smp:events/ancient_city
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#nBrand Tragedy
+advancement grant @s[name=ItsPurpleJay] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=TheMundane] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=mcpeachpies] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=Yoglington] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=iGalaxy] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=Bananabubble] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=DuoGetsRekt] only existence_smp:events/ancient_cit
+advancement grant @s[name=KSores] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=LordOfTheUndead] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=marcoiscool] only existence_smp:events/nbrand_tragedy
+advancement grant @s[name=Noellee_] only existence_smp:events/nbrand_tragedy
