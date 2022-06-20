@@ -5,7 +5,7 @@
       "nbt": "{Damage:0}"
     },
     "title": "Fool's Gold",
-    "description": "Wear a full set of Chainmail Armor in The Nether",
+    "description": "Wear a full set of Golden Armor in The Nether",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
