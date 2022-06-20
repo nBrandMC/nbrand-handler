@@ -5,12 +5,12 @@
     },
     "title": "Melody Of Long Ago",
     "description": "Remake Disc 5 from its fragments",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "existence_smp:crafting/bundle_of_joy",
+  "parent": "existence_smp:deep_dark/ancient_city",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

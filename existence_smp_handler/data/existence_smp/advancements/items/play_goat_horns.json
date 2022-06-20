@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "existence_smp:use_items/chainmail_armor",
+    "parent": "existence_smp:spyglass/ahoy",
     "criteria": {
       "ponder": {
         "trigger": "minecraft:using_item",

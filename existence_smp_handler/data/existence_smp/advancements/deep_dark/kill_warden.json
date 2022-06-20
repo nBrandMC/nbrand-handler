@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "existence_smp:deep_dark/summon_warden",
+    "parent": "existence_smp:deep_dark/summon_warden_again",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

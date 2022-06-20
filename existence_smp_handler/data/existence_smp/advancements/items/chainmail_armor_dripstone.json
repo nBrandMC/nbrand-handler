@@ -11,7 +11,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "existence_smp:use_items/chainmail_armor",
+    "parent": "existence_smp:items/chainmail_armor",
     "criteria": {
       "chainmail_armor": {
         "trigger": "minecraft:inventory_changed",
