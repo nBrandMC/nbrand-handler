@@ -15,6 +15,9 @@ execute if score @s exi_playtime_h matches 0 run advancement revoke @s from exis
 #Game Over
 advancement grant @s[scores={exi_deaths=1..}] only existence_smp:stats/deaths/game_over
 
+#Noble Efforts
+execute as @s if score @s exi_deaths matches 1 if score @s exi_playtime_h matches 50..100 run advancement grant @s only existence_smp:stats/deaths/noble_efforts
+
 #Six Feet Under
 advancement grant @s[scores={exi_deaths=1..}] only existence_smp:stats/deaths/six_feet_under 1
 advancement grant @s[scores={exi_deaths=2..}] only existence_smp:stats/deaths/six_feet_under 2

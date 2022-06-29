@@ -176,6 +176,7 @@ advancement grant @s[name=KSores] only existence_smp:events/ancient_city
 advancement grant @s[name=LordOfTheUndead] only existence_smp:events/ancient_city
 advancement grant @s[name=marcoiscool] only existence_smp:events/ancient_city
 advancement grant @s[name=Noellee_] only existence_smp:events/ancient_city
+advancement grant @s[name=okietwister] only existence_smp:events/ancient_city
 
 #nBrand Tragedy
 advancement grant @s[name=ItsPurpleJay] only existence_smp:events/nbrand_tragedy
