@@ -1,3 +1,6 @@
+#UHC
+scoreboard objectives add exi_uhc dummy
+
 #SCOREBOARDS
 #Playtime
 scoreboard objectives add exi_playtime_c dummy
@@ -63,6 +66,8 @@ execute unless score unix_time_mo exi_unix matches 0.. run scoreboard players se
 execute unless score unix_time_y exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
 
 #DISPLAY
+scoreboard objectives modify exi_uhc displayname {"text":"Existence SMP UHC","color":"dark_green"}
+
 scoreboard objectives modify exi_playtime_h displayname {"text":"Play Time (Hours)","color":"dark_green"}
 
 scoreboard objectives modify exi_elytra_km displayname {"text":"Elytra Distance (Kilometers)","color":"dark_green"}

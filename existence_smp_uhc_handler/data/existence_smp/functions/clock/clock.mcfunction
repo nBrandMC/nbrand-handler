@@ -1,3 +1,7 @@
+#UHC
+execute if score active exi_uhc matches 0 run function existence_smp:uhc/clock/inactive
+execute if score active exi_uhc matches 1 run function existence_smp:uhc/clock/active
+
 #Statistics
 #PLAY TIME
 scoreboard players add @a[gamemode=!spectator,tag=!mpp_afk] exi_playtime_c 1
