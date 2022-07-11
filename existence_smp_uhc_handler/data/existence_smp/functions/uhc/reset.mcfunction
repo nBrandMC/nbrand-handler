@@ -20,4 +20,7 @@ schedule clear existence_smp:uhc/worldborder/shrink
 spreadplayers 0 0 5 24 true @a
 gamemode adventure @a
 
+tag @a remove alive
+tag @a remove dead
+
 scoreboard players set active exi_uhc 0
