@@ -1,4 +1,4 @@
-scoreboard players set active exi_uhc 0
+scoreboard players set active exi_uhc 3
 
 title @a title ["",{"text":"UHC Won by ","bold":true,"color":"gray"}]
 title @a subtitle ["",{"selector":"@a[tag=alive]"}]

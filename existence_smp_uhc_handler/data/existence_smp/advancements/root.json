@@ -8,14 +8,11 @@
       "frame": "task",
       "background": "minecraft:textures/block/green_concrete.png",
       "show_toast": false,
-      "announce_to_chat": true,
+      "announce_to_chat": false,
       "hidden": false
     },
     "rewards": {
-      "function": "existence_smp:join_first",
-      "loot": [
-        "minecraft:chests/spawn_bonus_chest"
-      ]
+      "function": "existence_smp:join_first"
     },
     "criteria": {
       "requirement": {

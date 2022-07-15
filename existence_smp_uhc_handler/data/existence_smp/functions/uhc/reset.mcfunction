@@ -2,7 +2,7 @@ fill 25 256 25 -25 256 -25 barrier
 
 time set noon
 weather clear
-difficulty peaceful
+#difficulty peaceful
 
 gamerule naturalRegeneration true
 

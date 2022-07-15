@@ -24,4 +24,5 @@ execute as @a[tag=alive] run scoreboard players add player_alive exi_uhc 1
 execute as @a[tag=alive] at @s run spawnpoint @s ~ ~ ~
 execute as @a[tag=alive] if score @s exi_deaths_c matches 1 run function existence_smp:uhc/death
 
+#VICTORY DETECTION
 execute if score team_alive exi_uhc matches 1 run function existence_smp:uhc/end/pending

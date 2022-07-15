@@ -9,7 +9,7 @@ setworldspawn 0 64 0
 function existence_smp:setup/teams
 function existence_smp:setup/scoreboards
 function existence_smp:clock/clock
-#function existence_smp:uhc/reset
+function existence_smp:uhc/reset
 
 #CONFRIMATION
 scoreboard players set exi_setup exi_handler 1
