@@ -8,13 +8,15 @@ scoreboard players reset @s[team=Spectator] exi_playtime_h
 scoreboard players add @s[team=] exi_playtime_h 1
 scoreboard players remove @s[team=] exi_playtime_h 1
 
-#Teams
-team join Default @s[team=]
-
 tag mcpeachpies add Staff
 tag iGalaxy add Staff
 tag ItsPurpleJay add Staff
 
+#Status
+execute if score active exi_uhc matches 0 run function existence_smp:uhc/join/inactive
+execute if score active exi_uhc matches 1.. run function existence_smp:uhc/join/active
+#Teams
+team join Default @s[team=]
 
 #Advancements
 function existence_smp:advancement_check/advancement_check

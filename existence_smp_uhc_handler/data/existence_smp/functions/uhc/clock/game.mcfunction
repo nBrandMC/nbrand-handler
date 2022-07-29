@@ -1,0 +1,1 @@
+execute as @a[tag=alive] at @s run spawnpoint @s ~ ~ ~

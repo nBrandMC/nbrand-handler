@@ -3,6 +3,7 @@ tag @s add dead
 
 execute as @a run playsound minecraft:entity.player.death master @s
 
+team join Default_dead @s[team=Default]
 team join black_dead @s[team=black]
 team join dark_blue_dead @s[team=dark_blue]
 team join dark_green_dead @s[team=dark_green]

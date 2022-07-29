@@ -1,5 +1,6 @@
 effect give @a weakness 2 255 true
 
+team join Default @a[team=Default_dead]
 team join black @a[team=black_dead]
 team join dark_blue @a[team=dark_blue_dead]
 team join dark_green @a[team=dark_green_dead]
@@ -16,3 +17,5 @@ team join red @a[team=red_dead]
 team join light_purple @a[team=light_purple_dead]
 team join yellow @a[team=yellow_dead]
 team join white @a[team=white_dead]
+
+spawnpoint @a 0 256 0

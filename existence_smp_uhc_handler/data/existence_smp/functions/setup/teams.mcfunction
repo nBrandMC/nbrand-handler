@@ -4,22 +4,22 @@ team remove Spectator
 team remove Server
 team remove ServerBackground
 
-#team remove black
-#team remove dark_blue
-#team remove dark_green
-#team remove dark_aqua
-#team remove dark_red
-#team remove dark_purple
-#team remove gold
-#team remove gray
-#team remove dark_gray
-#team remove blue
-#team remove green 
-#team remove aqua 
-#team remove red 
-#team remove light_purple
-#team remove yellow
-#team remove white
+team remove black
+team remove dark_blue
+team remove dark_green
+team remove dark_aqua
+team remove dark_red
+team remove dark_purple
+team remove gold
+team remove gray
+team remove dark_gray
+team remove blue
+team remove green 
+team remove aqua 
+team remove red 
+team remove light_purple
+team remove yellow
+team remove white
 
 #Creation
 team add Default
@@ -62,8 +62,8 @@ team add yellow_dead
 team add white_dead
 
 #Colours
-team modify Default color gray
-team modify Default_dead color gray
+team modify Default color white
+team modify Default_dead color white
 team modify Server color gray
 team modify ServerBackground color dark_gray
 
@@ -104,8 +104,8 @@ team modify white_dead color white
 team modify Default seeFriendlyInvisibles false
 
 #Prefix
-team modify Default prefix ["",{"text":"🗡 ","color":"gray"}]
-team modify Default_dead prefix ["",{"text":"☠ ","color":"gray"}]
+team modify Default prefix ["",{"text":"🗡 ","color":"white"}]
+team modify Default_dead prefix ["",{"text":"☠ ","color":"white"}]
 
 team modify black prefix ["",{"text":"🗡 ","color":"black"}]
 team modify dark_blue prefix ["",{"text":"🗡 ","color":"dark_blue"}]
@@ -142,6 +142,27 @@ team modify yellow_dead prefix ["",{"text":"☠ ","color":"yellow"}]
 team modify white_dead prefix ["",{"text":"☠ ","color":"white"}]
 
 #PLAYERS
+team join gold cyrilrbt
+team join gold NynahNina
+team join gold Yoglington
+
+team join dark_green ISean
+team join dark_green TCMidnite
+team join dark_green TheMundane
+
+team join red Callan2256
+team join red KSores
+team join red INeedHelp__
+
+team join light_purple iGalaxy
+team join light_purple Noellee_
+team join light_purple SkyTUM
+
+team join dark_purple ItsPurpleJay
+team join dark_purple Isogravity
+team join dark_purple Liam22ddfgw
+
+team join Default mcpeachpies
 
 #SETUP
 team join Server exi_setup

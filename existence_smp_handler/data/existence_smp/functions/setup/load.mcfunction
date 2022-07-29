@@ -6,6 +6,6 @@ execute if score exi_setup exi_handler matches 1.. run tellraw @a[tag=Staff] [""
 
 #SETUP CHECK
 scoreboard objectives add exi_handler dummy {"text":"Existence SMP Handler","color":"dark_green"}
-execute unless score exi_setup exi_handler matches 1.. run function existence_smp:setup
+execute unless score exi_setup exi_handler matches 1.. run function existence_smp:setup/setup
 
 function existence_smp:clock/clock
