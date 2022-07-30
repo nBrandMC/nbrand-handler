@@ -1,7 +1,7 @@
 tag @s remove alive
-tag @s add dead 
+tag @s add dead
 
-execute as @a run playsound minecraft:entity.player.death master @s
+#execute as @a run playsound minecraft:entity.player.death master @s
 
 team join Default_dead @s[team=Default]
 team join black_dead @s[team=black]

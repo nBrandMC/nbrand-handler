@@ -141,6 +141,24 @@ team modify light_purple_dead prefix ["",{"text":"☠ ","color":"light_purple"}]
 team modify yellow_dead prefix ["",{"text":"☠ ","color":"yellow"}]
 team modify white_dead prefix ["",{"text":"☠ ","color":"white"}]
 
+#FRIENDLY FIRE
+team modify black friendlyFire true 
+team modify dark_blue friendlyFire true 
+team modify dark_green friendlyFire true
+team modify dark_aqua friendlyFire true
+team modify dark_red friendlyFire true
+team modify dark_purple friendlyFire true
+team modify gold friendlyFire true
+team modify gray friendlyFire true
+team modify dark_gray friendlyFire true
+team modify blue friendlyFire true
+team modify green friendlyFire true
+team modify aqua friendlyFire true
+team modify red friendlyFire true
+team modify light_purple friendlyFire true
+team modify yellow friendlyFire true
+team modify white friendlyFire true
+
 #PLAYERS
 team join gold cyrilrbt
 team join gold NynahNina
@@ -150,19 +168,19 @@ team join dark_green ISean
 team join dark_green TCMidnite
 team join dark_green TheMundane
 
-team join red Callan2256
-team join red KSores
-team join red INeedHelp__
+team join dark_red Callan2256
+team join dark_red mcpeachpies
+team join dark_red INeedHelp__
 
 team join light_purple iGalaxy
 team join light_purple Noellee_
 team join light_purple SkyTUM
 
-team join dark_purple ItsPurpleJay
-team join dark_purple Isogravity
-team join dark_purple Liam22ddfgw
+team join blue KSores
+team join blue Isogravity
+team join blue Liam22ddfgw
 
-team join Default mcpeachpies
+team join Default ItsPurpleJay
 
 #SETUP
 team join Server exi_setup

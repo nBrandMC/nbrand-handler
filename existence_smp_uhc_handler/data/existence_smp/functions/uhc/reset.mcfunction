@@ -1,6 +1,6 @@
 fill 25 255 25 -25 255 -25 barrier
 
-time set noon
+time set day
 weather clear
 #difficulty peaceful
 
@@ -16,6 +16,9 @@ worldborder center 0 0
 worldborder set 50
 worldborder warning distance 0
 schedule clear existence_smp:uhc/worldborder/shrink
+schedule clear existence_smp:uhc/worldborder/shunk
+schedule clear existence_smp:uhc/worldborder/glowing
+schedule clear existence_smp:uhc/worldborder/victory
 schedule clear existence_smp:uhc/reset
 
 spreadplayers 0 0 5 24 true @a
