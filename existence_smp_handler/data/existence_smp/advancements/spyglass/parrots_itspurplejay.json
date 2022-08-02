@@ -8,7 +8,7 @@
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "existence_smp:spyglass/parrots",
   "criteria": {
@@ -161,6 +161,42 @@
           ]
         }
       }
+    },
+    "itspurplejay_head": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:player",
+                  "nbt": "{Inventory: [{Slot: 103b, id: \"minecraft:player_head\", tag: {SkullOwner: {Id: [I; -1461977708, 1605713966, -1894269338, 1979621609], Name: \"ItsPurpleJay\"}}, Count: 1b}]}"
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
     }
-  }
+  },
+  "requirements": [
+    ["red"],
+    ["green"],
+    ["blue"],
+    ["cyan"],
+    ["silver"],
+      [
+      "itspurplejay",
+      "itspurplejay_head"
+      ]
+  ]
 }
