@@ -63,25 +63,28 @@ execute unless score unix_time_mo exi_unix matches 0.. run scoreboard players se
 execute unless score unix_time_y exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
 
 #DISPLAY
-scoreboard objectives modify exi_playtime_h displayname {"text":"Play Time (Hours)","color":"dark_green"}
+scoreboard objectives modify exi_playtime_h displayname {"text":"⛏ Play Time (Hours)","color":"gray"}
 
-scoreboard objectives modify exi_elytra_km displayname {"text":"Elytra Distance (Kilometers)","color":"dark_green"}
+scoreboard objectives modify exi_elytra_km displayname {"text":"☄ Elytra Distance (Kilometers)","color":"gray"}
 
-scoreboard objectives modify exi_deaths displayname {"text":"Total Deaths","color":"dark_green"}
-scoreboard objectives modify exi_deaths_since_c displayname {"text":"Time (Seconds) Since Last Death","color":"dark_green"}
-scoreboard objectives modify exi_deaths_since displayname {"text":"Time (Hours) Since Last Death","color":"dark_green"}
+scoreboard objectives modify exi_deaths displayname {"text":"☠ Total Deaths","color":"gray"}
+scoreboard objectives modify exi_deaths_since_c displayname {"text":"☠ Time (Seconds) Since Last Death","color":"gray"}
+scoreboard objectives modify exi_deaths_since displayname {"text":"☠ Time (Hours) Since Last Death","color":"gray"}
 
-scoreboard objectives modify exi_warden_level displayname {"text":"Warden Spawn Warning Level","color":"dark_green"}
-scoreboard objectives modify exi_warden_cooldown displayname {"text":"Warden Spawn Cooldown (Ticks)","color":"dark_green"}
-scoreboard objectives modify exi_warden_ticks displayname {"text":"Time Since Last Warning (Ticks)","color":"dark_green"}
-scoreboard objectives modify exi_warden_count displayname {"text":"Total Wardens Summoned","color":"dark_green"}
-scoreboard objectives modify exi_warden_kill displayname {"text":"Total Wardens Killed","color":"dark_green"}
+scoreboard objectives modify exi_warden_level displayname {"text":"🗡 Warden Spawn Warning Level","color":"gray"}
+scoreboard objectives modify exi_warden_cooldown displayname {"text":"🗡 Warden Spawn Cooldown (Ticks)","color":"gray"}
+scoreboard objectives modify exi_warden_ticks displayname {"text":"🗡 Time Since Last Warning (Ticks)","color":"gray"}
+scoreboard objectives modify exi_warden_count displayname {"text":"🗡 Total Wardens Summoned","color":"gray"}
+scoreboard objectives modify exi_warden_kill displayname {"text":"🗡 Total Wardens Killed","color":"gray"}
 
-scoreboard objectives modify map displayname {"text":"Online Map","color":"dark_green"}
-scoreboard objectives modify playtime displayname {"text":"Total Play Time","color":"dark_green"}
-scoreboard objectives modify elytra displayname {"text":"Elytra Distance","color":"dark_green"}
-scoreboard objectives modify deaths displayname {"text":"Total Deaths","color":"dark_green"}
-scoreboard objectives modify afk_total displayname {"text":"Total AFK Time","color":"dark_green"}
-scoreboard objectives modify sleep_total displayname {"text":"Total Days Slept","color":"dark_green"}
+scoreboard objectives modify mpp_sleep_adv displayname {"text":"☽ Total Nights Slept","color":"gray"}
+scoreboard objectives modify mpp_afk_adv displayname {"text":"🎣 Total AFK Time (Hours)","color":"gray"}
 
-scoreboard objectives modify exi_unix displayname {"text":"Server Uptime (Unix)","color":"dark_green"}
+scoreboard objectives modify map displayname {"text":"Online Map","color":"gray"}
+scoreboard objectives modify playtime displayname {"text":"Total Play Time","color":"gray"}
+scoreboard objectives modify elytra displayname {"text":"Elytra Distance","color":"gray"}
+scoreboard objectives modify deaths displayname {"text":"Total Deaths","color":"gray"}
+scoreboard objectives modify afk_total displayname {"text":"Total AFK Time","color":"gray"}
+scoreboard objectives modify sleep_total displayname {"text":"Total Nights Slept","color":"gray"}
+
+scoreboard objectives modify exi_unix displayname {"text":"Server Uptime (Unix)","color":"gray"}

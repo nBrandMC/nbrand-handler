@@ -21,7 +21,7 @@ team add Server
 team add ServerBackground
 
 #Colours
-team modify Staff color aqua
+team modify Staff color dark_green
 team modify StaffPatron color red
 
 team modify Patron color red
@@ -32,8 +32,8 @@ team modify Server color gray
 team modify ServerBackground color dark_gray
 
 #Prefix
-team modify Staff prefix ["",{"text":"🗡 ","color":"aqua"}]
-team modify StaffPatron prefix ["",{"text":"🗡 ","color":"aqua"}]
+team modify Staff prefix ["",{"text":"🗡 ","color":"dark_green"}]
+team modify StaffPatron prefix ["",{"text":"🗡 ","color":"red"}]
 team modify Patron prefix ["",{"text":"☆ ","color":"red"}]
 team modify Trusted prefix ["",{"text":"","color":"dark_green"}]
 
@@ -52,6 +52,7 @@ team join Patron ItsPurpleJay
 team join Patron telx_
 #team join Patron DelltaDragon
 team join Patron RWB_Therapy
+team join Patron INeedHelp__
 
 team join Spectator ExistenceSMP
 team join Spectator HannahDearie
@@ -61,10 +62,9 @@ team join Spectator Dashalt
 team join Spectator LotU_
 
 team join Staff mcpeachpies
-team join Staff Yoglington
-team join Staff Jippertje
 team join StaffPatron SugarCaney
 team join StaffPatron iGalaxy
+team join StaffPatron ItsPurpleJay
 
 #SETUP
 team join Server exi_setup
