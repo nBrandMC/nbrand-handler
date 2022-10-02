@@ -52,7 +52,7 @@ team join Patron ItsPurpleJay
 team join Patron telx_
 #team join Patron DelltaDragon
 team join Patron RWB_Therapy
-team join Patron INeedHelp__
+team join Patron mcnugggzs
 team join Patron Yoglington
 
 team join Spectator ExistenceSMP
