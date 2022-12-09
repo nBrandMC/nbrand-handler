@@ -6,7 +6,7 @@
     "title": "Existence SMP",
     "description": "Welcome to Existence SMP Project Create",
     "frame": "task",
-    "background": "minecraft:textures/block/cyan_glazed_terracotta.png",
+    "background": "minecraft:textures/block/cyan_terracotta.png",
     "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
