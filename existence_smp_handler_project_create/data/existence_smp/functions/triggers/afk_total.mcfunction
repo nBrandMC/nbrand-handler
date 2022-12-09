@@ -1,6 +1,6 @@
-tellraw @a ["",{"selector":"@s"},{"text":" is now displaying ","color":"gray"},{"text":"Total AFK time","color":"#434A6F"}]
+tellraw @a ["",{"selector":"@s"},{"text":" is now displaying ","color":"gray"},{"text":"Total AFK time","color":"#515779"}]
 execute as @a unless score @s mpp_afk_adv = @s mpp_afk_adv run tellraw @s ["",{"text":"You have not been AFK long enough","color":"gray","italic":true}]
-execute as @a[scores={mpp_afk_adv=1..}] run tellraw @s ["",{"text":"You have been AFK for ","color":"gray","italic":true},{"score":{"name":"@s","objective":"mpp_afk_adv"},"color":"#434A6F","italic":true},{"text":" hours","color":"gray","italic":true}]
+execute as @a[scores={mpp_afk_adv=1..}] run tellraw @s ["",{"text":"You have been AFK for ","color":"gray","italic":true},{"score":{"name":"@s","objective":"mpp_afk_adv"},"color":"#515779","italic":true},{"text":" hours","color":"gray","italic":true}]
 
 scoreboard players set @s afk_total 0
 
