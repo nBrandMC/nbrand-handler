@@ -3,6 +3,7 @@ gamerule disableElytraMovementCheck true
 gamerule playersSleepingPercentage 25
 gamerule spawnRadius 175
 gamerule spectatorsGenerateChunks true
+gamerule snowAccumulationHeight 8
 
 function existence_smp:setup/teams
 function existence_smp:setup/scoreboards
