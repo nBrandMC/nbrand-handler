@@ -54,6 +54,7 @@ team join Patron telx_
 team join Patron RWB_Therapy
 team join Patron mcnugggzs
 team join Patron Yoglington
+team join Project_
 
 team join Spectator ExistenceSMP
 team join Spectator HannahDearie
