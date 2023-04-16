@@ -25,7 +25,7 @@ tag @s[name="Jippertje"] add adv_from_the_mountains
 tag @s[name="Kaihex"] add adv_from_the_mountains
 tag @s[name="KittyKat__MC"] add adv_from_the_mountains
 tag @s[name="mcnugggzs"] add adv_from_the_mountains
-tag @s[name="Pineapple_123"] add adv_from_the_mountains
+tag @s[name="Pineapple_123YT"] add adv_from_the_mountains
 tag @s[name="Sandur_"] add adv_from_the_mountains
 tag @s[name="Savannah1533"] add adv_from_the_mountains
 tag @s[name="SugarCaney"] add adv_from_the_mountains
@@ -47,7 +47,7 @@ advancement grant @s[tag=adv_from_the_mountains] only existence_smp:roles/from_t
 #Legacy
 tag @s[name="mcpeachpies"] add adv_legacy
 tag @s[name="SugarCaney"] add adv_legacy
-tag @s[name="Pineapple_123"] add adv_legacy
+tag @s[name="Pineapple_123YT"] add adv_legacy
 tag @s[name="TCmidnite"] add adv_legacy
 tag @s[name="Aussie_Fox98"] add adv_legacy
 tag @s[name="Callan2256"] add adv_legacy
@@ -238,3 +238,19 @@ tag @s[name="marcoiscool"] add adv_secret_santa_2022
 tag @s[name="Noellee_"] add adv_secret_santa_2022
 
 advancement grant @s[tag=adv_secret_santa_2022] only existence_smp:events/secret_santa_2022
+
+#7 Year Anniversary
+tag @s[name="mcpeachpies"] add adv_7_year_anniversary
+
+advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/7_year_anniversary
+
+#7 Year Monument
+tag @s[name="ItsPurpleJay"] add adv_7_year_monument
+tag @s[name="iGalaxy"] add adv_7_year_monument
+tag @s[name="mcpeachpies"] add adv_7_year_monument
+tag @s[name="1stHowlerGamer"] add adv_7_year_monument
+tag @s[name="marcoiscool"] add adv_7_year_monument
+tag @s[name="Pineapple_123YT"] add adv_7_year_monument
+tag @s[name="mcnugggzs"] add adv_7_year_monument
+
+advancement grant @s[tag=adv_7_year_monument] only existence_smp:events/7_year_monument
