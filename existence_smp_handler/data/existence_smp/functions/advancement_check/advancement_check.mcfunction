@@ -241,6 +241,8 @@ advancement grant @s[tag=adv_secret_santa_2022] only existence_smp:events/secret
 
 #7 Year Anniversary
 tag @s[name="mcpeachpies"] add adv_7_year_anniversary
+tag @s[name="Jippertje"] add adv_7_year_anniversary
+tag @s[name="Dr_little"] add adv_7_year_anniversary
 
 advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/7_year_anniversary
 
