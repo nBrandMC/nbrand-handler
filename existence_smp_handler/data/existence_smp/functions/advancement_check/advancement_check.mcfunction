@@ -250,7 +250,8 @@ tag @s[name="Dr_Little"] add adv_april_fools_2023
 tag @s[name="ItsPurpleJay"] add adv_april_fools_2023
 tag @s[name="Evalynn88"] add adv_april_fools_2023
 
-advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/adv_april_fools_2023
+advancement grant @s[tag=adv_april_fools_2023] only existence_smp:events/adv_april_fools_2023
+
 #7 Year Anniversary
 tag @s[name="mcpeachpies"] add adv_7_year_anniversary
 tag @s[name="Jippertje"] add adv_7_year_anniversary
