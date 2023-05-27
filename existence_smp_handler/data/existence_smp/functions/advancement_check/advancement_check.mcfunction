@@ -271,3 +271,15 @@ tag @s[name="Pineapple_123YT"] add adv_7_year_monument
 tag @s[name="mcnugggzs"] add adv_7_year_monument
 
 advancement grant @s[tag=adv_7_year_monument] only existence_smp:events/7_year_monument
+
+#Pride Build Event 2023
+tag @s[name="ItsPurpleJay"] add adv_pride_build_2023
+tag @s[name="iGalaxy"] add adv_pride_build_2023
+tag @s[name="SugarCaney"] add adv_pride_build_2023
+tag @s[name="mcpeachpies"] add adv_pride_build_2023
+tag @s[name="srgoldfish"] add adv_pride_build_2023
+tag @s[name="Dr_Little"] add adv_pride_build_2023
+tag @s[name="G41axyX"] add adv_pride_build_2023
+tag @s[name="Pure6198"] add adv_pride_build_2023
+
+advancement grant @s[tag=adv_pride_build_2023] only existence_smp:events/pride_build_2023
