@@ -174,7 +174,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": ["minecraft:music_disc_stall"]
+              "items": ["minecraft:music_disc_stal"]
             }
           }
         ]
