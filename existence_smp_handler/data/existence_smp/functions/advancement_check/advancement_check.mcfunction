@@ -252,15 +252,6 @@ tag @s[name="Evalynn88"] add adv_april_fools_2023
 
 advancement grant @s[tag=adv_april_fools_2023] only existence_smp:events/adv_april_fools_2023
 
-#7 Year Anniversary
-tag @s[name="mcpeachpies"] add adv_7_year_anniversary
-tag @s[name="Jippertje"] add adv_7_year_anniversary
-tag @s[name="Dr_little"] add adv_7_year_anniversary
-tag @s[name="mcnugggzs"] add adv_7_year_anniversary
-tag @s[name="ItsPurpleJay"] add adv_7_year_anniversary
-
-advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/7_year_anniversary
-
 #7 Year Monument
 tag @s[name="ItsPurpleJay"] add adv_7_year_monument
 tag @s[name="iGalaxy"] add adv_7_year_monument
@@ -271,6 +262,17 @@ tag @s[name="Pineapple_123YT"] add adv_7_year_monument
 tag @s[name="mcnugggzs"] add adv_7_year_monument
 
 advancement grant @s[tag=adv_7_year_monument] only existence_smp:events/7_year_monument
+
+#7 Year Anniversary
+tag @s[name="mcpeachpies"] add adv_7_year_anniversary
+tag @s[name="Jippertje"] add adv_7_year_anniversary
+tag @s[name="Dr_little"] add adv_7_year_anniversary
+tag @s[name="mcnugggzs"] add adv_7_year_anniversary
+tag @s[name="ItsPurpleJay"] add adv_7_year_anniversary
+tag @s[name="G41axyX"] add adv_7_year_anniversary
+
+advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/7_year_anniversary
+
 
 #Pride Build Event 2023
 tag @s[name="ItsPurpleJay"] add adv_pride_build_2023
