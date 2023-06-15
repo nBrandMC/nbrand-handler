@@ -55,6 +55,7 @@ team join Patron Yoglington
 team join Patron Project_
 team join Patron Delulu_
 team join Patron Seishirou_
+team join Patron acg1000
 
 team join Spectator ExistenceSMP
 team join Spectator HannahDearie
