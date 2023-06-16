@@ -1,13 +1,13 @@
 #TEAMS
 #Reset
-team remove Staff
-team remove StaffPatron
+# team remove Staff
+# team remove StaffPatron
 
-team remove Patron
-team remove Spectator
+# team remove Patron
+# team remove Spectator
 
-team remove Server
-team remove ServerBackground
+# team remove Server
+# team remove ServerBackground
 
 #Creation
 team add Staff
