@@ -63,6 +63,7 @@ team join Spectator _iGalaxy
 team join Spectator ItsCameraJay
 team join Spectator Dashalt
 team join Spectator LotU_
+team join Spectator Pineapple_123YT
 
 team join Staff mcpeachpies
 team join StaffPatron SugarCaney
