@@ -38,37 +38,37 @@ team modify Patron prefix ["",{"text":"☆ ","color":"red"}]
 team modify Trusted prefix ["",{"text":"","color":"dark_green"}]
 
 #PLAYERS
-team join Patron SugarCaney
-team join Patron TheMundane
-team join Patron iGalaxy
-team join Patron WaffleStick
-team join Patron Ha2222
-team join Patron Bannboo
-team join Patron TheEpyonProject
-team join Patron Dashleb
-team join Patron 1stHowlerGamer
-team join Patron ItsPurpleJay
-team join Patron telx_
-team join Patron RWB_Therapy
-team join Patron mcnugggzs
-team join Patron Yoglington
-team join Patron Project_
-team join Patron Delulu_
-team join Patron Seishirou_
-team join Patron acg1000
+# team join Patron SugarCaney
+# team join Patron TheMundane
+# team join Patron iGalaxy
+# team join Patron WaffleStick
+# team join Patron Ha2222
+# team join Patron Bannboo
+# team join Patron TheEpyonProject
+# team join Patron Dashleb
+# team join Patron 1stHowlerGamer
+# team join Patron ItsPurpleJay
+# team join Patron telx_
+# team join Patron RWB_Therapy
+# team join Patron mcnugggzs
+# team join Patron Yoglington
+# team join Patron Project_
+# team join Patron Delulu_
+# team join Patron Seishirou_
+# team join Patron acg1000
 
-team join Spectator ExistenceSMP
-team join Spectator HannahDearie
-team join Spectator _iGalaxy
-team join Spectator ItsCameraJay
-team join Spectator Dashalt
-team join Spectator LotU_
-team join Spectator Pineapple_123YT
+# team join Spectator ExistenceSMP
+# team join Spectator HannahDearie
+# team join Spectator _iGalaxy
+# team join Spectator ItsCameraJay
+# team join Spectator Dashalt
+# team join Spectator LotU_
+# team join Spectator Pineapple_123YT
 
-team join Staff mcpeachpies
-team join StaffPatron SugarCaney
-team join StaffPatron iGalaxy
-team join StaffPatron ItsPurpleJay
+# team join Staff mcpeachpies
+# team join StaffPatron SugarCaney
+# team join StaffPatron iGalaxy
+# team join StaffPatron ItsPurpleJay
 
 #SETUP
-team join Server exi_setup
+# team join Server exi_setup
