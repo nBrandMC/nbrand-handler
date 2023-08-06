@@ -52,6 +52,7 @@ team join Server unix_time_h
 team join Server unix_time_d
 team join Server unix_time_mo
 team join Server unix_time_y
+team join Server unix_time_w
 
 team join ServerBackground unix_time_c
 team join ServerBackground unix_time_mc
@@ -64,6 +65,13 @@ execute unless score unix_time_h exi_unix matches 0.. run scoreboard players set
 execute unless score unix_time_d exi_unix matches 0.. run scoreboard players set unix_time_d exi_unix 0
 execute unless score unix_time_mo exi_unix matches 0.. run scoreboard players set unix_time_mo exi_unix 0
 execute unless score unix_time_y exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
+execute unless score unix_time_w exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
+
+#Values
+scoreboard objectives add exi_value dummy
+team join ServerBackground value_7
+scoreboard players set value_7 exi_value 7
+
 
 #DISPLAY
 scoreboard objectives modify exi_playtime_h displayname {"text":"⛏ Play Time (Hours)","color":"gray"}

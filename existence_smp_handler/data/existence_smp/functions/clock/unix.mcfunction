@@ -17,6 +17,10 @@ execute if score unix_time_dc exi_unix matches 30.. if score unix_time_hc exi_un
 execute if score unix_time_dc exi_unix matches 30.. if score unix_time_hc exi_unix matches 10.. if score unix_time_c exi_unix matches 29.. run scoreboard players add unix_time_moc exi_unix 1
 #Years
 execute if score unix_time_moc exi_unix matches 12.. if score unix_time_hc exi_unix matches 6.. run scoreboard players add unix_time_y exi_unix 1
+#Weeks
+scoreboard players operation unix_time_w exi_unix = unix_time_d exi_unix
+scoreboard players operation unix_time_w exi_unix /= value_7 exi_value
+scoreboard players add unix_time_w exi_unix 1
 
 #Count Reset
 #Reset Month Count
