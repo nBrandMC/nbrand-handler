@@ -40,22 +40,19 @@ team modify Trusted prefix ["",{"text":"","color":"dark_green"}]
 #PLAYERS
 # team join Patron SugarCaney
 # team join Patron TheMundane
+# team join Patron Yoglington
+# team join Patron acg1000
 # team join Patron iGalaxy
+# team join Patron ItsPurpleJay
 # team join Patron WaffleStick
+# team join Patron Dashleb
 # team join Patron Ha2222
 # team join Patron Bannboo
 # team join Patron TheEpyonProject
-# team join Patron Dashleb
 # team join Patron 1stHowlerGamer
-# team join Patron ItsPurpleJay
-# team join Patron telx_
-# team join Patron RWB_Therapy
 # team join Patron mcnugggzs
-# team join Patron Yoglington
+# team join Patron marcoiscool
 # team join Patron Project_
-# team join Patron Delulu_
-# team join Patron Seishirou_
-# team join Patron acg1000
 
 # team join Spectator ExistenceSMP
 # team join Spectator HannahDearie
