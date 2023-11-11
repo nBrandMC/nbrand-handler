@@ -68,4 +68,6 @@ team modify Trusted prefix ["",{"text":"","color":"dark_green"}]
 # team join StaffPatron ItsPurpleJay
 
 #SETUP
-# team join Server exi_setup
+team join Server exi_setup
+team join Server Total
+team join ServerBackground run_count

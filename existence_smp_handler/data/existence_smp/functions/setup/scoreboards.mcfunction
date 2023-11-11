@@ -67,6 +67,9 @@ execute unless score unix_time_mo exi_unix matches 0.. run scoreboard players se
 execute unless score unix_time_y exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
 execute unless score unix_time_w exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
 
+#Entity Count
+scoreboard objectives add exi_entity_count dummy
+
 #Values
 scoreboard objectives add exi_value dummy
 team join ServerBackground value_7
@@ -103,3 +106,5 @@ scoreboard objectives modify wardens_summoned displayname {"text":"Total Wardens
 scoreboard objectives modify uptime displayname {"text":"Total Server Uptime","color":"gray"}
 
 scoreboard objectives modify exi_unix displayname {"text":"⌚ Server Uptime (Unix)","color":"gray"}
+
+scoreboard objectives modify exi_entity_count displayname {"text":"Entity Counts","color":"gray"}
