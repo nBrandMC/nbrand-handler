@@ -126,6 +126,7 @@ tag @s[name="ThatDudeAsher"] add adv_events
 tag @s[name="KittyKat__MC"] add adv_events
 tag @s[name="exi_watcher"] add adv_events
 tag @s[name="upsteps"] add adv_events
+tag @s[name="LordOfTheUndead"] add adv_events
 
 advancement grant @s[tag=adv_events] only existence_smp:events/events
 
