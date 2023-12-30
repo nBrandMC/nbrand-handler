@@ -37,7 +37,7 @@ tag @s[name="Yoglington"] add adv_from_the_mountains
 tag @s[name="Zipix_"] add adv_from_the_mountains
 tag @s[name="_iGalaxy"] add adv_from_the_mountains
 tag @s[name="marcoiscool"] add adv_from_the_mountains
-tag @s[name="max6y"] add adv_from_the_mountains
+tag @s[name="upsteps"] add adv_from_the_mountains
 tag @s[name="mcpeachpies"] add adv_from_the_mountains
 tag @s[name="okietwister"] add adv_from_the_mountains
 tag @s[name="telx_"] add adv_from_the_mountains
@@ -108,7 +108,7 @@ tag @s[name="mcpeachpies"] add adv_events
 tag @s[name="Yoglington"] add adv_events
 tag @s[name="iGalaxy"] add adv_events
 tag @s[name="Dr_Little"] add adv_events
-tag @s[name="DuoGetsRekt"] add adv_events
+tag @s[name="Avagetarian"] add adv_events
 tag @s[name="mcnugggzs"] add adv_events
 tag @s[name="marcoiscool"] add adv_events
 tag @s[name="Neko_Cub"] add adv_events
@@ -120,7 +120,12 @@ tag @s[name="G41axyX"] add adv_events
 tag @s[name="Noellee_"] add adv_events
 tag @s[name="shabarshiumi"] add adv_events
 tag @s[name="theowlguardian"] add adv_events
-tag @s[name="mcnugggzs"] add adv_events
+tag @s[name="EarthySand25957"] add adv_events
+tag @s[name="Pineapple_123YT"] add adv_events
+tag @s[name="ThatDudeAsher"] add adv_events
+tag @s[name="KittyKat__MC"] add adv_events
+tag @s[name="exi_watcher"] add adv_events
+tag @s[name="upsteps"] add adv_events
 
 advancement grant @s[tag=adv_events] only existence_smp:events/events
 
@@ -133,7 +138,7 @@ tag @s[name="TheMundane"] add adv_woodland_manion_raid
 tag @s[name="mcpeachpies"] add adv_woodland_manion_raid
 tag @s[name="iGalaxy"] add adv_woodland_manion_raid
 tag @s[name="Dr_Little"] add adv_woodland_manion_raid
-tag @s[name="DuoGetsRekt"] add adv_woodland_manion_raid
+tag @s[name="TheAvagetarian"] add adv_woodland_manion_raid
 tag @s[name="mcnugggzs"] add adv_woodland_manion_raid
 tag @s[name="marcoiscool"] add adv_woodland_manion_raid
 tag @s[name="Neko_Cub"] add adv_woodland_manion_raid
@@ -152,7 +157,7 @@ tag @s[name="mcpeachpies"] add adv_ender_dragon_fight
 tag @s[name="iGalaxy"] add adv_ender_dragon_fight
 tag @s[name="Bananabubble"] add adv_ender_dragon_fight
 tag @s[name="Dr_Little"] add adv_ender_dragon_fight
-tag @s[name="DuoGetsRekt"] add adv_ender_dragon_fight
+tag @s[name="TheAvagetarian"] add adv_ender_dragon_fight
 tag @s[name="mcnugggzs"] add adv_ender_dragon_fight
 tag @s[name="G41axyX"] add adv_ender_dragon_fight
 tag @s[name="marcoiscool"] add adv_ender_dragon_fight
@@ -187,7 +192,7 @@ tag @s[name="mcpeachpies"] add adv_ancient_city
 tag @s[name="Yoglington"] add adv_ancient_city
 tag @s[name="iGalaxy"] add adv_ancient_city
 tag @s[name="Bananabubble"] add adv_ancient_city
-tag @s[name="DuoGetsRekt"] add adv_ancient_city
+tag @s[name="TheAvagetarian"] add adv_ancient_city
 tag @s[name="KSores"] add adv_ancient_city
 tag @s[name="LordOfTheUndead"] add adv_ancient_city
 tag @s[name="marcoiscool"] add adv_ancient_city
@@ -203,7 +208,7 @@ tag @s[name="mcpeachpies"] add adv_nbrand_tragedy
 tag @s[name="Yoglington"] add adv_nbrand_tragedy
 tag @s[name="iGalaxy"] add adv_nbrand_tragedy
 tag @s[name="Bananabubble"] add adv_nbrand_tragedy
-tag @s[name="DuoGetsRekt"] add adv_nbrand_tragedy
+tag @s[name="TheAvagetarian"] add adv_nbrand_tragedy
 tag @s[name="KSores"] add adv_nbrand_tragedy
 tag @s[name="LordOfTheUndead"] add adv_nbrand_tragedy
 tag @s[name="marcoiscool"] add adv_nbrand_tragedy
@@ -273,7 +278,6 @@ tag @s[name="G41axyX"] add adv_7_year_anniversary
 
 advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/7_year_anniversary
 
-
 #Pride Build Event 2023
 tag @s[name="ItsPurpleJay"] add adv_pride_build_2023
 tag @s[name="iGalaxy"] add adv_pride_build_2023
@@ -285,3 +289,102 @@ tag @s[name="G41axyX"] add adv_pride_build_2023
 tag @s[name="Pure6198"] add adv_pride_build_2023
 
 advancement grant @s[tag=adv_pride_build_2023] only existence_smp:events/pride_build_2023
+
+#Noelle's Backyard BBQ Cookoff
+tag @s[name="Noellee_"] add adv_backyard_bbq_cookoff
+tag @s[name="iGalaxy"] add adv_backyard_bbq_cookoff
+tag @s[name="marcoiscool"] add adv_backyard_bbq_cookoff
+tag @s[name="Dr_Little"] add adv_backyard_bbq_cookoff
+tag @s[name="ItsPurpleJay"] add adv_backyard_bbq_cookoff
+tag @s[name="1stHowlerGamer"] add adv_backyard_bbq_cookoff
+tag @s[name="mcpeachpies"] add adv_backyard_bbq_cookoff
+tag @s[name="KittyKat__MC"] add adv_backyard_bbq_cookoff
+
+advancement grant @s[tag=adv_backyard_bbq_cookoff] only existence_smp:events/backyard_bbq_cookoff
+
+#Dr. Stoch's Estate
+tag @s[name="iGalaxy"] add adv_dr_stochs_estate
+tag @s[name="1stHowlerGamer"] add adv_dr_stochs_estate
+tag @s[name="ItsPurpleJay"] add adv_dr_stochs_estate
+tag @s[name="Pure6198"] add adv_dr_stochs_estate
+tag @s[name="mcpeachpies"] add adv_dr_stochs_estate
+tag @s[name="Dr_Little"] add adv_dr_stochs_estate
+tag @s[name="EarthySand25957"] add adv_dr_stochs_estate
+tag @s[name="G41axyX"] add adv_dr_stochs_estate
+
+advancement grant @s[tag=adv_dr_stochs_estate] only existence_smp:events/dr_stochs_estate
+
+#Secret Santa 2023
+tag @s[name="mcpeachpies"] add adv_secret_santa_2023
+tag @s[name="KittyKat__MC"] add adv_secret_santa_2023
+tag @s[name="mcnugggzs"] add adv_secret_santa_2023
+tag @s[name="iGalaxy"] add adv_secret_santa_2023
+tag @s[name="Yoglington"] add adv_secret_santa_2023
+tag @s[name="1stHowlerGamer"] add adv_secret_santa_2023
+tag @s[name="Dr_Little"] add adv_secret_santa_2023
+tag @s[name="Pineapple_123YT"] add adv_secret_santa_2023
+tag @s[name="ItsPurpleJay"] add adv_secret_santa_2023
+tag @s[name="ThatDudeAsher"] add adv_secret_santa_2023
+tag @s[name="Bananabubble"] add adv_secret_santa_2023
+tag @s[name="EarthySand25957"] add adv_secret_santa_2023
+tag @s[name="Pure6198"] add adv_secret_santa_2023
+
+advancement grant @s[tag=adv_secret_santa_2023] only existence_smp:events/secret_santa_2023
+
+#HERO STADIUM
+
+#Stadiumgoer - Attend one event
+tag @s[name="Dr_Little"] add adv_stadiumgoer
+tag @s[name="exi_watcher"] add adv_stadiumgoer
+tag @s[name="mcpeachpies"] add adv_stadiumgoer
+tag @s[name="Noellee_"] add adv_stadiumgoer
+tag @s[name="iGalaxy"] add adv_stadiumgoer
+tag @s[name="upsteps"] add adv_stadiumgoer
+tag @s[name="ItsPurpleJay"] add adv_stadiumgoer
+tag @s[name="1stHowlerGamer"] add adv_stadiumgoer
+tag @s[name="acg1000"] add adv_stadiumgoer
+tag @s[name="Pure6198"] add adv_stadiumgoer
+tag @s[name="Scarriana"] add adv_stadiumgoer
+tag @s[name="G41axyX"] add adv_stadiumgoer
+
+advancement grant @s[tag=adv_stadiumgoer] only existence_smp:events/hero_stadium/stadiumgoer
+
+#Hero Royale - Win one event
+tag @s[name="Noellee_"] add adv_hero_royale
+tag @s[name="Pure6198"] add adv_hero_royale
+tag @s[name="iGalaxy"] add adv_hero_royale
+
+advancement grant @s[tag=adv_hero_royale] only existence_smp:events/hero_stadium/hero_royale
+
+#Dawn of the First Hero
+tag @s[name="Dr_Little"] add adv_dawn_of_the_first_hero
+tag @s[name="exi_watcher"] add adv_dawn_of_the_first_hero
+tag @s[name="mcpeachpies"] add adv_dawn_of_the_first_hero
+tag @s[name="Noellee_"] add adv_dawn_of_the_first_hero
+tag @s[name="iGalaxy"] add adv_dawn_of_the_first_hero
+tag @s[name="upsteps"] add adv_dawn_of_the_first_hero
+tag @s[name="ItsPurpleJay"] add adv_dawn_of_the_first_hero
+
+advancement grant @s[tag=adv_dawn_of_the_first_hero] only existence_smp:events/hero_stadium/dawn_of_the_first_hero
+
+#A Night In the Cemetery
+tag @s[name="Dr_Little"] add adv_a_night_in_the_cemetery
+tag @s[name="1stHowlerGamer"] add adv_a_night_in_the_cemetery
+tag @s[name="acg1000"] add adv_a_night_in_the_cemetery
+tag @s[name="mcpeachpies"] add adv_a_night_in_the_cemetery
+tag @s[name="Pure6198"] add adv_a_night_in_the_cemetery
+tag @s[name="Noellee_"] add adv_a_night_in_the_cemetery
+tag @s[name="Scarriana"] add adv_a_night_in_the_cemetery
+tag @s[name="G41axyX"] add adv_a_night_in_the_cemetery
+
+advancement grant @s[tag=adv_a_night_in_the_cemetery] only existence_smp:events/hero_stadium/a_night_in_the_cemetery
+
+#An Unwavering Carol
+tag @s[name="Dr_Little"] add adv_an_unwavering_carol
+tag @s[name="mcpeachpies"] add adv_an_unwavering_carol
+tag @s[name="Noellee_"] add adv_an_unwavering_carol
+tag @s[name="1stHowlerGamer"] add adv_an_unwavering_carol
+tag @s[name="Pure6198"] add adv_an_unwavering_carol
+tag @s[name="iGalaxy"] add adv_an_unwavering_carol
+
+advancement grant @s[tag=adv_an_unwavering_carol] only existence_smp:events/hero_stadium/an_unwavering_carol

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": "Hero Royale",
+    "description": "Win a Hero Stadium Event",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "existence_smp:events/hero_stadium/stadiumgoer",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
