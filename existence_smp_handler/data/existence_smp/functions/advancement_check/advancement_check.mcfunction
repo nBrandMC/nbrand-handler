@@ -278,6 +278,17 @@ tag @s[name="G41axyX"] add adv_7_year_anniversary
 
 advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/7_year_anniversary
 
+#iGalaxy's Chess Tournament
+tag @s[name="iGalaxy"] add adv_chess_tournament
+tag @s[name="mcpeachpies"] add adv_chess_tournament
+tag @s[name="LordOfTheUndead"] add adv_chess_tournament
+tag @s[name="Noellee_"] add adv_chess_tournament
+tag @s[name="exi_watcher"] add adv_chess_tournament
+tag @s[name="ItsPurpleJay"] add adv_chess_tournament
+tag @s[name="mcnugggzs"] add adv_chess_tournament
+
+advancement grant @s[tag=adv_chess_tournament] only existence_smp:events/chess_tournament
+
 #Pride Build Event 2023
 tag @s[name="ItsPurpleJay"] add adv_pride_build_2023
 tag @s[name="iGalaxy"] add adv_pride_build_2023
