@@ -343,6 +343,16 @@ tag @s[name="Pure6198"] add adv_secret_santa_2023
 
 advancement grant @s[tag=adv_secret_santa_2023] only existence_smp:events/secret_santa_2023
 
+#Deck the Halls
+tag @s[name="mcpeachpies"] add adv_christmas_build_2023
+tag @s[name="marcoiscool"] add adv_christmas_build_2023
+tag @s[name="Dr_Little"] add adv_christmas_build_2023
+tag @s[name="ItsPurpleJay"] add adv_christmas_build_2023
+tag @s[name="iGalaxy"] add adv_christmas_build_2023
+tag @s[name="Bananabubble"] add adv_christmas_build_2023
+
+advancement grant @s[tag=adv_christmas_build_2023] only existence_smp:events/christmas_build_2023
+
 #HERO STADIUM
 
 #Stadiumgoer - Attend one event
