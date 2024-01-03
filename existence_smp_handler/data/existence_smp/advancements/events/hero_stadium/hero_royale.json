@@ -4,7 +4,7 @@
       "item": "minecraft:iron_sword"
     },
     "title": "Hero Royale",
-    "description": "Win a Hero Stadium Event",
+    "description": "Win a Hero Stadium Cup",
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,
