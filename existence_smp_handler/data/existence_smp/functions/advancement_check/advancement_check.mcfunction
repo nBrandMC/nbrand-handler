@@ -44,6 +44,30 @@ tag @s[name="telx_"] add adv_from_the_mountains
 
 advancement grant @s[tag=adv_from_the_mountains] only existence_smp:roles/from_the_mountains
 
+#Create-ive Spark
+tag @s[name="mcpeachpies"] add adv_project_create
+tag @s[name="iGalaxy"] add adv_project_create
+tag @s[name="ItsPurpleJay"] add adv_project_create
+tag @s[name="KSores"] add adv_project_create
+tag @s[name="Dr_Little"] add adv_project_create
+tag @s[name="Yoglington"] add adv_project_create
+tag @s[name="SugarCaney"] add adv_project_create
+tag @s[name="KittyKat__MC"] add adv_project_create
+tag @s[name="marcoiscool"] add adv_project_create
+tag @s[name="LordOfTheUndead"] add adv_project_create
+tag @s[name="Noellee_"] add adv_project_create
+tag @s[name="1stHowlerGamer"] add adv_project_create
+tag @s[name="Ha2222"] add adv_project_create
+tag @s[name="Pineapple_123YT"] add adv_project_create
+tag @s[name="Change24"] add adv_project_create
+tag @s[name="Uurt"] add adv_project_create
+tag @s[name="acg1000"] add adv_project_create
+tag @s[name="Project_"] add adv_project_create
+tag @s[name="Delulu_"] add adv_project_create
+tag @s[name="mcnugggzs"] add adv_project_create
+
+advancement grant @s[tag=adv_project_create] only existence_smp:roles/project_create
+
 #Legacy
 tag @s[name="mcpeachpies"] add adv_legacy
 tag @s[name="SugarCaney"] add adv_legacy
@@ -276,6 +300,7 @@ tag @s[name="Dr_little"] add adv_7_year_anniversary
 tag @s[name="mcnugggzs"] add adv_7_year_anniversary
 tag @s[name="ItsPurpleJay"] add adv_7_year_anniversary
 tag @s[name="G41axyX"] add adv_7_year_anniversary
+tag @s[name="iGalaxy"] add adv_7_year_anniversary
 
 advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/7_year_anniversary
 
