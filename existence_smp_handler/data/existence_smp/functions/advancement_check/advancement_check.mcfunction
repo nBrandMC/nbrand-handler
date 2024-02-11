@@ -301,6 +301,7 @@ tag @s[name="mcnugggzs"] add adv_7_year_anniversary
 tag @s[name="ItsPurpleJay"] add adv_7_year_anniversary
 tag @s[name="G41axyX"] add adv_7_year_anniversary
 tag @s[name="iGalaxy"] add adv_7_year_anniversary
+tag @s[name="Yoglington"] add adv_7_year_anniversary
 
 advancement grant @s[tag=adv_7_year_anniversary] only existence_smp:events/7_year_anniversary
 
