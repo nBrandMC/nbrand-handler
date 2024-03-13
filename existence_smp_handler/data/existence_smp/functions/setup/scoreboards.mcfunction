@@ -73,7 +73,15 @@ scoreboard objectives add exi_entity_count dummy
 #Values
 scoreboard objectives add exi_value dummy
 team join ServerBackground value_7
+team join ServerBackground value_24
+team join ServerBackground value_30
+team join ServerBackground value_60
+team join ServerBackground value_365
 scoreboard players set value_7 exi_value 7
+scoreboard players set value_24 exi_value 24
+scoreboard players set value_30 exi_value 30
+scoreboard players set value_60 exi_value 60
+scoreboard players set value_365 exi_value 365
 
 
 #DISPLAY
