@@ -1,6 +1,10 @@
 scoreboard objectives setdisplay sidebar exi_entity_count
 scoreboard players set Total exi_entity_count 0
 
+scoreboard players set Marker exi_entity_count 0
+execute as @e[type=marker,distance=..128] run scoreboard players add Marker exi_entity_count 1
+execute as @e[type=marker,distance=..128] run scoreboard players add Total exi_entity_count 1
+
 scoreboard players set Item exi_entity_count 0
 execute as @e[type=item,distance=..128] run scoreboard players add Item exi_entity_count 1
 execute as @e[type=item,distance=..128] run scoreboard players add Total exi_entity_count 1
