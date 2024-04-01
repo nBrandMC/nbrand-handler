@@ -450,4 +450,4 @@ tag @s[name="SugarCaney"] add adv_8_year_anniversary
 tag @s[name="Yoglington"] add adv_8_year_anniversary
 tag @s[name="marcoiscool"] add adv_8_year_anniversary
 
-advancement grant @s[tag=adv_8_year_anniversary] only existence_smp:events/hero_stadium/8_year_anniversary
+advancement grant @s[tag=adv_8_year_anniversary] only existence_smp:events/8_year_anniversary
