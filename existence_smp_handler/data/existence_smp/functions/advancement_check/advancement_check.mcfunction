@@ -436,3 +436,18 @@ tag @s[name="Pure6198"] add adv_an_unwavering_carol
 tag @s[name="iGalaxy"] add adv_an_unwavering_carol
 
 advancement grant @s[tag=adv_an_unwavering_carol] only existence_smp:events/hero_stadium/an_unwavering_carol
+
+#8 Years of Existence
+tag @s[name="Dr_Little"] add adv_8_year_anniversary
+tag @s[name="mcpeachpies"] add adv_8_year_anniversary
+tag @s[name="acg1000"] add adv_8_year_anniversary
+tag @s[name="Evalynn88"] add adv_8_year_anniversary
+tag @s[name="EarthySand25957"] add adv_8_year_anniversary
+tag @s[name="ItsPurpleJay"] add adv_8_year_anniversary
+tag @s[name="iGalaxy"] add adv_8_year_anniversary
+tag @s[name="Noellee_"] add adv_8_year_anniversary
+tag @s[name="SugarCaney"] add adv_8_year_anniversary
+tag @s[name="Yoglington"] add adv_8_year_anniversary
+tag @s[name="marcoiscool"] add adv_8_year_anniversary
+
+advancement grant @s[tag=adv_8_year_anniversary] only existence_smp:events/hero_stadium/8_year_anniversary
