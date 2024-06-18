@@ -10,7 +10,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "existence_smp:events/pride_build_2023",
+  "parent": "existence_smp:events/hero_stadium/stadiumgoer",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

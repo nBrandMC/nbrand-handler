@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:lime_terracotta"
+        "item": "minecraft:lectern"
       },
       "title": "7 Years of Existence",
       "description": "Recall a story from the history of Existence in the Book of Memories",
@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "existence_smp:events/secret_santa_2022",
+    "parent": "existence_smp:events/events",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

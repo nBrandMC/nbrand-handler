@@ -24,7 +24,7 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:cat",
-                  "nbt": "{CustomName:'{\"text\":\"Goober\"}'}"
+                  "nbt": "{CustomName:'\"Goober\"'}"
                 }
               }
             }

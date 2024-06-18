@@ -11,7 +11,7 @@
       "announce_to_chat": true,
       "hidden": true
     },
-    "parent": "existence_smp:events/7_year_anniversary",
+    "parent": "existence_smp:events/april_fools_2023",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

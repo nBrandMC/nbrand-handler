@@ -9,7 +9,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "existence_smp:locations/globe_trotter",
+  "parent": "existence_smp:locations/halloween_theme_park",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
