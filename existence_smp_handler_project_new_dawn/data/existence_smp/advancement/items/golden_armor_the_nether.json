@@ -8,12 +8,12 @@
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "parent": "existence_smp:items/golden_armor",
   "criteria": {
     "golden_armor": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {

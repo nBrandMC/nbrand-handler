@@ -21,14 +21,14 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "player",
+                "type": "minecraft:player",
                 "looking_at": {
                   "type": "minecraft:llama",
                   "type_specific": {
-                    "type": "llama",
+                    "type": "minecraft:llama",
                     "variant": "gray"
                   },
-                  "nbt": "{CustomName:'\"Carl\"',DecorItem:{id:\"minecraft:lime_carpet\",Count:1b}}"
+                  "nbt": "{body_armor_item: {count: 1, id: \"minecraft:lime_carpet\"}}"
                 }
               }
             }
@@ -50,14 +50,14 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "player",
+                "type": "minecraft:player",
                 "looking_at": {
                   "type": "minecraft:llama",
                   "type_specific": {
-                    "type": "llama",
+                    "type": "minecraft:llama",
                     "variant": "creamy"
                   },
-                  "nbt": "{CustomName:'\"Paul\"',DecorItem:{id:\"minecraft:red_carpet\",Count:1b}}"
+                  "nbt": "{body_armor_item: {count: 1, id: \"minecraft:red_carpet\"}}"
                 }
               }
             }

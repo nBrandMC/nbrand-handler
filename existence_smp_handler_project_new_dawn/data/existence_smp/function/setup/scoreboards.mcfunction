@@ -18,7 +18,7 @@ scoreboard objectives add exi_deaths_since dummy
 
 #Crafting
 scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.cake
-scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.bundle
+scoreboard objectives add exi_craft_bundle minecraft.crafted:minecraft.bundle
 scoreboard objectives add exi_craft_disc_5 minecraft.crafted:minecraft.music_disc_5
 
 #Warden

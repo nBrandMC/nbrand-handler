@@ -1,14 +1,14 @@
 #Statistics
 #PLAY TIME
-scoreboard players add @a[gamemode=!spectator,tag=!mpp_afk] exi_playtime_c 1
+execute as @a[gamemode=!spectator,tag=!mpp_afk] run scoreboard players add @s exi_playtime_c 1
 execute as @a[gamemode=!spectator] if score @s exi_playtime_c matches 3600.. run scoreboard players add @s exi_playtime_h 1
 
 #TIME SINCE LAST DEATH
-scoreboard players add @a[gamemode=!spectator,scores={exi_deaths=1..}] exi_deaths_since_c 1
+execute as @a[gamemode=!spectator] if score @s exi_deaths matches 1.. run scoreboard players add @s exi_deaths_since_c 1
 execute as @a[gamemode=!spectator] if score @s exi_deaths_since_c matches 3600.. run scoreboard players add @s exi_deaths_since 1
 
 #ELYTRA
-scoreboard players add @a[gamemode=!spectator,scores={exi_elytra_c=100000..}] exi_elytra_km 1
+execute as @a[gamemode=!spectator] if score @s exi_elytra_c matches 100000.. run scoreboard players add @s exi_elytra_km 1
 
 #WARDEN
 execute as @a run function existence_smp:deep_dark/warden
