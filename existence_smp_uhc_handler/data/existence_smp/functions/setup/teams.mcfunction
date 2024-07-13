@@ -160,29 +160,27 @@ team modify yellow friendlyFire true
 team modify white friendlyFire true
 
 #PLAYERS
-#team join gold cyrilrbt
-#team join gold NynahNina
-#team join gold Yoglington
+team join gold cyrilrbt
+team join gold NynahNina
+team join gold Yoglington
 
-#team join dark_green ISean
-#team join dark_green TCMidnite
-#team join dark_green TheMundane
+team join dark_green ISean
+team join dark_green TCMidnite
+team join dark_green TheMundane
 
-#team join dark_red Callan2256
-#team join dark_red mcpeachpies
-#team join dark_red INeedHelp__
+team join dark_red Callan2256
+team join dark_red mcpeachpies
+team join dark_red INeedHelp__
 
-#team join light_purple iGalaxy
-#team join light_purple Noellee_
-#team join light_purple SkyTUM
+team join light_purple iGalaxy
+team join light_purple Noellee_
+team join light_purple SkyTUM
 
-#team join blue KSores
-#team join blue Isogravity
-#team join blue Liam22ddfgw
+team join blue KSores
+team join blue Isogravity
+team join blue Liam22ddfgw
 
-#team join Default ItsPurpleJay
+team join Default ItsPurpleJay
 
 #SETUP
 team join Server exi_setup
-team join Server Total
-team join ServerBackground run_count
