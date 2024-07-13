@@ -40,5 +40,8 @@ execute as @a[gamemode=!spectator] if score @s exi_deaths_since_c matches 3600..
 #effect give @a minecraft:slow_falling 5 1 true
 #effect give @a minecraft:jump_boost 5 2 true
 
+#Entity Count
+execute if score run_count exi_entity_count matches 1 at mcpeachpies run function existence_smp:clock/entity_count
+
 function existence_smp:clock/unix
 schedule function existence_smp:clock/clock 20t
