@@ -1,7 +1,7 @@
 fill 25 255 25 -25 255 -25 air
 
 time set 0
-weather clear 1200
+weather clear 1200s
 difficulty hard
 
 gamerule naturalRegeneration false
@@ -22,7 +22,7 @@ clear @a
 give @a minecraft:compass
 
 title @a title {"text":"Existence SMP","bold":true,"color":"red"}
-title @a subtitle {"text":" Reunion UHC 3","bold":false,"color":"gray"}
+title @a subtitle {"text":" Reunion UHC 4","bold":false,"color":"gray"}
 
 tellraw @a ["",{"text":"Worldborder Shrinking in 20 Minutes","bold":false,"color":"red"}]
 tellraw @a ["",{"text":"Starting size ","color":"gray"},{"text":"4000 blocks wide","color":"red"},{"text":" Shrinking to ","color":"gray"},{"text":"100 blocks ","color":"red"},{"text":"in ","color":"gray"},{"text":"20 Minutes","color":"red"}]

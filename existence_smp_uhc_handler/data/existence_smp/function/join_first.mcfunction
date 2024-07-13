@@ -1,5 +1,4 @@
-execute as @s[name=mcpeachpies] run time set 0
-execute as @s[name=mcpeachpies] run weather clear
+execute as @s[name=mcpeachpies] run function existence_smp:uhc/reset
 
 gamemode adventure @s
 
