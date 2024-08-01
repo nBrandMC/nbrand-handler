@@ -7,6 +7,9 @@ scoreboard objectives add exi_playtime_h dummy
 scoreboard objectives add exi_elytra_c minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add exi_elytra_km dummy
 
+#Glider
+scoreboard objectives add exi_glider_c minecraft.custom:glideaway.glide_one_cm
+scoreboard objectives add exi_glider_km dummy
 
 #Statistics
 scoreboard objectives add exi_deaths_c deathCount
@@ -32,6 +35,7 @@ scoreboard objectives add exi_warden_kill minecraft.killed:minecraft.warden
 scoreboard objectives add map trigger
 scoreboard objectives add playtime trigger
 scoreboard objectives add elytra trigger
+scoreboard objectives add glider trigger
 scoreboard objectives add deaths trigger
 scoreboard objectives add afk_total trigger
 scoreboard objectives add sleep_total trigger
@@ -89,6 +93,8 @@ scoreboard objectives modify exi_playtime_h displayname {"text":"⛏ Play Time (
 
 scoreboard objectives modify exi_elytra_km displayname {"text":"☄ Elytra Distance (Kilometers)","color":"gray"}
 
+scoreboard objectives modify exi_glider_km displayname {"text":"🪂 Glider Distance (Kilometers)","color":"gray"}
+
 scoreboard objectives modify exi_deaths displayname {"text":"☠ Total Deaths","color":"gray"}
 scoreboard objectives modify exi_deaths_since_c displayname {"text":"☠ Time (Seconds) Since Last Death","color":"gray"}
 scoreboard objectives modify exi_deaths_since displayname {"text":"☠ Time (Hours) Since Last Death","color":"gray"}
@@ -106,6 +112,7 @@ scoreboard objectives modify mpp_afk_adv displayname {"text":"🎣 Total AFK Tim
 scoreboard objectives modify map displayname {"text":"Online Map","color":"gray"}
 scoreboard objectives modify playtime displayname {"text":"Total Play Time","color":"gray"}
 scoreboard objectives modify elytra displayname {"text":"Elytra Distance","color":"gray"}
+scoreboard objectives modify glider displayname {"text":"Glider Distance","color":"gray"}
 scoreboard objectives modify deaths displayname {"text":"Total Deaths","color":"gray"}
 scoreboard objectives modify afk_total displayname {"text":"Total AFK Time","color":"gray"}
 scoreboard objectives modify sleep_total displayname {"text":"Total Nights Slept","color":"gray"}

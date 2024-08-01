@@ -10,6 +10,9 @@ execute as @a[gamemode=!spectator] if score @s exi_deaths_since_c matches 3600..
 #ELYTRA
 execute as @a[gamemode=!spectator] if score @s exi_elytra_c matches 100000.. run scoreboard players add @s exi_elytra_km 1
 
+#GLIDER
+execute as @a[gamemode=!spectator] if score @s exi_glider_c matches 100000.. run scoreboard players add @s exi_glider_km 1
+
 #WARDEN
 execute as @a run function existence_smp:deep_dark/warden
 
@@ -27,6 +30,7 @@ execute as @a if score @s exi_craft_disc_5 matches 1.. run advancement grant @s 
 #RESET
 execute as @a[gamemode=!spectator] if score @s exi_playtime_c matches 3600.. run scoreboard players remove @s exi_playtime_c 3600
 execute as @a[gamemode=!spectator] if score @s exi_elytra_c matches 100000.. run scoreboard players remove @s exi_elytra_c 100000
+execute as @a[gamemode=!spectator] if score @s exi_glider_c matches 100000.. run scoreboard players remove @s exi_glider_c 100000
 execute as @a[gamemode=!spectator] if score @s exi_deaths_since_c matches 3600.. run scoreboard players remove @s exi_deaths_since_c 3600
 
 #Space Camp

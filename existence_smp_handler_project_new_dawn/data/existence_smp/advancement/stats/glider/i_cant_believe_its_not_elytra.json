@@ -1,17 +1,19 @@
 {
     "display": {
       "icon": {
-        "id": "elytra",
-        "nbt": "{Enchantments:[{}]}"
+        "id": "glideaway:hang_glider",
+        "components": {
+          "enchantment_glint_override": true
+        }
       },
-      "title": "Frequent Flyer Club",
-      "description": "Fly over 3000km with an Elytra",
+      "title": "I Can't Believe It's Not Elytra!",
+      "description": "Glide over 3000km with a Glider",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "existence_smp:stats/elytra/intercontinental",
+    "parent": "existence_smp:stats/glider/intercontinental",
     "criteria": { 
       "1": {
         "trigger": "minecraft:impossible"
