@@ -1,6 +1,9 @@
 #SCOREBOARDS
 #UHC
 scoreboard objectives add exi_uhc dummy
+scoreboard objectives add exi_uhc_team_code dummy
+scoreboard objectives add exi_uhc_on_team dummy
+scoreboard objectives add exi_uhc_it_takes_two dummy
 
 scoreboard objectives modify exi_uhc displayname {"text":"Existence SMP UHC","color":"dark_green"}
 
@@ -104,8 +107,8 @@ scoreboard objectives modify exi_warden_ticks displayname {"text":"🗡 Time Sin
 scoreboard objectives modify exi_warden_count displayname {"text":"🗡 Total Wardens Summoned","color":"gray"}
 scoreboard objectives modify exi_warden_kill displayname {"text":"🗡 Total Wardens Killed","color":"gray"}
 
-scoreboard objectives modify mpp_sleep_adv displayname {"text":"☽ Total Nights Slept","color":"gray"}
-scoreboard objectives modify mpp_afk_adv displayname {"text":"🎣 Total AFK Time (Hours)","color":"gray"}
+#scoreboard objectives modify mpp_sleep_adv displayname {"text":"☽ Total Nights Slept","color":"gray"}
+#scoreboard objectives modify mpp_afk_adv displayname {"text":"🎣 Total AFK Time (Hours)","color":"gray"}
 
 #Triggers
 scoreboard objectives modify map displayname {"text":"Online Map","color":"gray"}
