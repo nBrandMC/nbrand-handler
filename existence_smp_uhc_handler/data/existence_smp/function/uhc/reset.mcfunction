@@ -1,4 +1,4 @@
-fill 25 255 25 -25 255 -25 barrier
+fill 50 255 50 -50 255 -50 barrier replace air
 
 time set day
 weather clear
@@ -13,7 +13,7 @@ gamerule doFireTick false
 gamerule doMobSpawning false
 
 worldborder center 0 0
-worldborder set 50
+worldborder set 100
 worldborder warning distance 0
 function existence_smp:uhc/schedule_clear
 

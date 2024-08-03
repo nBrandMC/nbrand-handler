@@ -1,4 +1,4 @@
-fill 25 255 25 -25 255 -25 air
+fill 50 255 50 -50 255 -50 air replace barrier
 
 time set 0
 weather rain 1t
