@@ -1,3 +1,4 @@
+team join Spectator @s[tag=!alive]
 gamemode spectator @s[tag=!alive]
 tp @s[gamemode=spectator] @r[tag=alive,gamemode=!spectator]
 

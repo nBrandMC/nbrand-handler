@@ -15,18 +15,17 @@ gamerule doMobSpawning false
 worldborder center 0 0
 worldborder set 50
 worldborder warning distance 0
-schedule clear existence_smp:uhc/worldborder/shrink
-schedule clear existence_smp:uhc/worldborder/shunk
-schedule clear existence_smp:uhc/worldborder/glowing
-schedule clear existence_smp:uhc/worldborder/victory
-schedule clear existence_smp:uhc/reset
+function existence_smp:uhc/schedule_clear
 
-spreadplayers 0 0 5 24 true @a
+spreadplayers 0 0 5 24 false @a
 gamemode adventure @a
 effect clear @a
 
 tag @a remove alive
 tag @a remove dead
+
+function existence_smp:uhc/setup/teams
+team join Default @a[team=]
 
 scoreboard players set alive_black exi_uhc_on_team 0
 scoreboard players set alive_dark_blue exi_uhc_on_team 0

@@ -5,13 +5,12 @@ execute if score random_team exi_uhc_team_code matches 17.. run scoreboard playe
 execute as @a[tag=alive] if score @s exi_deaths_c matches 1 run function existence_smp:uhc/death
 
 #LONE WOLF
-#execute as ItsPurpleJay at @s if entity @s[team=Default,tag=alive] as @p[distance=..2,tag=alive,name=!ItsPurpleJay] run function existence_smp:uhc/lone_wolf
+#execute as @a[tag=lone_wolf] at @s if entity @s[team=Default,tag=alive] as @p[distance=..2,tag=alive,tag=!lone_wolf] run function existence_smp:uhc/lone_wolf
 
 #IT TAKES TWO
-#execute unless score player_alive exi_uhc matches ..2 as @a[team=!Spectator,tag=alive] if score @s exi_uhc_on_team matches 1 at @s if score @p[team=!Spectator,distance=1..2,tag=alive] exi_uhc_on_team matches ..1 run function existence_smp:uhc/it_takes_two
-#execute as @a[tag=alive] if score @s exi_uhc_on_team matches 1 at @s if score @p[distance=1..5,tag=alive] exi_uhc_on_team matches 1 run say beans
-execute unless score player_alive exi_uhc matches ..2 as @a[tag=alive] if score @s exi_uhc_on_team matches 1 at @s if score @p[distance=1..5,tag=alive] exi_uhc_on_team matches 1 run tag @s add exi_uhc_found_team
-execute as @r[tag=exi_uhc_found_team] run function existence_smp:uhc/it_takes_two
+execute unless score player_alive exi_uhc matches ..2 as @a[tag=alive] if score @s exi_uhc_on_team matches 1 at @s if entity @p[distance=1..5,tag=alive,scores={exi_uhc_on_team=1}] run tag @s add exi_uhc_found_team
+tag @r[tag=exi_uhc_found_team] add exi_uhc_join_team
+execute as @p[tag=exi_uhc_join_team] run function existence_smp:uhc/it_takes_two
 
 scoreboard players operation @a[team=Default] exi_uhc_team_code = Default exi_uhc_team_code
 scoreboard players operation @a[team=black] exi_uhc_team_code = black exi_uhc_team_code

@@ -20,8 +20,8 @@ execute as @p[tag=alive,team=yellow] run scoreboard players add team_alive exi_u
 execute as @p[tag=alive,team=white] run scoreboard players add team_alive exi_uhc 1
 
 execute as @a[tag=alive] run scoreboard players add player_alive exi_uhc 1
+execute store result score alive_Default exi_uhc_on_team run team list Default
 
-#execute store result score alive_Default exi_uhc_on_team run team list Default
 execute store result score alive_black exi_uhc_on_team run team list black
 execute store result score alive_dark_blue exi_uhc_on_team run team list dark_blue
 execute store result score alive_dark_green exi_uhc_on_team run team list dark_green
