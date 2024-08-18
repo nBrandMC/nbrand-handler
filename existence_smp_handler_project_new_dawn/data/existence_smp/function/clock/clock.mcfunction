@@ -16,6 +16,9 @@ execute as @a[gamemode=!spectator] if score @s exi_glider_c matches 100000.. run
 #WARDEN
 execute as @a run function existence_smp:deep_dark/warden
 
+#VILLAGER BLAZE RODS
+function existence_smp:clock/villager_add_blaze
+
 #STATISTICS
 execute as @a if score @s exi_playtime_c matches 3600.. run function existence_smp:advancement_check/advancement_check
 execute as @a if score @s exi_elytra_c matches 100000.. run function existence_smp:advancement_check/advancement_check
@@ -26,6 +29,7 @@ execute as @a if score @s exi_deaths_since_c matches 3600.. run function existen
 execute as @a if score @s exi_craft_cake matches 1.. run advancement grant @s only existence_smp:crafting/the_lie
 execute as @a if score @s exi_craft_bundle matches 1.. run advancement grant @s only existence_smp:crafting/bundle_of_joy
 execute as @a if score @s exi_craft_disc_5 matches 1.. run advancement grant @s only existence_smp:crafting/music_disc_5
+execute as @a if score @s exi_craft_nether_wart matches 1.. run advancement grant @s only existence_smp:crafting/nether_wart
 
 #RESET
 execute as @a[gamemode=!spectator] if score @s exi_playtime_c matches 3600.. run scoreboard players remove @s exi_playtime_c 3600
