@@ -1,4 +1,0 @@
-data modify entity @e[type=villager,limit=1,tag=!add_blaze,nbt={VillagerData:{level:4,profession:"minecraft:cleric"}}] Offers.Recipes[6].sell.id set value "blaze_rod"
-data modify entity @e[type=villager,limit=1,tag=!add_blaze,nbt={VillagerData:{level:4,profession:"minecraft:cleric"}}] Offers.Recipes[6].buy.id set value "emerald"
-data modify entity @e[type=villager,limit=1,tag=!add_blaze,nbt={VillagerData:{level:4,profession:"minecraft:cleric"}}] Offers.Recipes[6].buy.count set value 5
-tag @e[type=villager,limit=1,tag=!add_blaze,nbt={VillagerData:{level:4,profession:"minecraft:cleric"}}] add add_blaze

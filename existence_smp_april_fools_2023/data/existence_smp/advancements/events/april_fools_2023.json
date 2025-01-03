@@ -1,8 +1,0 @@
-{
-  "parent": "existence_smp:events/secret_santa_2022",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}
