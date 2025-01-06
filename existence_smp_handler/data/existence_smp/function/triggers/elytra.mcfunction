@@ -1,6 +1,6 @@
-tellraw @a ["",{"selector":"@s"},{"text":" is now displaying ","color":"gray"},{"text":"Elytra distance","color":"gold"}]
+tellraw @a ["",{"selector":"@s"},{"text":" is now displaying ","color":"gray"},{"text":"Elytra distance","color":"dark_red"}]
 execute as @a unless score @s exi_elytra_km matches 1.. run tellraw @s ["",{"text":"You have flown less than 1km with elytra","color":"gray","italic":true}]
-execute as @a if score @s exi_elytra_km matches 1.. run tellraw @s ["",{"text":"You have flown ","color":"gray","italic":true},{"score":{"name":"@s","objective":"exi_elytra_km"},"color":"gold","italic":true},{"text":"km with elytra","color":"gray","italic":true}]
+execute as @a if score @s exi_elytra_km matches 1.. run tellraw @s ["",{"text":"You have flown ","color":"gray","italic":true},{"score":{"name":"@s","objective":"exi_elytra_km"},"color":"dark_red","italic":true},{"text":"km with elytra","color":"gray","italic":true}]
 
 scoreboard players set @s elytra 0
 

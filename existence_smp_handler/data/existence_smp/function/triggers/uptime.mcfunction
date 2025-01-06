@@ -1,6 +1,6 @@
-tellraw @a ["",{"selector":"@s"},{"text":" is now displaying ","color":"gray"},{"text":"Server Uptime","color":"gold"}]
-tellraw @a ["",{"text":"The server has been online for ","color":"gray","italic":true},{"score":{"name":"unix_time_y","objective":"exi_unix"},"color":"gold","italic":true},{"text":" Years and ","color":"gray","italic":true},{"score":{"name":"unix_time_moc","objective":"exi_unix"},"color":"gold","italic":true},{"text":" Months, ","color":"gray","italic":true}]
-tellraw @a ["",{"text":"It is currently week ","color":"gray","italic":true},{"score":{"name":"unix_time_w","objective":"exi_unix"},"color":"gold","italic":true}]
+tellraw @a ["",{"selector":"@s"},{"text":" is now displaying ","color":"gray"},{"text":"Server Uptime","color":"dark_red"}]
+tellraw @a ["",{"text":"The server has been online for ","color":"gray","italic":true},{"score":{"name":"unix_time_y","objective":"exi_unix"},"color":"dark_red","italic":true},{"text":" Years and ","color":"gray","italic":true},{"score":{"name":"unix_time_moc","objective":"exi_unix"},"color":"dark_red","italic":true},{"text":" Months, ","color":"gray","italic":true}]
+tellraw @a ["",{"text":"It is currently week ","color":"gray","italic":true},{"score":{"name":"unix_time_w","objective":"exi_unix"},"color":"dark_red","italic":true}]
 
 scoreboard players set @s uptime 0
 

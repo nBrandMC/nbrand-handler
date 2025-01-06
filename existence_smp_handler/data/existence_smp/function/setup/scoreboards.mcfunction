@@ -8,8 +8,8 @@ scoreboard objectives add exi_elytra_c minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add exi_elytra_km dummy
 
 #Glider
-scoreboard objectives add exi_glider_c minecraft.custom:glideaway.glide_one_cm
-scoreboard objectives add exi_glider_km dummy
+#scoreboard objectives add exi_glider_c minecraft.custom:glideaway.glide_one_cm
+#scoreboard objectives add exi_glider_km dummy
 
 #Statistics
 scoreboard objectives add exi_deaths_c deathCount
@@ -94,7 +94,7 @@ scoreboard objectives modify exi_playtime_h displayname {"text":"⛏ Play Time (
 
 scoreboard objectives modify exi_elytra_km displayname {"text":"☄ Elytra Distance (Kilometers)","color":"gray"}
 
-scoreboard objectives modify exi_glider_km displayname {"text":"🪂 Glider Distance (Kilometers)","color":"gray"}
+#scoreboard objectives modify exi_glider_km displayname {"text":"🪂 Glider Distance (Kilometers)","color":"gray"}
 
 scoreboard objectives modify exi_deaths displayname {"text":"☠ Total Deaths","color":"gray"}
 scoreboard objectives modify exi_deaths_since_c displayname {"text":"☠ Time (Seconds) Since Last Death","color":"gray"}

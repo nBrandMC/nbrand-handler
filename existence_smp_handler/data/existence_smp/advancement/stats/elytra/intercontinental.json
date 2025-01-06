@@ -1,16 +1,16 @@
 {
     "display": {
       "icon": {
-        "id": "glideaway:hang_glider"
+        "id": "elytra"
       },
       "title": "Intercontinental",
-      "description": "Glide over 1000km with a Glider",
+      "description": "Fly over 1000km with an Elytra",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "existence_smp:stats/glider/domestic_glider",
+    "parent": "existence_smp:stats/elytra/domestic_flyer",
     "criteria": {
     "1": {
       "trigger": "minecraft:impossible"

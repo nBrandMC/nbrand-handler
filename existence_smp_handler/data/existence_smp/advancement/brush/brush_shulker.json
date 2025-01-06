@@ -19,14 +19,16 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": ["minecraft:brush"]
+              "items": [
+                "minecraft:brush"
+              ]
             }
           },
           {
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "minecraft:shulker_boxes"
+                "blocks": "#minecraft:shulker_boxes"
               }
             }
           }

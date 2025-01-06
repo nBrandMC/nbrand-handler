@@ -1,5 +1,5 @@
 #Reset
-execute if score @s[tag=!hardcore_redemption] exi_deaths_c matches 1.. run advancement revoke @s from existence_smp:stats/deaths/hardcore_redemption
+#execute if score @s[tag=!hardcore_redemption] exi_deaths_c matches 1.. run advancement revoke @s from existence_smp:stats/deaths/hardcore_redemption
 execute if score @s exi_deaths_c matches 1.. run scoreboard players set @s exi_deaths_since_c 0
 execute if score @s exi_deaths_c matches 1.. run scoreboard players set @s exi_deaths_since 0
 execute if score @s exi_deaths_c matches 1.. run scoreboard players set @s exi_deaths_c 0
@@ -10,13 +10,13 @@ execute if score @s exi_deaths matches 0 run advancement revoke @s from existenc
 execute if score @s exi_deaths matches 0 run advancement revoke @s from existence_smp:stats/deaths/six_feet_under
 execute if score @s exi_deaths matches 0 run advancement revoke @s from existence_smp:stats/deaths/meet_ones_maker
 execute if score @s exi_deaths matches 0 run advancement revoke @s from existence_smp:stats/deaths/catastrophic
-execute if score @s exi_playtime_h matches 0 run advancement revoke @s from existence_smp:stats/deaths/hardcore_redemption
+#execute if score @s exi_playtime_h matches 0 run advancement revoke @s from existence_smp:stats/deaths/hardcore_redemption
 
 #Game Over
 advancement grant @s[scores={exi_deaths=1..}] only existence_smp:stats/deaths/game_over
 
 #Noble Efforts
-execute as @s if score @s exi_deaths matches 1 if score @s exi_playtime_h matches 50..100 run advancement grant @s only existence_smp:stats/deaths/noble_efforts
+#execute as @s if score @s exi_deaths matches 1 if score @s exi_playtime_h matches 50..100 run advancement grant @s only existence_smp:stats/deaths/noble_efforts
 
 #Six Feet Under
 advancement grant @s[scores={exi_deaths=1..}] only existence_smp:stats/deaths/six_feet_under 1

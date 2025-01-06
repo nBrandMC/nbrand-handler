@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "glideaway:wind_in_a_bottle"
+        "id": "firework_rocket"
       },
-      "title": "Domestic Glider",
-      "description": "Glide over 500km with a Glider",
+      "title": "Domestic Flyer",
+      "description": "Fly over 500km with an Elytra",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

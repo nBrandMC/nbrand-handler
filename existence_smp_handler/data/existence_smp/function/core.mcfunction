@@ -1,7 +1,7 @@
 scoreboard players enable @a map
 scoreboard players enable @a playtime
 scoreboard players enable @a elytra
-scoreboard players enable @a glider
+#scoreboard players enable @a glider
 scoreboard players enable @a deaths
 scoreboard players enable @a afk_total
 scoreboard players enable @a sleep_total
@@ -12,7 +12,7 @@ scoreboard players enable @a uptime
 execute as @a[scores={map=1..}] run function existence_smp:triggers/map
 execute as @a[scores={playtime=1..}] run function existence_smp:triggers/playtime
 execute as @a[scores={elytra=1..}] run function existence_smp:triggers/elytra
-execute as @a[scores={glider=1..}] run function existence_smp:triggers/glider
+#execute as @a[scores={glider=1..}] run function existence_smp:triggers/glider
 execute as @a[scores={deaths=1..}] run function existence_smp:triggers/deaths
 execute as @a[scores={afk_total=1..}] run function existence_smp:triggers/afk_total
 execute as @a[scores={sleep_total=1..}] run function existence_smp:triggers/sleep_total

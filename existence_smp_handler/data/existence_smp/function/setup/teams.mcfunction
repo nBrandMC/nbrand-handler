@@ -21,49 +21,50 @@ team add Server
 team add ServerBackground
 
 #Colours
-team modify Staff color gold
+team modify Staff color dark_red
 team modify StaffPatron color red
 
 team modify Patron color red
 team modify Spectator color dark_aqua
-team modify Trusted color gold
+team modify Trusted color dark_red
 
 team modify Server color gray
 team modify ServerBackground color dark_gray
 
 #Prefix
-team modify Staff prefix ["",{"text":"🗡 ","color":"gold"}]
+team modify Staff prefix ["",{"text":"🗡 ","color":"dark_red"}]
 team modify StaffPatron prefix ["",{"text":"🗡 ","color":"red"}]
 team modify Patron prefix ["",{"text":"☆ ","color":"red"}]
-team modify Trusted prefix ["",{"text":"","color":"gold"}]
+team modify Trusted prefix ["",{"text":"","color":"dark_red"}]
 
 #PLAYERS
-team join Patron SugarCaney
-team join Patron TheMundane
-team join Patron Yoglington
 team join Patron acg1000
-team join Patron iGalaxy
-team join Patron WaffleStick
-team join Patron Dashleb
-team join Patron Ha2222
-team join Patron mcnugggzs
-team join Patron marcoiscool
+team join Patron ArtGnat
 team join Patron Change24
 team join Patron EarthySand25957
+team join Patron Elite_Nudelsalat
 team join Patron Flaxxyy
-team join Patron ArtGnat
+team join Patron Ha2222
+team join Patron LTWillie
+team join Patron marcoiscool
+team join Patron mcnugggzs
+team join Patron Project_
+team join Patron sniffles1228
+team join Patron SugarCaney
+team join Patron TheMundane
+team join Patron Theowlguardian
+team join Patron WaffleStick
+team join Patron Wolfe_42
+team join Patron Yoglington
 
 team join Spectator ExistenceSMP
 team join Spectator HannahDearie
 team join Spectator _iGalaxy
 team join Spectator ItsCameraJay
-team join Spectator Dashalt
-team join Spectator LotU_
-team join Spectator Pineapple_123YT
 
 team join Staff mcpeachpies
 team join StaffPatron SugarCaney
-team join StaffPatron iGalaxy
+team join Staff igalaxy
 team join Staff ItsPurpleJay
 
 #SETUP

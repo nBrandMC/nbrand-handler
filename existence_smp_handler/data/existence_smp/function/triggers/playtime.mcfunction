@@ -1,6 +1,6 @@
-tellraw @a ["",{"selector":"@s"},{"text":" is now displaying ","color":"gray"},{"text":"Total Play time","color":"gold"}]
+tellraw @a ["",{"selector":"@s"},{"text":" is now displaying ","color":"gray"},{"text":"Total Play time","color":"dark_red"}]
 execute as @a unless score @s exi_playtime_h matches 1.. run tellraw @s ["",{"text":"You have played for less than 1 hour","color":"gray","italic":true}]
-execute as @a if score @s exi_playtime_h matches 1.. run tellraw @s ["",{"text":"You have played for ","color":"gray","italic":true},{"score":{"name":"@s","objective":"exi_playtime_h"},"color":"gold","italic":true},{"text":" hours","color":"gray","italic":true}]
+execute as @a if score @s exi_playtime_h matches 1.. run tellraw @s ["",{"text":"You have played for ","color":"gray","italic":true},{"score":{"name":"@s","objective":"exi_playtime_h"},"color":"dark_red","italic":true},{"text":" hours","color":"gray","italic":true}]
 
 scoreboard players set @s playtime 0
 
