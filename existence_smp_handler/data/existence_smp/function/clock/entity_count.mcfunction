@@ -14,10 +14,10 @@ execute as @e[type=armor_stand,distance=..128] run scoreboard players add ArmorS
 execute as @e[type=armor_stand,distance=..128] run scoreboard players add Total exi_entity_count 1
 
 scoreboard players set Boat exi_entity_count 0
-execute as @e[type=boat,distance=..128] run scoreboard players add Boat exi_entity_count 1
-execute as @e[type=boat,distance=..128] run scoreboard players add Total exi_entity_count 1
-execute as @e[type=chest_boat,distance=..128] run scoreboard players add Boat exi_entity_count 1
-execute as @e[type=chest_boat,distance=..128] run scoreboard players add Total exi_entity_count 1
+execute as @e[type=#minecraft:boat,distance=..128] run scoreboard players add Boat exi_entity_count 1
+execute as @e[type=#minecraft:boat,distance=..128] run scoreboard players add Total exi_entity_count 1
+#execute as @e[type=#minecraft:chest_boat,distance=..128] run scoreboard players add Boat exi_entity_count 1
+#execute as @e[type=#minecraft:chest_boat,distance=..128] run scoreboard players add Total exi_entity_count 1
 
 scoreboard players set ItemFrames exi_entity_count 0
 execute as @e[type=item_frame,distance=..128] run scoreboard players add ItemFrames exi_entity_count 1

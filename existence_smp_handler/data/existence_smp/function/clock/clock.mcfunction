@@ -44,5 +44,5 @@ execute as @a[gamemode=!spectator] if score @s exi_deaths_since_c matches 3600..
 #Entity Count
 execute if score run_count exi_entity_count matches 1 at mcpeachpies run function existence_smp:clock/entity_count
 
-function existence_smp:clock/unix
+function existence_smp:clock/uptime
 schedule function existence_smp:clock/clock 20t

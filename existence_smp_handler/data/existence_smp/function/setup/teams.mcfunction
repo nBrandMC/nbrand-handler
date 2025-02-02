@@ -65,7 +65,8 @@ team join Spectator ItsCameraJay
 team join Staff mcpeachpies
 team join StaffPatron SugarCaney
 team join Staff igalaxy
-team join Staff ItsPurpleJay
+team join StaffPatron ItsPurpleJay
+team join Staff Dr_Litte
 
 #SETUP
 team join Server exi_setup

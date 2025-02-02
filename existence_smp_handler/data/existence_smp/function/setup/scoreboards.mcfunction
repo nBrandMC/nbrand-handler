@@ -49,28 +49,29 @@ scoreboard objectives setdisplay list exi_health
 scoreboard objectives remove gm4_intro_walked
 scoreboard objectives add gm4_intro_walked dummy
 
-#Unix
-scoreboard objectives add exi_unix dummy
-team join Server unix_time
-team join Server unix_time_m
-team join Server unix_time_h
-team join Server unix_time_d
-team join Server unix_time_mo
-team join Server unix_time_y
-team join Server unix_time_w
+#Time
+scoreboard objectives add exi_uptime dummy
+team join Server uptime_seconds
+team join Server uptime_minutes
+team join Server uptime_hours
+team join Server uptime_days
+team join Server uptime_months
+team join Server uptime_years
+team join Server uptime_weeks
 
-team join ServerBackground unix_time_c
-team join ServerBackground unix_time_mc
-team join ServerBackground unix_time_hc
-team join ServerBackground unix_time_dc
-team join ServerBackground unix_time_moc
+team join ServerBackground uptime_seconds_c
+team join ServerBackground uptime_minutes_c
+team join ServerBackground uptime_hours_c
+team join ServerBackground uptime_days_c
+team join ServerBackground uptime_months_c
 
-execute unless score unix_time_m exi_unix matches 0.. run scoreboard players set unix_time_m exi_unix 0
-execute unless score unix_time_h exi_unix matches 0.. run scoreboard players set unix_time_h exi_unix 0
-execute unless score unix_time_d exi_unix matches 0.. run scoreboard players set unix_time_d exi_unix 0
-execute unless score unix_time_mo exi_unix matches 0.. run scoreboard players set unix_time_mo exi_unix 0
-execute unless score unix_time_y exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
-execute unless score unix_time_w exi_unix matches 0.. run scoreboard players set unix_time_y exi_unix 0
+execute unless score uptime_seconds exi_uptime matches 0.. run scoreboard players set uptime_seconds exi_uptime 0
+execute unless score uptime_minutes exi_uptime matches 0.. run scoreboard players set uptime_minutes exi_uptime 0
+execute unless score uptime_hours exi_uptime matches 0.. run scoreboard players set uptime_hours exi_uptime 0
+execute unless score uptime_days exi_uptime matches 0.. run scoreboard players set uptime_days exi_uptime 0
+execute unless score uptime_months exi_uptime matches 0.. run scoreboard players set uptime_months exi_uptime 0
+execute unless score uptime_years exi_uptime matches 0.. run scoreboard players set uptime_years exi_uptime 0
+execute unless score uptime_weeks exi_uptime matches 0.. run scoreboard players set uptime_weeks exi_uptime 0
 
 #Entity Count
 scoreboard objectives add exi_entity_count dummy
@@ -121,6 +122,6 @@ scoreboard objectives modify stats_wardens_killed displayname {"text":"Total War
 scoreboard objectives modify stats_wardens_summoned displayname {"text":"Total Wardens Summoned","color":"gray"}
 scoreboard objectives modify uptime displayname {"text":"Total Server Uptime","color":"gray"}
 
-scoreboard objectives modify exi_unix displayname {"text":"⌚ Server Uptime (Unix)","color":"gray"}
+scoreboard objectives modify exi_uptime displayname {"text":"⌚ Server Uptime","color":"gray"}
 
 scoreboard objectives modify exi_entity_count displayname {"text":"Entity Counts","color":"gray"}
