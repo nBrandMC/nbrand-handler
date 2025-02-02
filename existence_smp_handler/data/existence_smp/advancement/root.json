@@ -4,9 +4,9 @@
         "id": "iron_pickaxe"
       },
       "title": "Existence Community",
-      "description": "Welcome to Existence SMP: Project New Dawn",
+      "description": "Welcome to Existence Community Server",
       "frame": "task",
-      "background": "minecraft:textures/block/yellow_terracotta.png",
+      "background": "minecraft:block/red_terracotta",
       "show_toast": false,
       "announce_to_chat": true,
       "hidden": false

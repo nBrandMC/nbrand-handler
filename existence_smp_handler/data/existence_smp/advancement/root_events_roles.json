@@ -1,12 +1,12 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:yellow_terracotta"
+        "id": "minecraft:red_terracotta"
       },
-      "title": "Events & Roles",
+      "title": "Existence Events & Roles",
       "description": "Be a Trusted member of the Existence Community",
       "frame": "task",
-      "background": "minecraft:textures/block/yellow_terracotta.png",
+      "background": "minecraft:block/red_terracotta",
       "show_toast": false,
       "announce_to_chat": false,
       "hidden": false
