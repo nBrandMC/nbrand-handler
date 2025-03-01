@@ -1,11 +1,6 @@
 #SCOREBOARDS
-#Playtime
-scoreboard objectives add exi_playtime_c dummy
-scoreboard objectives add exi_playtime_h dummy
-
-#Elytra
-scoreboard objectives add exi_elytra_c minecraft.custom:minecraft.aviate_one_cm
-scoreboard objectives add exi_elytra_km dummy
+#Advancements
+scoreboard objectives add exi_spyglass_player dummy
 
 #Glider
 #scoreboard objectives add exi_glider_c minecraft.custom:glideaway.glide_one_cm
@@ -18,6 +13,12 @@ scoreboard objectives add exi_health health
 scoreboard objectives add exi_game_leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add exi_deaths_since_c dummy
 scoreboard objectives add exi_deaths_since dummy
+#Playtime
+scoreboard objectives add exi_playtime_c dummy
+scoreboard objectives add exi_playtime_h dummy
+#Elytra
+scoreboard objectives add exi_elytra_c minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add exi_elytra_km dummy
 
 #Crafting
 scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.cake

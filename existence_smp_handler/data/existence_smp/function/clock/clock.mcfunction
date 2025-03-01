@@ -25,11 +25,12 @@ execute as @a if score @s exi_elytra_c matches 100000.. run function existence_s
 execute as @a if score @s exi_deaths_c matches 1.. run function existence_smp:advancement_check/advancement_check
 execute as @a if score @s exi_deaths_since_c matches 3600.. run function existence_smp:advancement_check/advancement_check
 
-#CRAFTING ADVANCEMENTS
+#ADVANCEMENTS
 execute as @a if score @s exi_craft_cake matches 1.. run advancement grant @s only existence_smp:crafting/the_lie
 execute as @a if score @s exi_craft_bundle matches 1.. run advancement grant @s only existence_smp:crafting/bundle_of_joy
 execute as @a if score @s exi_craft_disc_5 matches 1.. run advancement grant @s only existence_smp:crafting/music_disc_5
 execute as @a if score @s exi_craft_nether_wart matches 1.. run advancement grant @s only existence_smp:crafting/nether_wart
+advancement revoke @a[advancements={existence_smp:functional/spyglass_player=true}] only existence_smp:functional/spyglass_player
 
 #RESET
 execute as @a[gamemode=!spectator] if score @s exi_playtime_c matches 3600.. run scoreboard players remove @s exi_playtime_c 3600

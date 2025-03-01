@@ -24,9 +24,8 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:parrot",
-                  "type_specific": {
-                    "type": "parrot",
-                    "variant": "red_blue"
+                  "components": {
+                    "minecraft:parrot/variant": "red_blue"
                   }
                 }
               }
@@ -52,9 +51,8 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:parrot",
-                  "type_specific": {
-                    "type": "parrot",
-                    "variant": "blue"
+                  "components": {
+                    "minecraft:parrot/variant": "blue"
                   }
                 }
               }
@@ -80,9 +78,8 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:parrot",
-                  "type_specific": {
-                    "type": "parrot",
-                    "variant": "green"
+                  "components": {
+                    "minecraft:parrot/variant": "green"
                   }
                 }
               }
@@ -108,9 +105,8 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:parrot",
-                  "type_specific": {
-                    "type": "parrot",
-                    "variant": "yellow_blue"
+                  "components": {
+                    "minecraft:parrot/variant": "yellow_blue"
                   }
                 }
               }
@@ -136,9 +132,8 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:parrot",
-                  "type_specific": {
-                    "type": "parrot",
-                    "variant": "gray"
+                  "components": {
+                    "minecraft:parrot/variant": "gray"
                   }
                 }
               }
@@ -164,7 +159,17 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:player",
-                  "nbt": "{UUID:[I;-1461977708,1605713966,-1894269338,1979621609]}"
+                  "components": {
+                    "minecraft:entity_data": {
+                      "id": "minecraft:player",
+                      "UUID": [
+                        -1461977708,
+                        1605713966,
+                        -1894269338,
+                        1979621609
+                      ]
+                    }
+                  }
                 }
               }
             }
@@ -189,7 +194,21 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:player",
-                  "nbt": "{Inventory: [{Slot: 103b, id: \"minecraft:player_head\", tag: {SkullOwner: {Id: [I; -1461977708, 1605713966, -1894269338, 1979621609], Name: \"ItsPurpleJay\"}}, Count: 1b}]}"
+                  "equipment": {
+                    "head": {
+                      "items": "minecraft:player_head",
+                      "components": {
+                        "minecraft:profile": {
+                          "id": [
+                            -1461977708,
+                            1605713966,
+                            -1894269338,
+                            1979621609
+                          ]
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -204,14 +223,24 @@
     }
   },
   "requirements": [
-    ["red"],
-    ["green"],
-    ["blue"],
-    ["cyan"],
-    ["silver"],
-      [
+    [
+      "red"
+    ],
+    [
+      "green"
+    ],
+    [
+      "blue"
+    ],
+    [
+      "cyan"
+    ],
+    [
+      "silver"
+    ],
+    [
       "itspurplejay",
       "itspurplejay_head"
-      ]
+    ]
   ]
 }

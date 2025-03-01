@@ -24,14 +24,18 @@
                 "type": "player",
                 "looking_at": {
                   "type": "minecraft:cat",
-                  "nbt": "{CustomName:'\"Goober\"'}"
+                  "components": {
+                    "minecraft:custom_name": "Goober"
+                  }
                 }
               }
             }
           }
         ],
         "item": {
-          "items": ["minecraft:spyglass"]
+          "items": [
+            "minecraft:spyglass"
+          ]
         }
       }
     }

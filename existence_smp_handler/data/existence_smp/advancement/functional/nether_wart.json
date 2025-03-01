@@ -1,5 +1,5 @@
 {
-  "parent": "existence_smp:recipes/root",
+  "parent": "existence_smp:functional/root",
   "criteria": {
     "has_nether_wart_block": {
       "trigger": "minecraft:inventory_changed",

@@ -12,41 +12,33 @@
   },
   "parent": "existence_smp:spyglass/ahoy",
   "criteria": {
-    "requirement": {
+    "looking_at_player": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:player",
               "type_specific": {
-                "type": "player",
-                "looking_at": {
-                  "type": "minecraft:player",
-                  "type_specific": {
-                    "type": "player",
-                    "looking_at": {
-                      "type": "minecraft:player",
-                      "type_specific": {
-                        "type": "player",
-                        "looking_at": {
-                          "type": "minecraft:player"
-                        }
-                      }
-                    }
-                  }
-                }
+                "type": "minecraft:player",
+                "advancements": {
+                  "existence_smp:functional/spyglass_player": true
+                },
+                "stats": []
               }
             }
           }
-        ],
+        },
         "item": {
-          "items": [
-            "minecraft:spyglass"
-          ]
+          "items": "minecraft:spyglass"
         }
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "looking_at_player"
+    ]
+  ]
 }

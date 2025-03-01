@@ -10,7 +10,7 @@
       "announce_to_chat": false,
       "hidden": true
     },
-    "parent": "existence_smp:roles/root_events_roles",
+    "parent": "existence_smp:root_events_roles",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"
