@@ -3,19 +3,26 @@
     "icon": {
       "id": "minecraft:spyglass"
     },
-    "title": "With My Little Eye",
-    "description": "Tall, Slender, and Ender.",
-    "frame": "task",
+    "title": "Night Vision",
+    "description": "Who's that over there? Over.",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "existence_smp:spyglass/ahoy_hoy",
+  "parent": "existence_smp:spyglass/player_at_player",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 13000,
+              "max": 24000
+            }
+          },
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
@@ -23,8 +30,11 @@
               "type_specific": {
                 "type": "player",
                 "looking_at": {
-                  "type": "minecraft:enderman"
+                  "type": "minecraft:player"
                 }
+              },
+              "effects": {
+                "minecraft:night_vision": {}
               }
             }
           }

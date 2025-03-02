@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "existence_smp:spyglass/ahoy",
+  "parent": "existence_smp:spyglass/player",
   "criteria": {
     "looking_at_player": {
       "trigger": "minecraft:using_item",

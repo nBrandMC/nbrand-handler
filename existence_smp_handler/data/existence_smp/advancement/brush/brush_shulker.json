@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "existence_smp:brush/brush_jukebox",
+  "parent": "existence_smp:brush/brush_bookshelves",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
