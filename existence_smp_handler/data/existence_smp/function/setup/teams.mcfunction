@@ -42,19 +42,19 @@ team join Patron acg1000
 team join Patron ArtGnat
 team join Patron Change24
 team join Patron EarthySand25957
-team join Patron Elite_Nudelsalat
 team join Patron Flaxxyy
+team join Patron Bananabubble
 team join Patron Ha2222
+team join Patron ItsPurpleJay
 team join Patron LTWillie
 team join Patron marcoiscool
 team join Patron mcnugggzs
 team join Patron Project_
-team join Patron sniffles1228
 team join Patron SugarCaney
+team join Patron TCMidnite
 team join Patron TheMundane
 team join Patron Theowlguardian
 team join Patron WaffleStick
-team join Patron Wolfe_42
 team join Patron Yoglington
 
 team join Spectator ExistenceSMP

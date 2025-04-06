@@ -1,15 +1,11 @@
 #SPAWN & GAMERULES
 gamerule disableElytraMovementCheck true
-gamerule playersSleepingPercentage 101
+gamerule playersSleepingPercentage 25
 gamerule spawnRadius 100
 gamerule spectatorsGenerateChunks true
 gamerule enderPearlsVanishOnDeath false
 
 difficulty hard
-
-#NEW DAWN
-gamerule doInsomnia false
-#gamerule doDisableEnd true
 
 function existence_smp:setup/teams
 function existence_smp:setup/scoreboards
