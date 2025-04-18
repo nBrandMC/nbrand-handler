@@ -1,7 +1,8 @@
 #SPAWN & GAMERULES
 gamerule disableElytraMovementCheck true
+gamerule disablePlayerMovementCheck true
 gamerule playersSleepingPercentage 25
-gamerule spawnRadius 100
+gamerule spawnRadius 25
 gamerule spectatorsGenerateChunks true
 gamerule enderPearlsVanishOnDeath false
 
@@ -10,6 +11,7 @@ difficulty hard
 function existence_smp:setup/teams
 function existence_smp:setup/scoreboards
 function existence_smp:clock/clock
+execute unless score uptime_migrate exi_setup matches 1 run function existence_smp:setup/uptime_migration
 
 #CONFRIMATION
 scoreboard players set exi_setup exi_handler 1
