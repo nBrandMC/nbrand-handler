@@ -11,4 +11,4 @@ scoreboard players operation uptime_hours_c exi_uptime = unix_time_hc exi_unix
 scoreboard players operation uptime_days_c exi_uptime = unix_time_dc exi_unix
 scoreboard players operation uptime_months_c exi_uptime = unix_time_moc exi_unix
 
-scoreboard players set uptime_migrate exi_setup 1
+scoreboard players set uptime_migrate exi_handler 1

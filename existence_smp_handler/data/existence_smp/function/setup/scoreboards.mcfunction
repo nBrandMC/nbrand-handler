@@ -33,17 +33,24 @@ scoreboard objectives add exi_warden_ticks dummy
 scoreboard objectives add exi_warden_count dummy
 scoreboard objectives add exi_warden_kill minecraft.killed:minecraft.warden
 
+#Location
+scoreboard objectives add exi_hud dummy
+scoreboard objectives add exi_x dummy
+scoreboard objectives add exi_y dummy
+scoreboard objectives add exi_z dummy
+scoreboard objectives add exi_yaw dummy
+
 #Triggers
 scoreboard objectives add map trigger
 scoreboard objectives add stats_playtime trigger
 scoreboard objectives add stats_elytra trigger
-#scoreboard objectives add glider trigger
 scoreboard objectives add stats_deaths trigger
 scoreboard objectives add stats_afk_total trigger
 scoreboard objectives add stats_sleep_total trigger
 scoreboard objectives add stats_wardens_killed trigger
 scoreboard objectives add stats_wardens_summoned trigger
 scoreboard objectives add uptime trigger
+scoreboard objectives add hud trigger
 
 scoreboard objectives setdisplay list exi_health
 
@@ -122,6 +129,7 @@ scoreboard objectives modify stats_sleep_total displayname {"text":"Total Nights
 scoreboard objectives modify stats_wardens_killed displayname {"text":"Total Wardens Killed","color":"gray"}
 scoreboard objectives modify stats_wardens_summoned displayname {"text":"Total Wardens Summoned","color":"gray"}
 scoreboard objectives modify uptime displayname {"text":"Total Server Uptime","color":"gray"}
+scoreboard objectives modify hud displayname {"text":"Action Bar HUD","color":"gray"}
 
 scoreboard objectives modify exi_uptime displayname {"text":"⌚ Server Uptime","color":"gray"}
 

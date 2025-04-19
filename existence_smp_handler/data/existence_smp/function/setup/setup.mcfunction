@@ -11,7 +11,7 @@ difficulty hard
 function existence_smp:setup/teams
 function existence_smp:setup/scoreboards
 function existence_smp:clock/clock
-execute unless score uptime_migrate exi_setup matches 1 run function existence_smp:setup/uptime_migration
+execute unless score uptime_migrate exi_handler matches 1 run function existence_smp:setup/uptime_migration
 
 #CONFRIMATION
 scoreboard players set exi_setup exi_handler 1
