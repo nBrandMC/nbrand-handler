@@ -1,0 +1,246 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": "Advanced Bird Watching",
+    "description": "Discover A New Species",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "existence_smp:spyglass/parrots",
+  "criteria": {
+    "red": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:parrot",
+                  "components": {
+                    "minecraft:parrot/variant": "red_blue"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:parrot",
+                  "components": {
+                    "minecraft:parrot/variant": "blue"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "green": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:parrot",
+                  "components": {
+                    "minecraft:parrot/variant": "green"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:parrot",
+                  "components": {
+                    "minecraft:parrot/variant": "yellow_blue"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "silver": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:parrot",
+                  "components": {
+                    "minecraft:parrot/variant": "gray"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "itspurplejay": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:player",
+                  "components": {
+                    "minecraft:entity_data": {
+                      "id": "minecraft:player",
+                      "UUID": [
+                        -1461977708,
+                        1605713966,
+                        -1894269338,
+                        1979621609
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "itspurplejay_head": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:player",
+                  "equipment": {
+                    "head": {
+                      "items": "minecraft:player_head",
+                      "components": {
+                        "minecraft:profile": {
+                          "id": [
+                            -1461977708,
+                            1605713966,
+                            -1894269338,
+                            1979621609
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red"
+    ],
+    [
+      "green"
+    ],
+    [
+      "blue"
+    ],
+    [
+      "cyan"
+    ],
+    [
+      "silver"
+    ],
+    [
+      "itspurplejay",
+      "itspurplejay_head"
+    ]
+  ]
+}
