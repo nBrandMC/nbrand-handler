@@ -59,19 +59,6 @@ scoreboard objectives add gm4_intro_walked dummy
 
 #Time
 scoreboard objectives add exi_uptime dummy
-team join Server uptime_seconds
-team join Server uptime_minutes
-team join Server uptime_hours
-team join Server uptime_days
-team join Server uptime_months
-team join Server uptime_years
-team join Server uptime_weeks
-
-team join ServerBackground uptime_seconds_c
-team join ServerBackground uptime_minutes_c
-team join ServerBackground uptime_hours_c
-team join ServerBackground uptime_days_c
-team join ServerBackground uptime_months_c
 
 execute unless score uptime_seconds exi_uptime matches 0.. run scoreboard players set uptime_seconds exi_uptime 0
 execute unless score uptime_minutes exi_uptime matches 0.. run scoreboard players set uptime_minutes exi_uptime 0
@@ -86,16 +73,6 @@ scoreboard objectives add exi_entity_count dummy
 
 #Values
 scoreboard objectives add exi_value dummy
-team join ServerBackground value_7
-team join ServerBackground value_24
-team join ServerBackground value_30
-team join ServerBackground value_60
-team join ServerBackground value_365
-scoreboard players set value_7 exi_value 7
-scoreboard players set value_24 exi_value 24
-scoreboard players set value_30 exi_value 30
-scoreboard players set value_60 exi_value 60
-scoreboard players set value_365 exi_value 365
 
 
 #DISPLAY

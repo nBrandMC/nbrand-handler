@@ -74,3 +74,27 @@ team join StaffPatron Dr_Little
 team join Server exi_setup
 team join Server Total
 team join ServerBackground run_count
+team join Server uptime_seconds
+team join Server uptime_minutes
+team join Server uptime_hours
+team join Server uptime_days
+team join Server uptime_months
+team join Server uptime_years
+team join Server uptime_weeks
+
+team join ServerBackground uptime_seconds_c
+team join ServerBackground uptime_minutes_c
+team join ServerBackground uptime_hours_c
+team join ServerBackground uptime_days_c
+team join ServerBackground uptime_months_c
+
+team join ServerBackground value_7
+team join ServerBackground value_24
+team join ServerBackground value_30
+team join ServerBackground value_60
+team join ServerBackground value_365
+scoreboard players set value_7 exi_value 7
+scoreboard players set value_24 exi_value 24
+scoreboard players set value_30 exi_value 30
+scoreboard players set value_60 exi_value 60
+scoreboard players set value_365 exi_value 365
