@@ -1,13 +1,13 @@
 #TEAMS
 #Reset
-# team remove Staff
-# team remove StaffPatron
+team remove Staff
+team remove StaffPatron
 
-# team remove Patron
-# team remove Spectator
+team remove Patron
+team remove Spectator
 
-# team remove Server
-# team remove ServerBackground
+team remove Server
+team remove ServerBackground
 
 #Creation
 team add Staff
@@ -40,10 +40,12 @@ team modify Trusted prefix ["",{"text":"","color":"dark_red"}]
 #PLAYERS
 team join Patron acg1000
 team join Patron ArtGnat
-team join Patron Change24
-team join Patron EarthySand25957
-team join Patron Flaxxyy
 team join Patron Bananabubble
+team join Patron Change24
+team join Patron Dr_Little
+team join Patron EarthySand25957
+team join Patron Faeolin_WildElf
+team join Patron Flaxxyy
 team join Patron Ha2222
 team join Patron ItsPurpleJay
 team join Patron LTWillie
@@ -55,6 +57,7 @@ team join Patron TCMidnite
 team join Patron TheMundane
 team join Patron Theowlguardian
 team join Patron WaffleStick
+team join Patron Wolfe_42
 team join Patron Yoglington
 
 team join Spectator ExistenceSMP
@@ -63,10 +66,9 @@ team join Spectator _iGalaxy
 team join Spectator ItsCameraJay
 
 team join Staff mcpeachpies
-team join StaffPatron SugarCaney
 team join Staff igalaxy
 team join StaffPatron ItsPurpleJay
-team join Staff Dr_Litte
+team join StaffPatron Dr_Little
 
 #SETUP
 team join Server exi_setup
