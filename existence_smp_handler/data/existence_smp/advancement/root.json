@@ -1,25 +1,23 @@
 {
-    "display": {
-      "icon": {
-        "id": "iron_pickaxe"
-      },
-      "title": "Existence Community",
-      "description": "Welcome to Existence Community Server",
-      "frame": "task",
-      "background": "minecraft:block/red_terracotta",
-      "show_toast": false,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "iron_pickaxe"
     },
-    "rewards": {
-      "function": "existence_smp:join_first",
-      "loot": [
-        "minecraft:chests/spawn_bonus_chest"
-      ]
-    },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:tick"
-      }
+    "title": "nBrand Creative Server",
+    "description": "Welcome to the nBrand Creative Server",
+    "frame": "task",
+    "background": "minecraft:block/orange_terracotta",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "existence_smp:join_first",
+    "loot": ["minecraft:chests/spawn_bonus_chest"]
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
     }
   }
+}

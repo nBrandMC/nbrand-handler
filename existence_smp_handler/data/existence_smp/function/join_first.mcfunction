@@ -6,7 +6,7 @@ execute at @s run spawnpoint @s ~ ~ ~
 
 #Welcome
 title @s title [{text:""},{text:"Welcome!",color:"gray"}]
-title @s subtitle [{text:"To the ",color:"gray"},{text:"Existence Community Server!",color:"dark_red"}]
+title @s subtitle [{text:"To the ",color:"gray"},{text:"nBrand Creative Server!",color:"#bd6832"}]
 
 function existence_smp:join
 

@@ -15,7 +15,7 @@ execute as @a store result score @s exi_x run data get storage existence_smp:pla
 execute as @a store result score @s exi_y run data get storage existence_smp:player_nbt player.Pos[1]
 execute as @a store result score @s exi_z run data get storage existence_smp:player_nbt player.Pos[2]
 execute as @a store result score @s exi_yaw run data get storage existence_smp:player_nbt player.Rotation[0]
-#execute as @a if score @s exi_hud matches 1 run title @s actionbar ["",{text:"X: ",color:"gray"},{score:{name:"@s",objective:"exi_x"},color:"dark_red"},{text:" Y: ",color:"gray"},{score:{name:"@s",objective:"exi_y"},color:"dark_red"},{text:" Z: ",color:"gray"},{score:{name:"@s",objective:"exi_z"},color:"dark_red"}]
+#execute as @a if score @s exi_hud matches 1 run title @s actionbar ["",{text:"X: ",color:"gray"},{score:{name:"@s",objective:"exi_x"},color:"#bd6832"},{text:" Y: ",color:"gray"},{score:{name:"@s",objective:"exi_y"},color:"#bd6832"},{text:" Z: ",color:"gray"},{score:{name:"@s",objective:"exi_z"},color:"#bd6832"}]
 
 execute as @a if score @s map matches 1.. run function existence_smp:triggers/map
 execute as @a if score @s stats_playtime matches 1.. run function existence_smp:triggers/playtime
