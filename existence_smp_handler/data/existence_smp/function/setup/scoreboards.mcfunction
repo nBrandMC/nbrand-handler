@@ -74,6 +74,12 @@ scoreboard objectives add exi_entity_count dummy
 #Values
 scoreboard objectives add exi_value dummy
 
+scoreboard players set value_7 exi_value 7
+scoreboard players set value_24 exi_value 24
+scoreboard players set value_30 exi_value 30
+scoreboard players set value_60 exi_value 60
+scoreboard players set value_365 exi_value 365
+
 
 #DISPLAY
 scoreboard objectives modify exi_playtime_h displayname {"text":"⛏ Play Time (Hours)","color":"gray"}

@@ -45,6 +45,7 @@ team join Patron Change24
 team join Patron Dr_Little
 team join Patron EarthySand25957
 team join Patron Faeolin_WildElf
+team join Patron Fasolakhs
 team join Patron Flaxxyy
 team join Patron Ha2222
 team join Patron ItsPurpleJay
@@ -58,6 +59,7 @@ team join Patron TheMundane
 team join Patron Theowlguardian
 team join Patron WaffleStick
 team join Patron Wolfe_42
+team join Patron XLOXLO
 team join Patron Yoglington
 
 team join Spectator ExistenceSMP
@@ -93,8 +95,3 @@ team join ServerBackground value_24
 team join ServerBackground value_30
 team join ServerBackground value_60
 team join ServerBackground value_365
-scoreboard players set value_7 exi_value 7
-scoreboard players set value_24 exi_value 24
-scoreboard players set value_30 exi_value 30
-scoreboard players set value_60 exi_value 60
-scoreboard players set value_365 exi_value 365
