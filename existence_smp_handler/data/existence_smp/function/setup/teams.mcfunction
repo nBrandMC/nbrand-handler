@@ -49,6 +49,7 @@ team join Patron Fasolakhs
 team join Patron Flaxxyy
 team join Patron Ha2222
 team join Patron ItsPurpleJay
+team join Patron KSores
 team join Patron LTWillie
 team join Patron marcoiscool
 team join Patron mcnugggzs
