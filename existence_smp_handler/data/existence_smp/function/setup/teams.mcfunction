@@ -64,12 +64,8 @@ team join Patron XLOXLO
 team join Patron Yoglington
 
 team join Spectator ExistenceSMP
-team join Spectator HannahDearie
-team join Spectator _iGalaxy
-team join Spectator ItsCameraJay
 
 team join Staff mcpeachpies
-team join Staff igalaxy
 team join StaffPatron ItsPurpleJay
 team join StaffPatron Dr_Little
 
