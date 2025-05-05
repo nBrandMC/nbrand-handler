@@ -105,7 +105,6 @@ scoreboard objectives modify mpp_afk_adv displayname {"text":"🎣 Total AFK Tim
 scoreboard objectives modify map displayname {"text":"Online Map","color":"gray"}
 scoreboard objectives modify stats_playtime displayname {"text":"Total Play Time","color":"gray"}
 scoreboard objectives modify stats_elytra displayname {"text":"Elytra Distance","color":"gray"}
-#scoreboard objectives modify glider displayname {"text":"Glider Distance","color":"gray"}
 scoreboard objectives modify stats_deaths displayname {"text":"Total Deaths","color":"gray"}
 scoreboard objectives modify stats_afk_total displayname {"text":"Total AFK Time","color":"gray"}
 scoreboard objectives modify stats_sleep_total displayname {"text":"Total Nights Slept","color":"gray"}
