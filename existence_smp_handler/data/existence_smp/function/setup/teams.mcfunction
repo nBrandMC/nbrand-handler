@@ -42,15 +42,16 @@ team join Patron acg1000
 team join Patron ArtGnat
 team join Patron Bananabubble
 team join Patron Change24
+team join Patron Demi_Wrath
 team join Patron Dr_Little
 team join Patron EarthySand25957
 team join Patron Faeolin_WildElf
 team join Patron Fasolakhs
 team join Patron Flaxxyy
 team join Patron Ha2222
+team join Patron igalaxy
 team join Patron ItsPurpleJay
 team join Patron KSores
-team join Patron LTWillie
 team join Patron marcoiscool
 team join Patron mcnugggzs
 team join Patron Project_

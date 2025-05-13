@@ -21,7 +21,7 @@ tag @a[team=StaffPatron] add Patron
 
 #Advancements
 function existence_smp:advancement_check/advancement_check
-
+function existence_smp:setup/teams
 
 tag @a[tag=Patron,team=!Patron,team=!StaffPatron] remove Patron
 tag @a[tag=Staff,team=!Staff,team=!StaffPatron] remove Staff
