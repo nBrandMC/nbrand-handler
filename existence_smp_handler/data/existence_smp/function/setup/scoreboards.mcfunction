@@ -2,10 +2,6 @@
 #Advancements
 scoreboard objectives add exi_spyglass_player dummy
 
-#Glider
-#scoreboard objectives add exi_glider_c minecraft.custom:glideaway.glide_one_cm
-#scoreboard objectives add exi_glider_km dummy
-
 #Statistics
 scoreboard objectives add exi_deaths_c deathCount
 scoreboard objectives add exi_deaths deathCount
@@ -51,6 +47,7 @@ scoreboard objectives add stats_wardens_killed trigger
 scoreboard objectives add stats_wardens_summoned trigger
 scoreboard objectives add uptime trigger
 scoreboard objectives add hud trigger
+scoreboard objectives add transfer trigger
 
 scoreboard objectives setdisplay list exi_health
 
@@ -86,8 +83,6 @@ scoreboard objectives modify exi_playtime_h displayname {"text":"⛏ Play Time (
 
 scoreboard objectives modify exi_elytra_km displayname {"text":"☄ Elytra Distance (Kilometers)","color":"gray"}
 
-#scoreboard objectives modify exi_glider_km displayname {"text":"🪂 Glider Distance (Kilometers)","color":"gray"}
-
 scoreboard objectives modify exi_deaths displayname {"text":"☠ Total Deaths","color":"gray"}
 scoreboard objectives modify exi_deaths_since_c displayname {"text":"☠ Time (Seconds) Since Last Death","color":"gray"}
 scoreboard objectives modify exi_deaths_since displayname {"text":"☠ Time (Hours) Since Last Death","color":"gray"}
@@ -112,6 +107,7 @@ scoreboard objectives modify stats_wardens_killed displayname {"text":"Total War
 scoreboard objectives modify stats_wardens_summoned displayname {"text":"Total Wardens Summoned","color":"gray"}
 scoreboard objectives modify uptime displayname {"text":"Total Server Uptime","color":"gray"}
 scoreboard objectives modify hud displayname {"text":"Action Bar HUD","color":"gray"}
+scoreboard objectives modify transfer displayname {"text":"Server Transfer","color":"gray"}
 
 scoreboard objectives modify exi_uptime displayname {"text":"⌚ Server Uptime","color":"gray"}
 

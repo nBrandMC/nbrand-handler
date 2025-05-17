@@ -8,6 +8,7 @@ scoreboard players enable @a stats_wardens_killed
 scoreboard players enable @a stats_wardens_summoned
 scoreboard players enable @a uptime
 #scoreboard players enable @a hud
+scoreboard players enable @a transfer
 
 #Store Pos
 execute as @a run data modify storage existence_smp:player_nbt player set from entity @s {}
@@ -27,6 +28,7 @@ execute as @a if score @s stats_wardens_killed matches 1.. run function existenc
 execute as @a if score @s stats_wardens_summoned matches 1.. run function existence_smp:triggers/wardens_summoned
 execute as @a if score @s uptime matches 1.. run function existence_smp:triggers/uptime
 #execute as @a if score @s hud matches 1.. run function existence_smp:triggers/hud
+execute as @a if score @s transfer matches 1.. run function existence_smp:triggers/transfer
 
 execute as @a if score @s exi_game_leave matches 1.. run function existence_smp:join
 
