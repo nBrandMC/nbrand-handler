@@ -5,7 +5,7 @@
     },
     "title": "Don't Blink",
     "description": "Don't turn your back, don't look away, and don't blink!",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
