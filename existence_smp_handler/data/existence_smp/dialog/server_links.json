@@ -7,6 +7,13 @@
   },
   "actions": [
     {
+      "label": "Online Map",
+      "action": {
+        "type": "open_url",
+        "url": "https://map.existencesmp.com"
+      }
+    },
+    {
       "label": "Community Guidelines",
       "action": {
         "type": "open_url",
@@ -18,13 +25,6 @@
       "action": {
         "type": "open_url",
         "url": "https://existencesmp.com"
-      }
-    },
-    {
-      "label": "Online Map",
-      "action": {
-        "type": "open_url",
-        "url": "https://map.existencesmp.com"
       }
     },
     {
