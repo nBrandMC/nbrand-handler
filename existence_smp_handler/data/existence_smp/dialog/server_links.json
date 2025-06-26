@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:multi_action",
+  "title": { "translate": "menu.server_links.title" },
+  "external_title": { "translate": "menu.server_links" },
+  "exit_action": {
+    "label": { "translate": "gui.back" }
+  },
+  "actions": [
+    {
+      "label": "Community Guidelines",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/rules"
+      }
+    },
+    {
+      "label": "Website",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com"
+      }
+    },
+    {
+      "label": "Online Map",
+      "action": {
+        "type": "open_url",
+        "url": "https://map.existencesmp.com"
+      }
+    },
+    {
+      "label": "Discord Guild",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/discord"
+      }
+    }
+  ]
+}
