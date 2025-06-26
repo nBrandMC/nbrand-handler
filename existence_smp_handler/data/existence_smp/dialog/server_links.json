@@ -14,17 +14,17 @@
       }
     },
     {
-      "label": "Community Guidelines",
-      "action": {
-        "type": "open_url",
-        "url": "https://existencesmp.com/rules"
-      }
-    },
-    {
       "label": "Website",
       "action": {
         "type": "open_url",
         "url": "https://existencesmp.com"
+      }
+    },
+    {
+      "label": "Community Guidelines",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/rules"
       }
     },
     {
