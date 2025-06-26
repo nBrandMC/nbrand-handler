@@ -1,4 +1,4 @@
 {
-  "values": ["existence_smp:server_links"],
+  "values": ["existence_smp:quick_actions"],
   "replace": true
 }
