@@ -9,7 +9,6 @@ team remove ServerBackground
 #Creation
 team add Staff
 team add StaffPatron
-
 team add Patron
 team add Spectator
 team add Trusted
@@ -35,7 +34,6 @@ team modify Patron prefix ["",{"text":"☆ ","color":"dark_red"}]
 team modify Trusted prefix ["",{"text":"","color":"dark_red"}]
 
 #PLAYERS
-#function existence_smp:setup/teams/patron_reset
 
 team join Spectator ExistenceSMP
 team join Staff mcpeachpies

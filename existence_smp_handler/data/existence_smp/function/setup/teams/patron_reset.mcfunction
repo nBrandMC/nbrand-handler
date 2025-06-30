@@ -1,6 +1,8 @@
 team remove Patron
 team remove StaffPatron
 
+function existence_smp:setup/teams/teams
+
 team join Patron acg1000
 team join Patron ArtGnat
 team join Patron Bananabubble
