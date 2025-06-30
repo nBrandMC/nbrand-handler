@@ -55,6 +55,8 @@ scoreboard objectives add stats_dried_ghast trigger
 scoreboard objectives add uptime trigger
 scoreboard objectives add hud trigger
 scoreboard objectives add transfer trigger
+scoreboard objectives add patron_color trigger
+scoreboard objectives add exi_patron_color dummy
 
 scoreboard objectives setdisplay list exi_health
 
@@ -120,7 +122,10 @@ scoreboard objectives modify stats_dried_ghast displayname {"text":"Dried Ghasts
 scoreboard objectives modify uptime displayname {"text":"Total Server Uptime","color":"gray"}
 scoreboard objectives modify hud displayname {"text":"Action Bar HUD","color":"gray"}
 scoreboard objectives modify transfer displayname {"text":"Server Transfer","color":"gray"}
+scoreboard objectives modify patron_color displayname {"text":"Patron Name Color","color":"gray"}
 
 scoreboard objectives modify exi_uptime displayname {"text":"⌚ Server Uptime","color":"gray"}
 
 scoreboard objectives modify exi_entity_count displayname {"text":"Entity Counts","color":"gray"}
+
+tellraw @a[tag=Staff] ["",{"text":"Updated Scoreboards","color":"gray"}]
