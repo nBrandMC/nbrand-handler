@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Quick Actions",
+  "exit_action": {
+    "label": { "translate": "gui.back" }
+  },
+  "actions": [
+    {
+      "label": "Server Links",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "existence_smp:server_links"
+      }
+    },
+    {
+      "label": "/trigger transfer",
+      "action": {
+        "type": "run_command",
+        "command": "trigger transfer"
+      }
+    }
+  ]
+}

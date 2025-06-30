@@ -21,6 +21,7 @@ scoreboard objectives add exi_craft_cake minecraft.crafted:minecraft.cake
 scoreboard objectives add exi_craft_bundle minecraft.crafted:minecraft.bundle
 scoreboard objectives add exi_craft_disc_5 minecraft.crafted:minecraft.music_disc_5
 scoreboard objectives add exi_craft_nether_wart minecraft.crafted:minecraft.nether_wart
+scoreboard objectives add exi_craft_dried_ghast minecraft.crafted:minecraft.dried_ghast
 
 #Warden
 scoreboard objectives add exi_warden_level dummy
@@ -28,6 +29,10 @@ scoreboard objectives add exi_warden_cooldown dummy
 scoreboard objectives add exi_warden_ticks dummy
 scoreboard objectives add exi_warden_count dummy
 scoreboard objectives add exi_warden_kill minecraft.killed:minecraft.warden
+
+#Happy Ghast
+scoreboard objectives add exi_happy_ghast_c minecraft.custom:minecraft.happy_ghast_one_cm
+scoreboard objectives add exi_happy_ghast_km dummy
 
 #Location
 scoreboard objectives add exi_hud dummy
@@ -45,6 +50,8 @@ scoreboard objectives add stats_afk_total trigger
 scoreboard objectives add stats_sleep_total trigger
 scoreboard objectives add stats_wardens_killed trigger
 scoreboard objectives add stats_wardens_summoned trigger
+scoreboard objectives add stats_happy_ghast trigger
+scoreboard objectives add stats_dried_ghast trigger
 scoreboard objectives add uptime trigger
 scoreboard objectives add hud trigger
 scoreboard objectives add transfer trigger
@@ -93,6 +100,9 @@ scoreboard objectives modify exi_warden_ticks displayname {"text":"🗡 Time Sin
 scoreboard objectives modify exi_warden_count displayname {"text":"🗡 Total Wardens Summoned","color":"gray"}
 scoreboard objectives modify exi_warden_kill displayname {"text":"🗡 Total Wardens Killed","color":"gray"}
 
+scoreboard objectives modify exi_happy_ghast_km displayname {"text":"👻 Happy Ghast (Kilometers)","color":"gray"}
+scoreboard objectives modify exi_craft_dried_ghast displayname {"text":"👻 Dried Ghasts Crafted","color":"gray"}
+
 scoreboard objectives modify mpp_sleep_adv displayname {"text":"☽ Total Nights Slept","color":"gray"}
 scoreboard objectives modify mpp_afk_adv displayname {"text":"🎣 Total AFK Time (Hours)","color":"gray"}
 
@@ -105,6 +115,8 @@ scoreboard objectives modify stats_afk_total displayname {"text":"Total AFK Time
 scoreboard objectives modify stats_sleep_total displayname {"text":"Total Nights Slept","color":"gray"}
 scoreboard objectives modify stats_wardens_killed displayname {"text":"Total Wardens Killed","color":"gray"}
 scoreboard objectives modify stats_wardens_summoned displayname {"text":"Total Wardens Summoned","color":"gray"}
+scoreboard objectives modify stats_happy_ghast displayname {"text":"Happy Ghast Distance","color":"gray"}
+scoreboard objectives modify stats_dried_ghast displayname {"text":"Dried Ghasts Crafted","color":"gray"}
 scoreboard objectives modify uptime displayname {"text":"Total Server Uptime","color":"gray"}
 scoreboard objectives modify hud displayname {"text":"Action Bar HUD","color":"gray"}
 scoreboard objectives modify transfer displayname {"text":"Server Transfer","color":"gray"}
