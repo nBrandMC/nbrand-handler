@@ -1,20 +1,9 @@
 #TEAMS
 #Reset
-team remove Staff
-team remove Spectator
-
-team remove Server
-team remove ServerBackground
-
-#Creation
-team add Staff
-team add StaffPatron
-team add Patron
-team add Spectator
-team add Trusted
-
-team add Server
-team add ServerBackground
+#WARNING: Resetting the create_teams score will reset Patron colours until the player relogs.
+#/scoreboard players set create_teams exi_setup 0
+#/function existence_smp:setup/teams/load
+execute unless score create_teams exi_setup matches 1 run function existence_smp:setup/teams/create
 
 #Colours
 team modify Staff color dark_red
@@ -32,37 +21,6 @@ team modify Staff prefix ["",{"text":"🗡 ","color":"dark_red"}]
 team modify StaffPatron prefix ["",{"text":"🗡 ","color":"dark_red"}]
 team modify Patron prefix ["",{"text":"☆ ","color":"dark_red"}]
 team modify Trusted prefix ["",{"text":"","color":"dark_red"}]
-
-#PLAYERS
-
-team join Spectator ExistenceSMP
-team join Staff mcpeachpies
-#team join Staff ItsPurpleJay
-#team join Staff Dr_Little
-
-#SETUP
-team join Server exi_setup
-team join Server Total
-team join ServerBackground run_count
-team join Server uptime_seconds
-team join Server uptime_minutes
-team join Server uptime_hours
-team join Server uptime_days
-team join Server uptime_months
-team join Server uptime_years
-team join Server uptime_weeks
-
-team join ServerBackground uptime_seconds_c
-team join ServerBackground uptime_minutes_c
-team join ServerBackground uptime_hours_c
-team join ServerBackground uptime_days_c
-team join ServerBackground uptime_months_c
-
-team join ServerBackground value_7
-team join ServerBackground value_24
-team join ServerBackground value_30
-team join ServerBackground value_60
-team join ServerBackground value_365
 
 #Patron Colors
 team add Patron_black
@@ -168,6 +126,6 @@ team modify StaffPatron_light_purple prefix ["",{"text":"🗡 ","color":"light_p
 team modify StaffPatron_yellow prefix ["",{"text":"🗡 ","color":"yellow"}] 
 team modify StaffPatron_white prefix ["",{"text":"🗡 ","color":"white"}]
 
-function existence_smp:setup/teams/teams_clean
+function existence_smp:setup/teams/clean
 
-tellraw @a[tag=Staff] ["",{"text":"Reset Teams","color":"gray"}]
+tellraw @a[tag=Staff] ["",{"text":"Loaded Teams","color":"gray"}]
