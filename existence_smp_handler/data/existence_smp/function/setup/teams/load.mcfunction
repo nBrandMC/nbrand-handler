@@ -10,7 +10,7 @@ team modify Staff color dark_red
 team modify StaffPatron color dark_red
 
 team modify Patron color dark_red
-team modify Spectator color dark_aqua
+team modify Spectator color dark_gray
 team modify Trusted color dark_red
 
 team modify Server color gray
@@ -20,6 +20,7 @@ team modify ServerBackground color dark_gray
 team modify Staff prefix ["",{"text":"🗡 ","color":"dark_red"}]
 team modify StaffPatron prefix ["",{"text":"🗡 ","color":"dark_red"}]
 team modify Patron prefix ["",{"text":"☆ ","color":"dark_red"}]
+team modify Spectator prefix ["",{"text":"👻 ","color":"dark_gray"}]
 team modify Trusted prefix ["",{"text":"","color":"dark_red"}]
 
 #Patron Colors

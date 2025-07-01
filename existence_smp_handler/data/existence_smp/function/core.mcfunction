@@ -14,11 +14,7 @@ scoreboard players enable @a transfer
 scoreboard players enable @a patron_color
 
 #Store Pos
-execute as @a run data modify storage existence_smp:player_nbt player set from entity @s {}
-execute as @a store result score @s exi_x run data get storage existence_smp:player_nbt player.Pos[0]
-execute as @a store result score @s exi_y run data get storage existence_smp:player_nbt player.Pos[1]
-execute as @a store result score @s exi_z run data get storage existence_smp:player_nbt player.Pos[2]
-execute as @a store result score @s exi_yaw run data get storage existence_smp:player_nbt player.Rotation[0]
+execute as @a run function existence_smp:clock/store_pos
 execute as @a if score @s exi_hud matches 1.. run function existence_smp:clock/hud
 
 execute as @a if score @s map matches 1.. run function existence_smp:triggers/map
