@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "HUD Settings",
+  "external_title": "HUD Settings...",
+  "yes": {
+    "label": "Submit",
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "trigger hud set $(hud)"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "gui.cancel"
+    }
+  },
+  "inputs": [
+    {
+      "key": "hud",
+      "type": "minecraft:single_option",
+      "label": "Display",
+      "options": [
+        {
+          "id": "-1",
+          "display": "OFF"
+        },
+        {
+          "id": "2",
+          "display": "Coordinates"
+        },
+        {
+          "id": "4",
+          "display": "Coordinates (Light Text)"
+        },
+        {
+          "id": "3",
+          "display": "Compass"
+        },
+        {
+          "id": "5",
+          "display": "Compass (Light Text)"
+        },
+        {
+          "id": "6",
+          "display": "Compass (???)"
+        }
+      ]
+    }
+  ]
+}

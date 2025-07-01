@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Scoreboards",
+  "external_title": "Scoreboards...",
+  "exit_action": {
+    "label": { "translate": "gui.back" }
+  },
+  "actions": [
+    {
+      "label": "AFK Time",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_afk_total"
+      },
+      "width": 100
+    },
+    {
+      "label": "Days Slept",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_sleep_total"
+      },
+      "width": 100
+    },
+    {
+      "label": "Deaths",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_deaths"
+      },
+      "width": 100
+    },
+    {
+      "label": "Dried Ghasts Crafted",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_dried_ghast"
+      },
+      "width": 100
+    },
+    {
+      "label": "Elytra Distance",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_elytra"
+      },
+      "width": 100
+    },
+    {
+      "label": "Happy Ghast Distance",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_happy_ghast"
+      },
+      "width": 100
+    },
+    {
+      "label": "Play Time",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_playtime"
+      },
+      "width": 100
+    },
+    {
+      "label": "Uptime",
+      "action": {
+        "type": "run_command",
+        "command": "trigger uptime"
+      },
+      "width": 100
+    },
+    {
+      "label": "Wardens Killed",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_wardens_killed"
+      },
+      "width": 100
+    },
+    {
+      "label": "Wardens Summoned",
+      "action": {
+        "type": "run_command",
+        "command": "trigger stats_wardens_summoned"
+      },
+      "width": 100
+    }
+  ]
+}

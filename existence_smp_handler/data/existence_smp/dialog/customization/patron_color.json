@@ -1,0 +1,156 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Patron Name Color",
+  "external_title": "Patron Name Color...",
+  "exit_action": {
+    "label": { "translate": "gui.back" }
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Choose one of the options below to set your Patron name color."
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "color": "dark_red",
+        "text": "Dark Red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set -1"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "red",
+        "text": "Red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 14"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "gold",
+        "text": "Gold"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 8"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "yellow",
+        "text": "Yellow"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 16"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "green",
+        "text": "Green"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 12"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "dark_green",
+        "text": "Dark Green"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 4"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "dark_aqua",
+        "text": "Dark Aqua"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 5"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "aqua",
+        "text": "Aqua"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 13"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "blue",
+        "text": "Blue"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 11"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "dark_blue",
+        "text": "Dark Blue"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 3"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "dark_purple",
+        "text": "Dark Purple"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 7"
+      },
+      "width": 75
+    },
+    {
+      "label": {
+        "color": "light_purple",
+        "text": "Light Purple"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger patron_color set 15"
+      },
+      "width": 75
+    },
+    {
+      "label": "Patreon",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/patreon"
+      },
+      "width": 152
+    }
+  ]
+}

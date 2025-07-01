@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Pronouns (Custom)",
+  "yes": {
+    "label": "Submit",
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "pronouns set $(pronouns)"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "gui.cancel"
+    }
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Enter your pronouns and click Submit to set."
+    }
+  ],
+  "inputs": [
+    {
+      "key": "pronouns",
+      "type": "minecraft:text",
+      "label_visible": false,
+      "width": 75,
+      "label": "Pronouns"
+    }
+  ]
+}

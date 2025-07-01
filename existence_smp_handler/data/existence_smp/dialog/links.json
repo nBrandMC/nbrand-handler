@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Links",
+  "external_title": "Links...",
+  "exit_action": {
+    "label": { "translate": "gui.back" }
+  },
+  "actions": [
+    {
+      "label": "Online Map",
+      "action": {
+        "type": "open_url",
+        "url": "https://map.existencesmp.com"
+      },
+      "width": 100
+    },
+    {
+      "label": "Website",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com"
+      },
+      "width": 100
+    },
+    {
+      "label": "Community Guidelines",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/rules"
+      },
+      "width": 100
+    },
+    {
+      "label": "Discord",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/discord"
+      },
+      "width": 100
+    },
+    {
+      "label": "Patreon",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/patreon"
+      },
+      "width": 100
+    },
+    {
+      "label": "Bluesky",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/bluesky"
+      },
+      "width": 100
+    },
+    {
+      "label": "YouTube",
+      "action": {
+        "type": "open_url",
+        "url": "https://existencesmp.com/youtube"
+      },
+      "width": 100
+    }
+  ]
+}
