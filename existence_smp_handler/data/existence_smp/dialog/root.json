@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Existence Community",
-  "external_title": "Existence Community...",
+  "title": "Existence SMP",
+  "external_title": "Existence SMP...",
   "exit_action": {
     "label": { "translate": "gui.back" }
   },
