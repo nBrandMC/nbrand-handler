@@ -1,13 +1,22 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Scoreboards",
-  "external_title": "Scoreboards...",
+  "title": {
+    "translate": "gui.existence_smp.scoreboards.title",
+    "fallback": "Scoreboards"
+  },
+  "external_title": {
+    "translate": "gui.existence_smp.scoreboards.external_title",
+    "fallback": "Scoreboards..."
+  },
   "exit_action": {
     "label": { "translate": "gui.back" }
   },
   "actions": [
     {
-      "label": "AFK Time",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.afk_total",
+        "fallback": "AFK Time"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_afk_total"
@@ -15,7 +24,10 @@
       "width": 100
     },
     {
-      "label": "Days Slept",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.sleep_total",
+        "fallback": "Days Slept"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_sleep_total"
@@ -23,7 +35,10 @@
       "width": 100
     },
     {
-      "label": "Deaths",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.deaths",
+        "fallback": "Deaths"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_deaths"
@@ -31,7 +46,10 @@
       "width": 100
     },
     {
-      "label": "Dried Ghasts Crafted",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.dried_ghast",
+        "fallback": "Dried Ghasts Crafted"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_dried_ghast"
@@ -39,7 +57,10 @@
       "width": 100
     },
     {
-      "label": "Elytra Distance",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.elytra",
+        "fallback": "Elytra Distance"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_elytra"
@@ -47,7 +68,10 @@
       "width": 100
     },
     {
-      "label": "Happy Ghast Distance",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.happy_ghast",
+        "fallback": "Happy Ghast Distance"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_happy_ghast"
@@ -55,7 +79,10 @@
       "width": 100
     },
     {
-      "label": "Play Time",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.playtime",
+        "fallback": "Play Time"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_playtime"
@@ -63,7 +90,10 @@
       "width": 100
     },
     {
-      "label": "Uptime",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.uptime",
+        "fallback": "Uptime"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger uptime"
@@ -71,7 +101,10 @@
       "width": 100
     },
     {
-      "label": "Wardens Killed",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.wardens_killed",
+        "fallback": "Wardens Killed"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_wardens_killed"
@@ -79,7 +112,10 @@
       "width": 100
     },
     {
-      "label": "Wardens Summoned",
+      "label": {
+        "translate": "gui.existence_smp.scoreboards.wardens_summoned",
+        "fallback": "Wardens Summoned"
+      },
       "action": {
         "type": "run_command",
         "command": "trigger stats_wardens_summoned"

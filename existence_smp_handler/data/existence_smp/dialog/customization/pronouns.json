@@ -1,14 +1,23 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Pronouns",
-  "external_title": "Pronouns...",
+  "title": {
+    "translate": "gui.existence_smp.pronouns.title",
+    "fallback": "Pronouns"
+  },
+  "external_title": {
+    "translate": "gui.existence_smp.pronouns.external_title",
+    "fallback": "Pronouns..."
+  },
   "exit_action": {
     "label": { "translate": "gui.back" }
   },
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Choose one of the options below to set your pronouns."
+      "contents": {
+        "translate": "gui.existence_smp.pronouns.body",
+        "fallback": "Choose one of the options below to set your pronouns."
+      }
     }
   ],
   "actions": [
@@ -45,7 +54,10 @@
       "width": 75
     },
     {
-      "label": "Custom...",
+      "label": {
+        "translate": "gui.existence_smp.pronouns.custom.external_title",
+        "fallback": "Custom..."
+      },
       "action": {
         "type": "show_dialog",
         "dialog": "existence_smp:customization/pronouns/custom"

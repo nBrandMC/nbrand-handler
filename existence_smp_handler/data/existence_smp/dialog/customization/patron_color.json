@@ -1,21 +1,31 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Patron Name Color",
-  "external_title": "Patron Name Color...",
+  "title": {
+    "translate": "gui.existence_smp.patron_color.title",
+    "fallback": "Patron Name Color"
+  },
+  "external_title": {
+    "translate": "gui.existence_smp.patron_color.external_title",
+    "fallback": "Patron Name Color..."
+  },
   "exit_action": {
     "label": { "translate": "gui.back" }
   },
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Choose one of the options below to set your Patron name color."
+      "contents": {
+        "translate": "gui.existence_smp.patron_color.body",
+        "fallback": "Choose one of the options below to set your Patron name color."
+      }
     }
   ],
   "actions": [
     {
       "label": {
         "color": "dark_red",
-        "text": "Dark Red"
+        "translate": "gui.minecraft.color.dark_red",
+        "fallback": "Dark Red"
       },
       "action": {
         "type": "run_command",
@@ -26,7 +36,8 @@
     {
       "label": {
         "color": "red",
-        "text": "Red"
+        "translate": "gui.minecraft.color.red",
+        "fallback": "Red"
       },
       "action": {
         "type": "run_command",
@@ -37,7 +48,8 @@
     {
       "label": {
         "color": "gold",
-        "text": "Gold"
+        "translate": "gui.minecraft.color.gold",
+        "fallback": "Gold"
       },
       "action": {
         "type": "run_command",
@@ -48,7 +60,8 @@
     {
       "label": {
         "color": "yellow",
-        "text": "Yellow"
+        "translate": "gui.minecraft.color.yellow",
+        "fallback": "Yellow"
       },
       "action": {
         "type": "run_command",
@@ -59,7 +72,8 @@
     {
       "label": {
         "color": "green",
-        "text": "Green"
+        "translate": "gui.minecraft.color.green",
+        "fallback": "Green"
       },
       "action": {
         "type": "run_command",
@@ -70,7 +84,8 @@
     {
       "label": {
         "color": "dark_green",
-        "text": "Dark Green"
+        "translate": "gui.minecraft.color.dark_green",
+        "fallback": "Dark Green"
       },
       "action": {
         "type": "run_command",
@@ -81,7 +96,8 @@
     {
       "label": {
         "color": "dark_aqua",
-        "text": "Dark Aqua"
+        "translate": "gui.minecraft.color.dark_aqua",
+        "fallback": "Dark Aqua"
       },
       "action": {
         "type": "run_command",
@@ -92,7 +108,8 @@
     {
       "label": {
         "color": "aqua",
-        "text": "Aqua"
+        "translate": "gui.minecraft.color.aqua",
+        "fallback": "Aqua"
       },
       "action": {
         "type": "run_command",
@@ -103,7 +120,8 @@
     {
       "label": {
         "color": "blue",
-        "text": "Blue"
+        "translate": "gui.minecraft.color.blue",
+        "fallback": "Blue"
       },
       "action": {
         "type": "run_command",
@@ -114,7 +132,8 @@
     {
       "label": {
         "color": "dark_blue",
-        "text": "Dark Blue"
+        "translate": "gui.minecraft.color.dark_blue",
+        "fallback": "Dark Blue"
       },
       "action": {
         "type": "run_command",
@@ -125,7 +144,8 @@
     {
       "label": {
         "color": "dark_purple",
-        "text": "Dark Purple"
+        "translate": "gui.minecraft.color.dark_purple",
+        "fallback": "Dark Purple"
       },
       "action": {
         "type": "run_command",
@@ -136,7 +156,8 @@
     {
       "label": {
         "color": "light_purple",
-        "text": "Light Purple"
+        "translate": "gui.minecraft.color.light_purple",
+        "fallback": "Light Purple"
       },
       "action": {
         "type": "run_command",
@@ -145,7 +166,10 @@
       "width": 75
     },
     {
-      "label": "Patreon",
+      "label": {
+        "translate": "gui.existence_smp.links.patreon",
+        "fallback": "Patreon"
+      },
       "action": {
         "type": "open_url",
         "url": "https://existencesmp.com/patreon"
