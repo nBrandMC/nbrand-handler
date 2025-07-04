@@ -66,13 +66,6 @@
             "translate": "gui.existence_smp.hud.display.compass_light",
             "fallback": "Compass (Light Text)"
           }
-        },
-        {
-          "id": "6",
-          "display": {
-            "translate": "gui.existence_smp.hud.display.compass_secret",
-            "fallback": "Compass (???)"
-          }
         }
       ]
     }
