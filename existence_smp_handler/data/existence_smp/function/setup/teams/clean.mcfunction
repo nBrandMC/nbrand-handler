@@ -8,8 +8,8 @@ tag @a[team=StaffPatron] add Staff
 tag @a[team=Patron] add Patron
 tag @a[team=StaffPatron] add Patron
 
-team join Trusted @a[tag=!Patron,team=!Spectator]
-team join Staff @a[tag=!Patron,tag=Staff]
+team join Trusted @a[tag=!Patron,team=!Spectator,tag=!mpp_afk]
+team join Staff @a[tag=!Patron,tag=Staff,tag=!mpp_afk]
 
-execute as @a[team=Patron] if score @s exi_patron_color matches 2.. run function existence_smp:setup/patron_color_update
-execute as @a[team=StaffPatron] if score @s exi_patron_color matches 2.. run function existence_smp:setup/patron_color_update
+execute as @a[team=Patron,tag=!mpp_afk] if score @s exi_patron_color matches 2.. run function existence_smp:setup/patron_color_update
+execute as @a[team=StaffPatron,tag=!mpp_afk] if score @s exi_patron_color matches 2.. run function existence_smp:setup/patron_color_update

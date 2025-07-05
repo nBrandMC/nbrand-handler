@@ -29,7 +29,7 @@
       },
       "action": {
         "type": "run_command",
-        "command": "trigger patron_color set -1"
+        "command": "trigger patron_color set 6"
       },
       "width": 75
     },
@@ -41,7 +41,7 @@
       },
       "action": {
         "type": "run_command",
-        "command": "trigger patron_color set 14"
+        "command": "trigger patron_color set -1"
       },
       "width": 75
     },
