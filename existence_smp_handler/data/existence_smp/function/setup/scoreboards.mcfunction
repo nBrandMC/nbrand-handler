@@ -55,9 +55,15 @@ scoreboard objectives add stats_dried_ghast trigger
 scoreboard objectives add uptime trigger
 scoreboard objectives add hud trigger
 scoreboard objectives add transfer trigger
+scoreboard objectives add patron_color trigger
 
+#Patron Color
+scoreboard objectives add exi_patron_color dummy
+
+#Display
 scoreboard objectives setdisplay list exi_health
 
+#Gamemode 4 Startup Music Mute
 scoreboard objectives remove gm4_intro_walked
 scoreboard objectives add gm4_intro_walked dummy
 
@@ -75,7 +81,7 @@ execute unless score uptime_weeks exi_uptime matches 0.. run scoreboard players 
 #Entity Count
 scoreboard objectives add exi_entity_count dummy
 
-#Values
+#Math Values
 scoreboard objectives add exi_value dummy
 
 scoreboard players set value_7 exi_value 7
@@ -85,7 +91,8 @@ scoreboard players set value_60 exi_value 60
 scoreboard players set value_365 exi_value 365
 
 
-#DISPLAY
+#DISPLAY NAMES
+#Stats
 scoreboard objectives modify exi_playtime_h displayname {"text":"⛏ Play Time (Hours)","color":"gray"}
 
 scoreboard objectives modify exi_elytra_km displayname {"text":"☄ Elytra Distance (Kilometers)","color":"gray"}
@@ -120,7 +127,10 @@ scoreboard objectives modify stats_dried_ghast displayname {"text":"Dried Ghasts
 scoreboard objectives modify uptime displayname {"text":"Total Server Uptime","color":"gray"}
 scoreboard objectives modify hud displayname {"text":"Action Bar HUD","color":"gray"}
 scoreboard objectives modify transfer displayname {"text":"Server Transfer","color":"gray"}
+scoreboard objectives modify patron_color displayname {"text":"Patron Name Color","color":"gray"}
 
+#Misc
 scoreboard objectives modify exi_uptime displayname {"text":"⌚ Server Uptime","color":"gray"}
-
 scoreboard objectives modify exi_entity_count displayname {"text":"Entity Counts","color":"gray"}
+
+tellraw @a[tag=Staff] ["",{"text":"Updated Scoreboards","color":"gray"}]
