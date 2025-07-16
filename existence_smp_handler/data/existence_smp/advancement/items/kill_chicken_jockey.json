@@ -5,8 +5,9 @@
     },
     "title": "Chicken Jockey!",
     "description": "Kill a Chicken Jockey to drop the Lava Chicken Music Disc",
-    "show_toast": false,
-    "announce_to_chat": false,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
     "hidden": false
   },
   "parent": "existence_smp:crafting/music_disc_5",
