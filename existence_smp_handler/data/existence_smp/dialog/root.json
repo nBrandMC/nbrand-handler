@@ -2,11 +2,11 @@
   "type": "minecraft:multi_action",
   "title": {
     "translate": "gui.existence_smp.root.title",
-    "fallback": "Existence SMP"
+    "fallback": "nBrand"
   },
   "external_title": {
     "translate": "gui.existence_smp.root.external_title",
-    "fallback": "Existence SMP..."
+    "fallback": "nBrand..."
   },
   "exit_action": {
     "label": { "translate": "gui.back" }
